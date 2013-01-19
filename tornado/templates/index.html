@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>SoundActualCloud</title>
+	<link href="../static/css/style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" media="all" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"> </script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
@@ -8,12 +9,14 @@
 </head>
 
 <body>
-    <h1>SOUND ACTUAL CLOUD</h1>
-
-    <form method="post" action="/render">
-        <p>Search for an artist:<br><input type="text" name="artist"></p>
-        <input type="submit">
-    </form>
+    <div align="center"><img src="static/css/soundcloudorange.png" width="500" height="300" alt="SoundCloud logo"/></div>
+    <h1>SOUND <font color="DAA520">(ACTUAL?)</font> CLOUD</h1>
+    
+	<div class = "search-wrapper">
+		<form method="post" action="" id="search-text" action="/render">
+			<input type = "text" id="friend_search" name="friend_name" value="TYPE YOUR DATE'S NAME">
+			<input type="submit" class="submit-button" value="Take 'Em Out" text-align="center">
+ 		</form>
+    </div>
 </body>
-
 </html>

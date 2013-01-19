@@ -51,7 +51,6 @@ def process_singer(name, level):
     try:
         curr_artist = artist_search.next()
     except:
-        curr_artist = None
         return None
 
     popularity = 0
@@ -63,7 +62,6 @@ def process_singer(name, level):
     try:
         curr_song = song_search.next()
     except:
-        curr_song = None
         return None
 
     song = ""
@@ -95,54 +93,40 @@ def process_singer(name, level):
     _id = md5.md5(name).hexdigest() 
     item['_id'] = _id 
     item['name'] = name
-    item['peers'] = peers
     item['pop'] = popularity 
     item['song'] = song
     item['fb_page'] = fb_page
     item['song_pop'] = song_pop
     item['song_id'] = stream_id
     item['song_cover'] = song_cover_url
-    singer_song_map[name] = (song, song_pop, stream_id, song_cover_url) 
+    singer_song_map[name] = item 
 
-    item['peer_song_name'] = []
-    item['peer_song_pop'] = []
-    item['peer_song_id'] = []
-    item['peer_song_cover'] = []
+    item['peers'] = {}
 
     print 'Added singer %s to database' % item['name']
-
-    #return early because there's no point in recursing through 
-    new_peers = list(peers)
 
     #Go a level down 
     for peer in peers:
         if peer not in singer_song_map:
-            peer_song_data = process_singer(peer, level-1)
+            peer_data = process_singer(peer, level-1)
 
-            if not peer_song_data:
-                new_peers.remove(peer)
+            if not peer_data:
                 continue
 
-            #store info on our peer
-            item['peer_song_name'].append(peer_song_data[0])
-            item['peer_song_pop'].append(peer_song_data[1])
-            item['peer_song_id'].append(peer_song_data[2])
-            item['peer_song_cover'].append(peer_song_data[3])
-
-            singer_song_map[peer] = peer_song_data
+            peer_data['peers'] = {}
+            
+            item['peers'][peer] = peer_data 
+            singer_song_map[peer] = peer_data
 
         #peer's already there, let's look up and get the statistics in a global structure we've saved
         #only using global structure to save mongo queries
         else:
-            peer_song_data = singer_song_map[peer]
-            item['peer_song_name'].append(peer_song_data[0])
-            item['peer_song_pop'].append(peer_song_data[1])
-            item['peer_song_id'].append(peer_song_data[2])
-            item['peer_song_cover'].append(peer_song_data[3])
+            peer_data = singer_song_map[peer]
+            peer_data['peers'] = {}
+            item['peers'][peer] = peer_data
 
-    item['peers'] = new_peers
     singer_coll.update({'_id': _id}, item, upsert=True)
-    return (song, song_pop, stream_id, song_cover_url)
+    return item 
 
 
 def add_singers(singers):
