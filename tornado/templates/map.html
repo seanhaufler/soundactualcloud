@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>SoundActualCloud</title>
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/static/css/bootstrap.css" type="text/css" media="all" />
+<style>
+    #main {
+        padding-top: 50px;
+    }
+    .node {
+          stroke: #fff;
+          stroke-width: 1.5px;
+    }
+
+    .selected {
+          stroke: red !important;
+    }
+
+    .link {
+          stroke: #AAA;
+            stroke-opacity: .6;
+    }
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"> </script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+<script src="/static/js/bootstrap.js" type="text/javascript"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+</head>
+<body>
+
+    <div id="main" class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <h3>SOUND (ACTUAL?) CLOUD MAP</h1>
+            <h4>Artist: {{ artist }}</h2>
+            <hr>
+            <div id="artist-info">
+              <h5>Information:</h5>
+              <p class="desc"></p>
+              <p class="song"></p>
+            </div><!-- artist-info -->
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+          <div id="hero" class="hero-unit">
+
+          </div>
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
+      <hr>
+      <footer>
+        <p>&copy; Sound(Actual?)Cloud 2013</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+</body>
+<script>
+
+var width = 960,
+height = 600;
+
+var color = d3.scale.category20();
+
+var force = d3.layout.force()
+.charge(-200)
+.linkDistance(100)
+.size([width, height]);
+
+var svg = d3.select("#hero").append("svg")
+.attr("width", width)
+.attr("height", height);
+
+// "/related?artist="+encodeURIComponent("{{ artist }}"
+d3.json("/static/miserables.json", function(error, graph) {
+    force
+    .nodes(graph.nodes)
+    .links(graph.links)
+    .start();
+
+    var link = svg.selectAll("line.link")
+    .data(graph.links)
+    .enter().append("line")
+    .attr("class", "link")
+    .style("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+    var node = svg.selectAll("circle.node")
+    .data(graph.nodes)
+    .enter().append("circle")
+    .attr("class", "node")
+    .attr("r", function(d) { return (d.group+2) * 2; })
+    .style("fill", function(d) { return color(d.group); })
+    .call(force.drag);
+
+    node.append("title")
+    .text(function(d) { return d.name; });
+
+    force.on("tick", function() {
+        link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+        node.attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+    });
+});
+
+
+var $info = $('#artist-info');
+var $desc = $info.find('.desc');
+
+$('.node').live('mouseover mouseout click', function(event) {
+  if (event.type == 'mouseover') {
+    var $title = $(this).find('title').text();
+    $desc.empty().append($title);
+
+    // make color lighter
+    var color = $(this).attr('style').match(/[0-9a-f]{6}/)[0];
+    var lighter = LightenDarkenColor(color, 30);
+    $(this).attr('style', 'fill: '+lighter)
+           .attr('color', 'fill: #'+color);
+  } else if (event.type == 'mouseout') {
+    // make color lighter;
+    var color = $(this).attr('color');
+    $(this).attr('style', color);
+
+    console.log($(this));
+    console.log(color);
+  } else {
+       console.log('click');
+       console.log(this);
+       $('.node').attr('class', 'node');
+       $(this).attr('class', 'node selected');   
+  }
+});
+
+function LightenDarkenColor(col,amt) {
+    var usePound = false;
+    if ( col[0] == "#" ) {
+        col = col.slice(1);
+        usePound = true;
+    }
+    var num = parseInt(col,16);
+    var r = (num >> 16) + amt;
+
+    if ( r > 255 ) r = 255;
+    else if  (r < 0) r = 0;
+
+    var b = ((num >> 8) & 0x00FF) + amt;
+
+    if ( b > 255 ) b = 255;
+    else if  (b < 0) b = 0;
+
+    var g = (num & 0x0000FF) + amt;
+
+    if ( g > 255 ) g = 255;
+    else if  ( g < 0 ) g = 0;
+
+    return (usePound?"#":"") + (g | (b << 8) | (r << 16)).toString(16);
+}
+</script>
+</html>

@@ -28,6 +28,7 @@ class Application(tornado.web.Application):
     def __init__(self):
         handlers = [
             (r"/", HomeHandler),
+            (r"/map", MapHandler),
             (r"/render", SearchHandler),
             (r"/related", ApiHandler)
             ]
@@ -45,6 +46,12 @@ class BaseHandler(tornado.web.RequestHandler):
 class HomeHandler(BaseHandler):
     def get(self):
         self.render("index.html")
+
+class MapHandler(BaseHandler):
+    def get(self):
+        artist = self.get_argument('artist')
+        self.render("map.html", artist=artist)
+
 
 class SearchHandler(BaseHandler):
     def post(self):
