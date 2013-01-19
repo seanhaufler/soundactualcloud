@@ -13,8 +13,23 @@
 
     <h2>My peers are:</h2>
     <ul>
+        {% set i = 0 %}
         {% for peer in peers %}
-            <li>{{ peer }}</li>
+        <li>{{ peer }} sang the song: {{ peer_songs[i] }} which is song: </li>
+        <div id="gsWidget">
+            <p>
+                <object width="150" height="40"> 
+                    <param name="movie" value="http://grooveshark.com/songWidget.swf"> 
+                    <param name="wmode" value="window"> 
+                    <param name="allowScriptAccess" value="always"> 
+                    <param name="flashvars" value="hostname=grooveshark.com&amp;songID={{peer_song_ids[i]}}&amp;style=metal&amp;p=0"> 
+                    <embed src="http://grooveshark.com/songWidget.swf" type="application/x-shockwave-flash" width="150" height="40" 
+                    flashvars="hostname=grooveshark.com&amp;songID={{ peer_song_ids[i]}}&amp;style=metal&amp;p=0" allowscriptaccess="always" wmode="window">
+                </object>
+            </p>
+        </div>
+        {% set i = i+1 %}
+            
         {% end %}
     </ul>
 

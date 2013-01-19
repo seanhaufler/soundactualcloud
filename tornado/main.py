@@ -56,7 +56,8 @@ class SearchHandler(BaseHandler):
             result = search_results[0]
             
             self.render('search.html', name=result['name'], song=result['song'], 
-                    url=result['song_url'], peers=result['peers'])
+                    url=result['song_id'], peers=result['peers'], peer_songs=result['peer_song_name'],
+                    peer_song_ids=result['peer_song_id'])
         else:
             self.render('error.html')
 

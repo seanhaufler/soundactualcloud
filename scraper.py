@@ -31,6 +31,7 @@ def process_singer(name, level):
         soup = BeautifulSoup(urllib2.urlopen('http://www.music-map.com/' + urlify(name) + '.html').read())
     except:
         return None
+
     a_tags = soup.find_all('a')
     peers = []
 
@@ -43,8 +44,9 @@ def process_singer(name, level):
     artist_search = spotify.artists.search(name)
     try:
         curr_artist = artist_search.next()
-    except StopIteration:
+    except:
         curr_artist = None
+        return None
 
     popularity = 0
     if curr_artist:
@@ -54,11 +56,12 @@ def process_singer(name, level):
 
     try:
         curr_song = song_search.next()
-    except StopIteration:
+    except:
         curr_song = None
+        return None
 
     song = ""
-    stream_url = ""
+    stream_id = 0
     song_pop = 0
     song_cover_url = ""
 
@@ -71,7 +74,7 @@ def process_singer(name, level):
         
         try:
             gs_song = gs_search.next() 
-            stream_url = gs_song.stream.url
+            stream_id = int(gs_song.id)
             song_cover_url = gs_song.export()['cover']
         except:
             pass
@@ -85,12 +88,12 @@ def process_singer(name, level):
     item['pop'] = popularity 
     item['song'] = song
     item['song_pop'] = song_pop
-    item['song_url'] = stream_url
-    singer_song_map[name] = (song, song_pop, stream_url) 
+    item['song_id'] = stream_id
+    singer_song_map[name] = (song, song_pop, stream_id) 
 
     item['peer_song_name'] = []
     item['peer_song_pop'] = []
-    item['peer_song_url'] = []
+    item['peer_song_id'] = []
 
     print 'Added singer %s to database' % item['name']
 
@@ -109,7 +112,7 @@ def process_singer(name, level):
             #store info on our peer
             item['peer_song_name'].append(peer_song_data[0])
             item['peer_song_pop'].append(peer_song_data[1])
-            item['peer_song_url'].append(peer_song_data[2])
+            item['peer_song_id'].append(peer_song_data[2])
 
             singer_song_map[peer] = peer_song_data
 
@@ -119,17 +122,17 @@ def process_singer(name, level):
             peer_song_data = singer_song_map[peer]
             item['peer_song_name'].append(peer_song_data[0])
             item['peer_song_pop'].append(peer_song_data[1])
-            item['peer_song_url'].append(peer_song_data[2])
+            item['peer_song_id'].append(peer_song_data[2])
 
     item['peers'] = new_peers
     singer_coll.update({'_id': _id}, item, upsert=True)
-    return (song, song_pop, stream_url)
+    return (song, song_pop, stream_id)
 
 
 def add_singers(singers):
 
     for singer in singers:
-        process_singer(singer, 1)
+        process_singer(singer, 4)
 
 if __name__ == '__main__':
     singers = ['The Rolling Stones']
