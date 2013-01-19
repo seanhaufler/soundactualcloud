@@ -29,6 +29,7 @@ class Application(tornado.web.Application):
         handlers = [
             (r"/", HomeHandler),
             (r"/render", SearchHandler),
+            (r"/related", ApiHandler)
             ]
 
         settings = dict(
@@ -61,6 +62,18 @@ class SearchHandler(BaseHandler):
         else:
             self.render('error.html')
 
+class ApiHandler(BaseHandler):
+    def get(self):
+        artist = self.get_argument('artist')
+        search_hash = md5.md5(artist).hexdigest()
+        search_results = singer_coll.find({'_id':search_hash})
+
+        #must be one
+        if search_results.count() > 0:
+            result = search_results[0]
+            self.write(json.dumps(result))
+        else:
+            self.write("{}")
 
 def main(port='3000', address='127.0.0.1'):
     http_server = tornado.httpserver.HTTPServer(Application())
