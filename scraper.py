@@ -61,6 +61,7 @@ def process_singer(name, level):
     song = ""
     stream_url = ""
     song_pop = 0
+    song_cover_url = ""
 
     if curr_song:
         song = curr_song.name
@@ -72,6 +73,7 @@ def process_singer(name, level):
         try:
             gs_song = gs_search.next() 
             stream_url = gs_song.stream.url
+            song_cover_url = gs_song.export()['cover']
         except:
             pass
 

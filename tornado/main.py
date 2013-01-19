@@ -4,6 +4,7 @@ import json
 import random
 import urllib
 import urllib2
+import md5
 import re
 import textwrap
 import heapq
@@ -19,17 +20,15 @@ import tornado.web
 import pymongo
 from bson import json_util
 
-#FSQOauthToken = "QYEIVBMULP11CPVHP4MSHXDB2VIZ12LDDUTMMJL2YSP2IJJA"
-#FSQOauthSecret = "L04TIELKXWIHKVXWI1PRENGM1YFSPHHX0PEUZQSUIMDVHDDU"
-
-#FB
-#import fbconsole
+mongo_conn = pymongo.Connection('localhost:27017')
+singer_coll = mongo_conn['artists']['singer']
 
 class Application(tornado.web.Application):
 
     def __init__(self):
         handlers = [
             (r"/", HomeHandler),
+            (r"/render", SearchHandler),
             ]
 
         settings = dict(
@@ -45,6 +44,22 @@ class BaseHandler(tornado.web.RequestHandler):
 class HomeHandler(BaseHandler):
     def get(self):
         self.render("index.html")
+
+class SearchHandler(BaseHandler):
+    def post(self):
+        artist = self.get_argument('artist')
+        search_hash = md5.md5(artist).hexdigest()
+        search_results = singer_coll.find({'_id':search_hash})
+
+        #must be one
+        if search_results.count() > 0:
+            result = search_results[0]
+            
+            self.render('search.html', name=result['name'], song=result['song'], 
+                    url=result['song_url'], peers=result['peers'])
+        else:
+            self.render('error.html')
+
 
 def main(port='3000', address='127.0.0.1'):
     http_server = tornado.httpserver.HTTPServer(Application())
