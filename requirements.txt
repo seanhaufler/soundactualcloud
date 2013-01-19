@@ -1,0 +1,9 @@
+beautifulsoup4==4.1.3
+facepy==0.8.4
+poster==0.8.1
+pygrooveshark==3.0
+pymongo==2.4.1
+-e git://github.com/mattdennewitz/python-spotify-api@71758faf28aaf0dacbbb6085ccddac2d121578f5#egg=python_spotify_metadata_api-dev
+requests==1.1.0
+tornado==2.4.1
+wsgiref==0.1.2
