@@ -25,6 +25,9 @@ def urlify (name):
 
 def process_singer(name, level): 
 
+    if name in singer_song_map:
+        return singer_sing_map[name]
+
     #We've gone 5 levels done, just keep going 
     if level < 0:
         return None
@@ -113,7 +116,7 @@ def process_singer(name, level):
 
     #Go a level down 
     for peer in peers:
-        if peer not in singer_song_map.keys():
+        if peer not in singer_song_map:
             peer_song_data = process_singer(peer, level-1)
 
             if not peer_song_data:
@@ -145,9 +148,9 @@ def process_singer(name, level):
 def add_singers(singers):
 
     for singer in singers:
-        process_singer(singer, 1)
+        process_singer(singer, 4)
 
 if __name__ == '__main__':
-    singers = ['The Rolling Stones']
+    singers = ['Eminem']
     add_singers(singers)
 
