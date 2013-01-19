@@ -69,7 +69,6 @@ def process_singer(name, level):
         song = curr_song.name
         song_pop = float(curr_song.popularity)
 
-        #search grooveshark code here
         gs_search = gc.search(str(song) + " " + str(name))
         
         try:
@@ -89,11 +88,13 @@ def process_singer(name, level):
     item['song'] = song
     item['song_pop'] = song_pop
     item['song_id'] = stream_id
-    singer_song_map[name] = (song, song_pop, stream_id) 
+    item['song_cover'] = song_cover_url
+    singer_song_map[name] = (song, song_pop, stream_id, song_cover_url) 
 
     item['peer_song_name'] = []
     item['peer_song_pop'] = []
     item['peer_song_id'] = []
+    item['peer_song_cover'] = []
 
     print 'Added singer %s to database' % item['name']
 
@@ -113,6 +114,7 @@ def process_singer(name, level):
             item['peer_song_name'].append(peer_song_data[0])
             item['peer_song_pop'].append(peer_song_data[1])
             item['peer_song_id'].append(peer_song_data[2])
+            item['peer_song_cover'].append(peer_song_data[3])
 
             singer_song_map[peer] = peer_song_data
 
@@ -123,16 +125,17 @@ def process_singer(name, level):
             item['peer_song_name'].append(peer_song_data[0])
             item['peer_song_pop'].append(peer_song_data[1])
             item['peer_song_id'].append(peer_song_data[2])
+            item['peer_song_cover'].append(peer_song_data[3])
 
     item['peers'] = new_peers
     singer_coll.update({'_id': _id}, item, upsert=True)
-    return (song, song_pop, stream_id)
+    return (song, song_pop, stream_id, song_cover_url)
 
 
 def add_singers(singers):
 
     for singer in singers:
-        process_singer(singer, 4)
+        process_singer(singer, 1)
 
 if __name__ == '__main__':
     singers = ['The Rolling Stones']
