@@ -92,7 +92,6 @@ def process_singer(name, level):
 
     desc = wikipedia.getArticle(name)
 
-
     item = {}
     _id = md5.md5(name).hexdigest() 
     item['_id'] = _id 
@@ -112,8 +111,6 @@ def process_singer(name, level):
 
     #Go a level down 
     for peer in peers:
-
-        peer = str(peer)
         if peer not in singer_song_map:
             peer_data = process_singer(peer, level-1)
 
@@ -132,7 +129,12 @@ def process_singer(name, level):
             peer_data['peers'] = {}
             item['peers'][peer] = peer_data
 
-    singer_coll.update({'_id': _id}, item, upsert=True)
+    try:
+        doc = singer_coll.find({'_id':_id})
+        if not doc or len(doc['peers']) < len (item['peers']):
+            singer_coll.update({'_id': _id}, item, upsert=True)
+    except:
+        pass
     return item 
 
 def add_singers(singers):
