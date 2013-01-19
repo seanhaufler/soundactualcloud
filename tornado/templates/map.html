@@ -35,13 +35,28 @@
       <div class="row-fluid">
         <div class="span3">
           <div class="well sidebar-nav">
-            <h3>SOUND (ACTUAL?) CLOUD MAP</h1>
-            <h4>Artist: {{ artist }}</h2>
+            <h3>SOUND (ACTUAL?) CLOUD MAP</h3>
             <hr>
             <div id="artist-info">
-              <h5>Information:</h5>
+              <h5>Artist Info</h5>
+              <h4 class="name">{{ artist }}</h4>
+              <img style="display:none;" src="/a.png"/>
               <p class="desc"></p>
               <p class="song"></p>
+              <p class="song_id"></p>
+              <p class="pop"></p>
+              <p class="fb"></p>
+                <div id="gsWidget">
+                    <p>
+                        <object width="150" height="40"> 
+                            <param name="movie" value="http://grooveshark.com/songWidget.swf">
+                            <param name="wmode" value="window"> 
+                            <param name="allowScriptAccess" value="always"> 
+                            <param name="flashvars" value="hostname=grooveshark.com&amp;songID=25240976&amp;style=metal&amp;p=0"> 
+                            <embed src="http://grooveshark.com/songWidget.swf" type="application/x-shockwave-flash" width="150" height="40"  allowscriptaccess="always" wmode="window">
+                        </object>
+                    </p>
+                </div>
             </div><!-- artist-info -->
           </div><!--/.well -->
         </div><!--/span-->
@@ -76,10 +91,47 @@ var svg = d3.select("#hero").append("svg")
 .attr("width", width)
 .attr("height", height);
 
-// "/related?artist="+encodeURIComponent("{{ artist }}"
-d3.json("/static/miserables.json", function(error, graph) {
-    force
-    .nodes(graph.nodes)
+// "/static/miserables.json"
+d3.json("/related?artist="+encodeURIComponent("{{ artist }}"), function(error, res) {
+
+    // convert the api return to the miserables json format
+    var graph = { nodes : [], links : [] };
+
+    // Push center node
+    graph.nodes.push({
+            'name' : res.name,
+            'img' : res.song_cover,
+            'song_id' : res.song_id,
+            'song' : res.song,
+            'fb_page' : res.fb_page,
+            'pop' : res.pop,
+            'song_pop' : res.song_pop,
+            'desc' : res.desc,
+            'group' : 30
+    });
+
+    console.log(res.peers);
+    $.each(res.peers, function(key, obj) {
+        console.log('ech peer');
+        console.log(key);
+        console.log(obj);
+        graph.nodes.push({
+            'name' : key,
+            'img' : obj.song_cover,
+            'song_id' : obj.song_id,
+            'song' : obj.song,
+            'fb_page' : obj.fb_page,
+            'pop' : obj.pop,
+            'song_pop' : obj.song_pop,
+            'desc' : obj.desc,
+            'group' : Math.floor((Math.random()*15)+5)
+        });
+    });
+
+    console.log('Checking Graph');
+    console.log(graph);
+
+    force.nodes(graph.nodes)
     .links(graph.links)
     .start();
 
@@ -94,6 +146,14 @@ d3.json("/static/miserables.json", function(error, graph) {
     .enter().append("circle")
     .attr("class", "node")
     .attr("r", function(d) { return (d.group+2) * 2; })
+    .attr("img", function(d) { return d.img; })
+    .attr("desc", function(d) { return d.desc; })
+    .attr("song_id", function(d) { return d.song_id; })
+    .attr("song", function(d) { return d.song; })
+    .attr("fb_page", function(d) { return d.fb_page; })
+    .attr("pop", function(d) { return d.pop; })
+    .attr("song_pop", function(d) { return d.song_pop; })
+    .attr("img", function(d) { return d.img; })
     .style("fill", function(d) { return color(d.group); })
     .call(force.drag);
 
@@ -113,12 +173,24 @@ d3.json("/static/miserables.json", function(error, graph) {
 
 
 var $info = $('#artist-info');
-var $desc = $info.find('.desc');
 
 $('.node').live('mouseover mouseout click', function(event) {
   if (event.type == 'mouseover') {
+
     var $title = $(this).find('title').text();
-    $desc.empty().append($title);
+    var $desc = $(this).attr('desc');
+    var $song = $(this).attr('song');
+    var $pop = $(this).attr('pop');
+    var $fb = $(this).attr('fb');
+    var $img = $(this).attr('img');
+
+    // hacky way to populate view.. too lazy to use template
+    $info.find('.name').empty().append($title);
+    $info.find('.desc').empty().append($desc);
+    $info.find('.song').empty().append($song);
+    $info.find('.pop').empty().append($pop);
+    $info.find('.fb').empty().append($fb);
+    $info.find('img').attr('src', $img).show();
 
     // make color lighter
     var color = $(this).attr('style').match(/[0-9a-f]{6}/)[0];
