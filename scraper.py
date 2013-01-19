@@ -4,6 +4,7 @@ import md5
 import grooveshark
 import facepy
 import wikipedia
+import google
 
 from spotify_api.api import SpotifyApi
 from bs4 import BeautifulSoup
@@ -68,18 +69,20 @@ def process_singer(name, level):
     song = ""
     stream_id = 0
     song_pop = 0
-    song_cover_url = ""
+    
+    google_search = google.Google.search_images(name)
+    result = google_search[0]
+    song_cover_url = result.link
 
     if curr_song:
         song = curr_song.name
         song_pop = float(curr_song.popularity)
-
         gs_search = gc.search(str(song) + " " + str(name))
         
         try:
             gs_song = gs_search.next() 
             stream_id = int(gs_song.id)
-            song_cover_url = gs_song.export()['cover']
+#            song_cover_url = gs_song.export()['cover']
         except:
             pass
 
@@ -108,6 +111,7 @@ def process_singer(name, level):
     item['peers'] = {}
 
     print 'Added singer %s to database' % item['name']
+    print 'Image URL is %s' % item['song_cover']
 
     #Go a level down 
     for peer in peers:
