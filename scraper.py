@@ -2,12 +2,15 @@ import urllib2
 import pymongo 
 import md5
 import grooveshark
+import facepy
 
 from spotify_api.api import SpotifyApi
 from bs4 import BeautifulSoup
 
 mongo_conn = pymongo.Connection('localhost:27017')
 singer_coll = mongo_conn['artists']['singer']
+
+fb_graph = facepy.GraphAPI()
 
 #sc_client = soundcloud.Client(client_id='15796297f59f225886f6247ba56a1a43')
 
@@ -78,6 +81,12 @@ def process_singer(name, level):
         except:
             pass
 
+    fb_search = fb_graph.search(name, 'page')
+    fb_page = "http://www.facebook.com"
+
+    if 'data' in fb_search:
+        if fb_search['data'] and 'id' in fb_search['data'][0]:
+            fb_page = "http://www.facebook.com/" + str(fb_search['data'][0]['id'])
 
     item = {}
     _id = md5.md5(name).hexdigest() 
@@ -86,6 +95,7 @@ def process_singer(name, level):
     item['peers'] = peers
     item['pop'] = popularity 
     item['song'] = song
+    item['fb_page'] = fb_page
     item['song_pop'] = song_pop
     item['song_id'] = stream_id
     item['song_cover'] = song_cover_url
