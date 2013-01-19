@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>SoundActualCloud</title>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" media="all" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"> </script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+</head>
+
+<body>
+    <h1>SOUND ACTUAL CLOUD</h1>
+
+    <h2>My peers are:</h2>
+    <ul>
+        {% for peer in peers %}
+            <li>{{ peer }}</li>
+        {% end %}
+    </ul>
+
+</body>
+
+</html>
