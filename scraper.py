@@ -15,12 +15,7 @@ spotify = SpotifyApi()
 gc = grooveshark.Client()
 gc.init()
 
-#tw = twitter.Twitter(auth=twitter.OAuth('406096834-dqtFJQ0jAieZ9YrvJmEE2nByxMtFwXYsMmdRUhwG',
-#                                        'uHG8KiEGWNbT2laOlN3BhDwCaVi45PBtTp29JdmO3O8',
-#                                        'reNWgFX6HsWWDLXVvOYt6A',
-#                                        'V2YuSIxTNKc99z7upSQvFCWKUMhSi6A56Y76WJjo')) 
-
-singers_added = []
+singer_song_map = {}
 
 def urlify (name):
     return name.replace(' ', '+')
@@ -28,10 +23,14 @@ def urlify (name):
 def process_singer(name, level): 
 
     #We've gone 5 levels done, just keep going 
-    if level == 0:
-        return
+    if level < 0:
+        return None
 
-    soup = BeautifulSoup(urllib2.urlopen('http://www.music-map.com/' + urlify(name) + '.html').read())
+    soup = ""
+    try: 
+        soup = BeautifulSoup(urllib2.urlopen('http://www.music-map.com/' + urlify(name) + '.html').read())
+    except:
+        return None
     a_tags = soup.find_all('a')
     peers = []
 
@@ -68,7 +67,7 @@ def process_singer(name, level):
         song_pop = float(curr_song.popularity)
 
         #search grooveshark code here
-        gs_search = gc.search(song + " " + name)
+        gs_search = gc.search(str(song) + " " + str(name))
         
         try:
             gs_song = gs_search.next() 
@@ -87,22 +86,50 @@ def process_singer(name, level):
     item['song'] = song
     item['song_pop'] = song_pop
     item['song_url'] = stream_url
-    singer_coll.update({'_id': _id}, item, upsert=True)
-    singers_added.append(name)
+    singer_song_map[name] = (song, song_pop, stream_url) 
+
+    item['peer_song_name'] = []
+    item['peer_song_pop'] = []
+    item['peer_song_url'] = []
+
     print 'Added singer %s to database' % item['name']
+
+    #return early because there's no point in recursing through 
+    new_peers = list(peers)
 
     #Go a level down 
     for peer in peers:
-        if peer not in singers_added:
-            singers_added.append(peer)
-            process_singer(peer, level-1)
-            break
+        if peer not in singer_song_map.keys():
+            peer_song_data = process_singer(peer, level-1)
+
+            if not peer_song_data:
+                new_peers.remove(peer)
+                continue
+
+            #store info on our peer
+            item['peer_song_name'].append(peer_song_data[0])
+            item['peer_song_pop'].append(peer_song_data[1])
+            item['peer_song_url'].append(peer_song_data[2])
+
+            singer_song_map[peer] = peer_song_data
+
+        #peer's already there, let's look up and get the statistics in a global structure we've saved
+        #only using global structure to save mongo queries
+        else:
+            peer_song_data = singer_song_map[peer]
+            item['peer_song_name'].append(peer_song_data[0])
+            item['peer_song_pop'].append(peer_song_data[1])
+            item['peer_song_url'].append(peer_song_data[2])
+
+    item['peers'] = new_peers
+    singer_coll.update({'_id': _id}, item, upsert=True)
+    return (song, song_pop, stream_url)
 
 
 def add_singers(singers):
 
     for singer in singers:
-        process_singer(singer, 4)
+        process_singer(singer, 1)
 
 if __name__ == '__main__':
     singers = ['The Rolling Stones']
