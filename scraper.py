@@ -148,9 +148,9 @@ def process_singer(name, level):
 def add_singers(singers):
 
     for singer in singers:
-        process_singer(singer, 4)
+        process_singer(singer, 1)
 
 if __name__ == '__main__':
-    singers = ['Eminem']
+    singers = ['The Rolling Stones']
     add_singers(singers)
 
