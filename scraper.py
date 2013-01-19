@@ -3,6 +3,7 @@ import pymongo
 import md5
 import grooveshark
 import facepy
+import wikipedia
 
 from spotify_api.api import SpotifyApi
 from bs4 import BeautifulSoup
@@ -89,11 +90,15 @@ def process_singer(name, level):
         if fb_search['data'] and 'id' in fb_search['data'][0]:
             fb_page = "http://www.facebook.com/" + str(fb_search['data'][0]['id'])
 
+    desc = wikipedia.getArticle(name)
+
+
     item = {}
     _id = md5.md5(name).hexdigest() 
     item['_id'] = _id 
     item['name'] = name
     item['pop'] = popularity 
+    item['desc'] = desc
     item['song'] = song
     item['fb_page'] = fb_page
     item['song_pop'] = song_pop
@@ -107,6 +112,8 @@ def process_singer(name, level):
 
     #Go a level down 
     for peer in peers:
+
+        peer = str(peer)
         if peer not in singer_song_map:
             peer_data = process_singer(peer, level-1)
 
@@ -127,7 +134,6 @@ def process_singer(name, level):
 
     singer_coll.update({'_id': _id}, item, upsert=True)
     return item 
-
 
 def add_singers(singers):
 
