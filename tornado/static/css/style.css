@@ -19,9 +19,9 @@ h1 {
 	font-family: 'LeagueGothicRegular', sans-serif;
 	font-size: 80px;
 	/* text-shadow: 0px 1px 1px #ffe9c6; */
-	color: #a69881;
+	color: #FF3300;
 	text-align: center;
-	margin-top: -10px;
+	margin-top: -70px;
 	margin-bottom: -10px;
 	text-transform: uppercase;
 }
@@ -35,41 +35,6 @@ h1.accent {
 	display: inline;
 }
 
-h2 {
-	font-family: MuseoSlab;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	/*color: #d1473e;*/
-	text-align: center;
-}
-
-h3 {
-	font-family: LeagueGothicRegular;
-	font-weight: normal;
-	color: #d1473e;
-	text-align: center;
-	font-size: 80px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-    /* text-shadow: -1px -1px 1px #ffe9c6, 1px 1px 1px #a69881; */
-}
-
-h3.inter {
-	font-family: MuseoSlab;
-	font-style: italic;
-}
-
-ul {
-	list-style-type: none;
-	padding: 20px;
-}
-
-a:link {
-	text-decoration: none;
-	color: #d1473e;
-	font-style: bold;
-}
-
 .bg-box {
 	/*background: #a69881;*/
 	width: 650px;
@@ -78,17 +43,6 @@ a:link {
 	margin-top: 100px;
 }
 
-/* non-form button */
-.button {
-	margin: auto;
-	width: 260px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background: #66BDAF;
-	border-radius: 10px;
-	color: #EBE2D5;
-	text-align: center;
-} 
 
 /* form button -- unfinished */
 .submit-button {
