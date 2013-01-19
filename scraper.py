@@ -112,6 +112,8 @@ def process_singer(name, level):
 
     #Go a level down 
     for peer in peers:
+
+        peer = str(peer)
         if peer not in singer_song_map:
             peer_data = process_singer(peer, level-1)
 
@@ -132,7 +134,6 @@ def process_singer(name, level):
 
     singer_coll.update({'_id': _id}, item, upsert=True)
     return item 
-
 
 def add_singers(singers):
 
