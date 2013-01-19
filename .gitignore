@@ -1,0 +1,4 @@
+bin/*
+lib/*
+src/*
+*/.DS_STORE
