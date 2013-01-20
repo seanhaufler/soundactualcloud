@@ -122,7 +122,7 @@ h6 {
 
 #search-group {
 	background: white;
-	margin-top: 32px;
+	margin-top: 25px;
 	padding: 10px 5px;
 	height: 45px;
 	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);	
@@ -176,11 +176,11 @@ h6 {
 #hero {
     position: absolute;
     background: none;
-	z-index: -90;
+	z-index: 0;
     padding:0;
     margin-top: -250px;
     display: inline-block;
-    margin-left: -300px;
+    margin-left: 0px;
     min-height:500px;
 }
 
@@ -229,6 +229,9 @@ input:focus {
 #back {
 	z-index: 999;
     display: inline-block;
+    background-image:url('/static/img/arrow.png');
+    height: 20px;
+    width:20px;
 }
 #back:hover {
     cursor: pointer;
@@ -239,8 +242,8 @@ input:focus {
     margin-bottom: 40px;
     margin-left: -60px;
     fill: #666;
-    z-index:9999;
-    position:absolute;
+	position: absolute;
+	z-index: 100;
 }
 
 #back svg circle { stroke: #666; }
@@ -256,4 +259,5 @@ g.node text {
     min-width: 981px;
     position: relative;
     z-index: 300;
+}
 }
