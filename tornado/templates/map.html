@@ -31,7 +31,7 @@
         border-radius: 0px;
         outline: none;
         border: none;
-        padding: 0;
+        padding-left: 70px;
         margin-left: -4px;
         font-size: 18px;
         line-height: 18px;
@@ -47,11 +47,22 @@
         top: 3px;
         height: 32px;
         width: 32px;
+        margin-right: -67px;
     }
 
     .icon svg {
         width: 32px;
         height: 32px;
+    }
+
+    #back:hover {
+        cursor: pointer;
+    }
+
+    #back svg {
+        width:50px;
+        margin-bottom: -90px;
+        margin-left: 14px;
     }
 </style>
 
@@ -64,7 +75,7 @@
 <body>
     <div id="main" class="container-fluid">
       <div class="row-fluid">
-        <div class="span3">
+        <div class="span4">
           <div class="well sidebar-nav">
             <h3>SOUND (ACTUAL?) CLOUD MAP</h3>
             <hr>
@@ -91,7 +102,7 @@
             </div><!-- artist-info -->
           </div><!--/.well -->
         </div><!--/span-->
-        <div class="span9">
+        <div class="span8">
           <div>
             <label for="search-input" class="icon"><!--?xml version="1.0" encoding="utf-8"?-->
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -108,6 +119,14 @@
 </label>
                 <input id="search-input" type="text" role="search" placeholder="Search" value="" autofocus="autofocus">
           </div>
+          <div id="back">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+            <g id="Left">
+            <circle fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="50" cy="50" r="47"/>
+            <polygon points="79,53 32,53 46,67 38,67 21,50 38,33 46,33 32,47 79,47  "/>
+            </g>
+            </svg>
+          </div>
           <div id="hero" class="hero-unit">
           </div>
           </div><!--/row-->
@@ -115,7 +134,7 @@
       </div><!--/row-->
       <hr>
       <footer>
-        <p>&copy; Sound(Actual?)Cloud 2013</p>
+        <p>Build with love by three cool kids</p>
       </footer>
 
     </div><!--/.fluid-container-->
@@ -123,7 +142,7 @@
 </body>
 <script>
 
-var width = 960,
+var width = 700,
 height = 600,
 artist = "{{ artist }}";
 init(artist);
@@ -131,10 +150,13 @@ init(artist);
 
 var submitSearch = function() {
     $query = $('#search-input').val();
-    console.log($('#search-input'));
-    console.log($query);
-    window.location = '?artist='+escape($query);
+    history.pushState(null, '', '?artist='+escape($query));
+    init($query);
 }
+
+$('#back').click(function() {
+    history.back();
+});
 
 $('#search-input').keypress(function(e) {
     var code = (e.keyCode ? e.keyCode : e.which);
@@ -150,6 +172,7 @@ function init(artist) {
     .linkDistance(200)
     .size([width, height]);
 
+    $('#hero').empty();
     var svg = d3.select("#hero").append("svg")
     .attr("width", width)
     .attr("height", height);
@@ -305,8 +328,7 @@ $('.node').live('mouseover mouseout click', function(event) {
        if ($title === artist) {
            return;
        } else {
-           $('#hero').empty();
-           window.location = '?artist='+escape($title);
+            history.pushState(null, '', '?artist='+escape($title));
            init($title);
            return;
        }
