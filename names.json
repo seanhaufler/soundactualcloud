@@ -1,49 +1,5311 @@
+{ "_id" : " Ed Gein" }
+{ "_id" : " Rokia Traore" }
+{ "_id" : "(Hed)Pe" }
+{ "_id" : "*Nsync" }
+{ "_id" : ".O.Rang" }
+{ "_id" : "1,2,3" }
+{ "_id" : "10cc" }
+{ "_id" : "112" }
+{ "_id" : "1349" }
+{ "_id" : "13th Floor Elevators" }
+{ "_id" : "16 Horsepower" }
+{ "_id" : "16 Volt" }
+{ "_id" : "16b" }
+{ "_id" : "16bit" }
+{ "_id" : "2 Door Cinema Club" }
+{ "_id" : "2 Live Crew" }
+{ "_id" : "2 Unlimited" }
+{ "_id" : "2 Vibez" }
+{ "_id" : "20/20" }
+{ "_id" : "2000 And One" }
+{ "_id" : "2:54" }
+{ "_id" : "2live Crew" }
+{ "_id" : "2many Djs" }
+{ "_id" : "2pac" }
+{ "_id" : "30 Seconds To Mars" }
+{ "_id" : "31 Knots" }
+{ "_id" : "311" }
+{ "_id" : "360" }
+{ "_id" : "3lau" }
+{ "_id" : "3lw" }
+{ "_id" : "3oh!3" }
+{ "_id" : "4 Clubbers" }
+{ "_id" : "4 The Cause" }
+{ "_id" : "403 Forbiddena" }
+{ "_id" : "4th Avenue Jones" }
+{ "_id" : "5" }
+{ "_id" : "5 Chinese Brothers" }
+{ "_id" : "50" }
+{ "_id" : "50 Cent" }
+{ "_id" : "504 Boyz" }
+{ "_id" : "666" }
+{ "_id" : "7" }
+{ "_id" : "7 Year Bitch" }
+{ "_id" : "702" }
+{ "_id" : "747" }
+{ "_id" : "77 Jefferson" }
+{ "_id" : "8 Ball" }
+{ "_id" : "8 Bit Weapon" }
+{ "_id" : "800 Cherries" }
+{ "_id" : "808 State" }
+{ "_id" : "89ers" }
+{ "_id" : "98 Degrees" }
+{ "_id" : "A" }
+{ "_id" : "A  R Rahman Music" }
+{ "_id" : "A Fine Frenzy" }
+{ "_id" : "A Flock Of Seagulls" }
+{ "_id" : "A Girl Called Eddy" }
+{ "_id" : "A Guy Called Gerald" }
+{ "_id" : "A Love Like Pi" }
+{ "_id" : "A Perfect Circle" }
+{ "_id" : "A Place To Bury Strangers" }
+{ "_id" : "A Skylit Drive" }
+{ "_id" : "A Tribe Called Quest" }
+{ "_id" : "A Verse Unsung" }
+{ "_id" : "A Weather" }
+{ "_id" : "A-Ha" }
+{ "_id" : "A. A. Bondy" }
+{ "_id" : "A3" }
+{ "_id" : "Aaliyah" }
+{ "_id" : "Abba" }
+{ "_id" : "Abc" }
+{ "_id" : "Abdominal" }
+{ "_id" : "Abk" }
+{ "_id" : "Able Baker Fox" }
+{ "_id" : "Above & Beyond" }
+{ "_id" : "Absynthe Minded" }
 { "_id" : "Ac/dc" }
+{ "_id" : "Accept" }
+{ "_id" : "Acen" }
+{ "_id" : "Acid House Kings" }
+{ "_id" : "Acid Junkies" }
+{ "_id" : "Activator" }
+{ "_id" : "Adam Ant" }
+{ "_id" : "Adam Beyer" }
+{ "_id" : "Adam Carroll" }
+{ "_id" : "Adam Freeland" }
+{ "_id" : "Adam K & Soha" }
+{ "_id" : "Adam Kesher" }
+{ "_id" : "Adam Lambert" }
+{ "_id" : "Adam Sandler" }
+{ "_id" : "Adam Tensta" }
+{ "_id" : "Adel" }
+{ "_id" : "Adele" }
+{ "_id" : "Adem" }
+{ "_id" : "Admiral Fallow" }
+{ "_id" : "Admiral Freebee" }
+{ "_id" : "Admiral James T." }
+{ "_id" : "Adoro" }
+{ "_id" : "Adrian Sherwood" }
+{ "_id" : "Adrian Stern" }
+{ "_id" : "Advanced Chemistry" }
+{ "_id" : "Adventure Club" }
+{ "_id" : "Aeronauten" }
 { "_id" : "Aerosmith" }
+{ "_id" : "Aesop Rock" }
+{ "_id" : "Afghan Whigs" }
+{ "_id" : "Afi" }
+{ "_id" : "Africa" }
+{ "_id" : "Africa Hitech" }
+{ "_id" : "Africando" }
+{ "_id" : "Afrojack" }
+{ "_id" : "Afroman" }
+{ "_id" : "Afronaught" }
+{ "_id" : "Against All Authority" }
+{ "_id" : "Against Me!" }
+{ "_id" : "Agatsuma" }
+{ "_id" : "Age Of Silence" }
+{ "_id" : "Agent Orange" }
+{ "_id" : "Agnes Obel" }
+{ "_id" : "Agonoize" }
+{ "_id" : "Ahmad Jamal" }
+{ "_id" : "Ai Otsuka" }
+{ "_id" : "Aidan Knight" }
+{ "_id" : "Aim" }
+{ "_id" : "Aimee Mann" }
+{ "_id" : "Air" }
+{ "_id" : "Air Supply" }
+{ "_id" : "Airbase" }
+{ "_id" : "Akido" }
+{ "_id" : "Akira Kiteshi" }
+{ "_id" : "Akon" }
+{ "_id" : "Akufen" }
+{ "_id" : "Al Green" }
+{ "_id" : "Al Stewart" }
+{ "_id" : "Alabama" }
+{ "_id" : "Alabama Shakes" }
+{ "_id" : "Alabina" }
+{ "_id" : "Alan Jackson" }
+{ "_id" : "Alan Parsons Project" }
+{ "_id" : "Alan Stivell" }
+{ "_id" : "Alanis Morissette" }
+{ "_id" : "Albert Hammond, Jr" }
+{ "_id" : "Alberta Cross" }
+{ "_id" : "Alberto Cortez" }
+{ "_id" : "Albion Band" }
+{ "_id" : "Album Leaf" }
+{ "_id" : "Alchemist" }
+{ "_id" : "Aldo Ciccolini" }
+{ "_id" : "Alejandra Guzman" }
+{ "_id" : "Alela Diane" }
+{ "_id" : "Alex Gaudino" }
+{ "_id" : "Alex Kidd" }
+{ "_id" : "Alex Parks" }
+{ "_id" : "Alexander Ebert" }
+{ "_id" : "Alexandra Burke" }
+{ "_id" : "Alexi Murdoch" }
+{ "_id" : "Alexis" }
+{ "_id" : "Alexisonfire" }
+{ "_id" : "Alfie" }
+{ "_id" : "Ali G" }
+{ "_id" : "Ali Project" }
+{ "_id" : "Alias Eye" }
+{ "_id" : "Alice Cooper" }
+{ "_id" : "Alice Deejay" }
+{ "_id" : "Alice In Chains" }
+{ "_id" : "Alice Russell" }
+{ "_id" : "Alicia Keys" }
+{ "_id" : "Alien Ant Farm" }
+{ "_id" : "Alison Krauss" }
+{ "_id" : "Alive In Wild Paint" }
+{ "_id" : "Alkaline Trio" }
+{ "_id" : "All" }
+{ "_id" : "All 4 One" }
+{ "_id" : "All Caps" }
+{ "_id" : "All Saints" }
+{ "_id" : "All That Remains" }
+{ "_id" : "Alle" }
+{ "_id" : "Allen Toussaint" }
+{ "_id" : "Allied Vision" }
 { "_id" : "Allman Brothers Band" }
+{ "_id" : "Allo Darlin" }
+{ "_id" : "Almamegretta" }
+{ "_id" : "Aloe Blacc" }
+{ "_id" : "Alpentrio" }
+{ "_id" : "Alpha" }
+{ "_id" : "Alpha Rev" }
+{ "_id" : "Alpha Twins" }
+{ "_id" : "Alphabeat" }
+{ "_id" : "Alphazone" }
+{ "_id" : "Alphonse Mouzon" }
+{ "_id" : "Alsu" }
+{ "_id" : "Alter Ego" }
+{ "_id" : "Altern 8" }
+{ "_id" : "Am Radio" }
+{ "_id" : "Amanda Marshall" }
+{ "_id" : "Amber Rubarth" }
+{ "_id" : "America" }
+{ "_id" : "American Analog Set" }
+{ "_id" : "American Head Charge" }
+{ "_id" : "American Minor" }
+{ "_id" : "American Standard" }
+{ "_id" : "Amgod" }
+{ "_id" : "Amos Lee" }
+{ "_id" : "Amy Correia" }
+{ "_id" : "Amy Grant" }
+{ "_id" : "Amy Macdonald" }
+{ "_id" : "Amy Millan" }
+{ "_id" : "Amy Studt" }
+{ "_id" : "Amy Winehouse" }
+{ "_id" : "An Cat Dubh" }
+{ "_id" : "An Pierle" }
+{ "_id" : "Ana Torroja" }
+{ "_id" : "Ana Victoria" }
+{ "_id" : "Ananda Shake" }
+{ "_id" : "Anarchist Academy" }
+{ "_id" : "Anastacia" }
+{ "_id" : "Anathema" }
+{ "_id" : "Anders Osborne" }
+{ "_id" : "Andre Galuzzi" }
+{ "_id" : "Andre Legacy" }
+{ "_id" : "Andre Rieu" }
+{ "_id" : "Andrea Bocelli" }
+{ "_id" : "Andrew Belle" }
+{ "_id" : "Andrew Bird" }
+{ "_id" : "Andrew Kenny" }
+{ "_id" : "Andrew Weatherall" }
+{ "_id" : "Andrius Mamontovas" }
+{ "_id" : "Andy Blueman" }
+{ "_id" : "Andy C" }
+{ "_id" : "Andy Gibb" }
+{ "_id" : "Andy Narell" }
+{ "_id" : "Andy Page" }
+{ "_id" : "Andy Partridge" }
+{ "_id" : "Ane Brun" }
+{ "_id" : "Angel City" }
+{ "_id" : "Angelo Badalamenti" }
+{ "_id" : "Angerfist" }
+{ "_id" : "Angie Aparo" }
+{ "_id" : "Ani Difranco" }
+{ "_id" : "Animal Collective" }
+{ "_id" : "Anja Schneider" }
+{ "_id" : "Anjali" }
+{ "_id" : "Ankla" }
+{ "_id" : "Ann Peebles" }
+{ "_id" : "Anna Nalick" }
+{ "_id" : "Anna Tsuchiya" }
+{ "_id" : "Anne Clark" }
+{ "_id" : "Anni Rossi" }
+{ "_id" : "Annie Lennox" }
+{ "_id" : "Annihilator" }
+{ "_id" : "Anonymous 4" }
+{ "_id" : "Another Level" }
+{ "_id" : "Anti Pop Consortium" }
+{ "_id" : "Antiloop" }
+{ "_id" : "Antipop Consortium" }
+{ "_id" : "Antoine Clamaran" }
+{ "_id" : "Antonio Carlos Jobim" }
+{ "_id" : "Antonio Vivaldi" }
+{ "_id" : "Anuna" }
+{ "_id" : "Anvil" }
+{ "_id" : "Anya Marina" }
+{ "_id" : "Anyone" }
+{ "_id" : "Aphex Twin" }
+{ "_id" : "Aphrodite" }
+{ "_id" : "Apocalypse Hoboken" }
+{ "_id" : "Apocalyptica" }
+{ "_id" : "Apollo Sunshine" }
+{ "_id" : "Apostle Of Hustle" }
+{ "_id" : "Apparat" }
+{ "_id" : "April Smith And The Great Picture Show" }
+{ "_id" : "Aqua" }
+{ "_id" : "Aqua Timez" }
+{ "_id" : "Aqua Velvets" }
+{ "_id" : "Aquabats" }
+{ "_id" : "Aquagen" }
+{ "_id" : "Arab Strap" }
+{ "_id" : "Arash" }
+{ "_id" : "Arc Angels" }
+{ "_id" : "Arcade Fire" }
+{ "_id" : "Arcadia" }
+{ "_id" : "Archers Of Loaf" }
+{ "_id" : "Architecture In Helsinki" }
+{ "_id" : "Archive" }
+{ "_id" : "Arctic Monkeys" }
+{ "_id" : "Arena" }
+{ "_id" : "Aretha Franklin" }
+{ "_id" : "Argent" }
+{ "_id" : "Arizona" }
+{ "_id" : "Armand Van Helden" }
+{ "_id" : "Armchair Martian" }
+{ "_id" : "Armored Saint" }
+{ "_id" : "Arms And Sleepers" }
+{ "_id" : "Armstrong" }
+{ "_id" : "Army Of Trees" }
+{ "_id" : "Arsonists" }
+{ "_id" : "Art Bentley" }
+{ "_id" : "Art Pepper" }
+{ "_id" : "Art Tatum" }
+{ "_id" : "Art Vs Science" }
+{ "_id" : "Artemisia" }
+{ "_id" : "Artful Dodger" }
+{ "_id" : "Arthur Lee" }
+{ "_id" : "Artic Monkies" }
+{ "_id" : "As Blood Runs Black" }
+{ "_id" : "Ash" }
+{ "_id" : "Ashanti" }
+{ "_id" : "Asher Roth" }
+{ "_id" : "Ashlee Simpson" }
+{ "_id" : "Ashley Macisaac" }
+{ "_id" : "Ashley Tisdale" }
+{ "_id" : "Ashley Wallbridge" }
+{ "_id" : "Asia" }
+{ "_id" : "Asian Dub Foundation" }
+{ "_id" : "Asleep At The Wheel" }
+{ "_id" : "Asshole" }
+{ "_id" : "Astor Piazzolla" }
+{ "_id" : "Astral Projection" }
+{ "_id" : "Astrid Haven" }
+{ "_id" : "Astronauts" }
+{ "_id" : "Astrud" }
+{ "_id" : "Aswad" }
+{ "_id" : "Asylum Street Spankers" }
+{ "_id" : "At The Drive-In" }
+{ "_id" : "At The Gates" }
+{ "_id" : "Atach Tatuq" }
+{ "_id" : "Ataxia" }
+{ "_id" : "Atb" }
+{ "_id" : "Atjazz" }
+{ "_id" : "Atmos" }
+{ "_id" : "Atmosphere" }
+{ "_id" : "Atomic Bitchwax" }
+{ "_id" : "Atomic Kitten" }
+{ "_id" : "Atomic Rooster" }
+{ "_id" : "Atreyu" }
+{ "_id" : "Attwenger" }
+{ "_id" : "Audio Karate" }
+{ "_id" : "Audiobullys" }
+{ "_id" : "Audion" }
+{ "_id" : "Audioslave" }
+{ "_id" : "Augie March" }
+{ "_id" : "Augusta" }
+{ "_id" : "Austra" }
+{ "_id" : "Autour De Lucie" }
+{ "_id" : "Avalanche City" }
+{ "_id" : "Avalanches" }
+{ "_id" : "Aventura" }
+{ "_id" : "Average White Band" }
+{ "_id" : "Avichii" }
+{ "_id" : "Avicii" }
+{ "_id" : "Avril Lavigne" }
+{ "_id" : "Awolnation" }
+{ "_id" : "Axelle Red" }
+{ "_id" : "Axenstar" }
+{ "_id" : "Axwell" }
+{ "_id" : "Aya Hirano" }
+{ "_id" : "Ayaka Hirahara" }
+{ "_id" : "Ayla" }
+{ "_id" : "Ayumi" }
+{ "_id" : "Az" }
+{ "_id" : "Azad" }
+{ "_id" : "Aziza Mustafa Zadeh" }
+{ "_id" : "Azu" }
+{ "_id" : "B" }
+{ "_id" : "B. B. King" }
+{ "_id" : "B.G." }
+{ "_id" : "B.I.G" }
+{ "_id" : "B.O.B" }
+{ "_id" : "B.R.M.C." }
+{ "_id" : "B0unc3" }
+{ "_id" : "B2k" }
+{ "_id" : "Babes In Toyland" }
+{ "_id" : "Bablicon" }
+{ "_id" : "Babybird" }
+{ "_id" : "Babyface" }
+{ "_id" : "Babyshambles" }
+{ "_id" : "Bachman Turner Overdrive" }
+{ "_id" : "Backandtotheleft" }
+{ "_id" : "Backini" }
+{ "_id" : "Backstreet" }
+{ "_id" : "Backstreet Boys" }
+{ "_id" : "Bad Boy Bill" }
+{ "_id" : "Bad Boys Blue" }
+{ "_id" : "Bad Company" }
+{ "_id" : "Bad English" }
+{ "_id" : "Bad Habit" }
+{ "_id" : "Bad Religion" }
+{ "_id" : "Bad Seeds" }
+{ "_id" : "Badem" }
+{ "_id" : "Badfinger" }
+{ "_id" : "Badly Drawn Boy" }
+{ "_id" : "Baha  Men" }
+{ "_id" : "Balance" }
+{ "_id" : "Ballboy" }
+{ "_id" : "Balmorhea" }
+{ "_id" : "Bamby" }
+{ "_id" : "Bananafishbones" }
+{ "_id" : "Bananarama" }
+{ "_id" : "Band Of Heathens" }
+{ "_id" : "Band Of Horses" }
+{ "_id" : "Bang Gang" }
+{ "_id" : "Bangles" }
+{ "_id" : "Bantam Rooster" }
+{ "_id" : "Banyan" }
+{ "_id" : "Bar Kays" }
+{ "_id" : "Baracuda" }
+{ "_id" : "Barbara" }
+{ "_id" : "Barbra Streisand" }
+{ "_id" : "Barclay James Harvest" }
+{ "_id" : "Barcode Brothers" }
+{ "_id" : "Bare Noize" }
+{ "_id" : "Barlow Girl" }
+{ "_id" : "Baroness" }
+{ "_id" : "Barrelhouse" }
+{ "_id" : "Barry White" }
+{ "_id" : "Barthezz" }
+{ "_id" : "Basement Jaxx" }
+{ "_id" : "Basic Humans" }
+{ "_id" : "Bass Kleph" }
+{ "_id" : "Basshunter" }
+{ "_id" : "Bassjackers" }
+{ "_id" : "Basslovers United" }
+{ "_id" : "Bassnectar" }
+{ "_id" : "Baths" }
+{ "_id" : "Battlefield Band" }
+{ "_id" : "Battleme" }
+{ "_id" : "Battlezone" }
+{ "_id" : "Bauhaus" }
+{ "_id" : "Baumer" }
+{ "_id" : "Be Bop Deluxe" }
+{ "_id" : "Be Your Own Pet" }
+{ "_id" : "Beachwood Sparks" }
+{ "_id" : "Bear Vs. Shark" }
+{ "_id" : "Beastie Boys" }
+{ "_id" : "Beasts Of Bourbon" }
+{ "_id" : "Beat Connection" }
+{ "_id" : "Beat Happening" }
+{ "_id" : "Beatfreakz" }
+{ "_id" : "Beatnuts" }
+{ "_id" : "Beats Antique" }
+{ "_id" : "Beatsteaks" }
+{ "_id" : "Beautiful Creatures" }
+{ "_id" : "Bebe" }
+{ "_id" : "Beck" }
+{ "_id" : "Beenie Man" }
+{ "_id" : "Beep Beep" }
+{ "_id" : "Beethoven" }
+{ "_id" : "Bei Maejor" }
+{ "_id" : "Beirut" }
+{ "_id" : "Bela Fleck" }
+{ "_id" : "Bela Fleck And The Flecktones" }
+{ "_id" : "Belinda" }
+{ "_id" : "Belinda Carlisle" }
+{ "_id" : "Belle & Sebastian" }
+{ "_id" : "Belleruche" }
+{ "_id" : "Bellowhead" }
+{ "_id" : "Ben Folds Five" }
+{ "_id" : "Ben Harper" }
+{ "_id" : "Ben Harper And The Innocent Criminals" }
+{ "_id" : "Ben Lee" }
+{ "_id" : "Ben'S Brother" }
+{ "_id" : "Benabar" }
+{ "_id" : "Benga" }
+{ "_id" : "Benga & Coki" }
+{ "_id" : "Benjamin Biolay" }
+{ "_id" : "Benjamin Francis Leftwich" }
+{ "_id" : "Benjy Davis Project" }
+{ "_id" : "Benny Benassi" }
+{ "_id" : "Benny Bennassi" }
+{ "_id" : "Benny Goodman" }
+{ "_id" : "Benny Page" }
+{ "_id" : "Bent" }
+{ "_id" : "Benton Paul" }
+{ "_id" : "Berlin" }
+{ "_id" : "Bernadette Peters" }
+{ "_id" : "Bernard Butler" }
+{ "_id" : "Bernard Fanning" }
+{ "_id" : "Bert Kaempfert" }
+{ "_id" : "Bess Rogers" }
+{ "_id" : "Best Coast" }
+{ "_id" : "Beta Band" }
+{ "_id" : "Betchadupa" }
+{ "_id" : "Beth Hart" }
+{ "_id" : "Beth Hirsch" }
+{ "_id" : "Beverly Craven" }
+{ "_id" : "Beyonce Knowles" }
+{ "_id" : "Beyond Fear" }
+{ "_id" : "Beyond The Fringe" }
+{ "_id" : "Biffy Clyro" }
+{ "_id" : "Big Audio Dynamite" }
+{ "_id" : "Big Bad Voodoo Daddy" }
+{ "_id" : "Big Bill Broonzy" }
+{ "_id" : "Big Brother And The Holding Company" }
+{ "_id" : "Big Horse" }
+{ "_id" : "Big K.R.I.T." }
+{ "_id" : "Big L" }
+{ "_id" : "Big Moe" }
+{ "_id" : "Big Pun" }
+{ "_id" : "Big Sean" }
+{ "_id" : "Big Tymers" }
+{ "_id" : "Bigger Lovers" }
+{ "_id" : "Biggie Duets" }
+{ "_id" : "Bighead" }
+{ "_id" : "Bikini Kill" }
+{ "_id" : "Bile" }
+{ "_id" : "Bill Bailey" }
+{ "_id" : "Bill Callahan" }
+{ "_id" : "Bill Douglas" }
+{ "_id" : "Bill Evans" }
+{ "_id" : "Bill Haley And The Comets" }
+{ "_id" : "Bill Monroe" }
+{ "_id" : "Bill Withers" }
+{ "_id" : "Billie Holiday" }
+{ "_id" : "Billy Boy On Poison" }
+{ "_id" : "Billy Idol" }
+{ "_id" : "Billy Joe Shaver" }
+{ "_id" : "Billy Joel" }
+{ "_id" : "Billy Talent" }
+{ "_id" : "Billy Vaughn" }
+{ "_id" : "Bintangs" }
+{ "_id" : "Bionic Jive" }
+{ "_id" : "Birdie" }
+{ "_id" : "Birdy" }
+{ "_id" : "Bis" }
+{ "_id" : "Bitter Sweet" }
+{ "_id" : "Biz Markie" }
+{ "_id" : "Bizzy Bone" }
+{ "_id" : "Bjrk" }
+{ "_id" : "Black Box" }
+{ "_id" : "Black Box Recorder" }
+{ "_id" : "Black Buddafly" }
+{ "_id" : "Black Crowes" }
+{ "_id" : "Black Eyed Peas" }
+{ "_id" : "Black Flag" }
+{ "_id" : "Black Francis" }
+{ "_id" : "Black Grass" }
+{ "_id" : "Black Joe Lewis" }
+{ "_id" : "Black Kids" }
+{ "_id" : "Black Lips" }
+{ "_id" : "Black Magic" }
+{ "_id" : "Black Moon" }
+{ "_id" : "Black Mountain" }
+{ "_id" : "Black Nasa" }
+{ "_id" : "Black Oak Arkansas" }
+{ "_id" : "Black Pistol Fire" }
+{ "_id" : "Black Rebel Motorcycle Club" }
+{ "_id" : "Black Sabbath" }
+{ "_id" : "Black Tide" }
+{ "_id" : "Black Twang" }
+{ "_id" : "Black Uhuru" }
+{ "_id" : "Black Wall Street" }
+{ "_id" : "Blackalicious" }
+{ "_id" : "Blackberry Smoke" }
+{ "_id" : "Blackbird Raum" }
+{ "_id" : "Blackfoot" }
+{ "_id" : "Blackmill" }
+{ "_id" : "Blackout Crew" }
+{ "_id" : "Blackstreet" }
+{ "_id" : "Blanche" }
+{ "_id" : "Blancmange" }
+{ "_id" : "Blaque" }
+{ "_id" : "Blaze" }
+{ "_id" : "Blaze Bayley" }
+{ "_id" : "Blaze Ya Dead Homie" }
+{ "_id" : "Bleu Edmondson" }
+{ "_id" : "Blind Faith" }
+{ "_id" : "Blind Melon" }
+{ "_id" : "Blink 182" }
+{ "_id" : "Blitzen Trapper" }
+{ "_id" : "Bloc Party" }
+{ "_id" : "Blockhead" }
+{ "_id" : "Blodwyn Pig" }
+{ "_id" : "Blonde Redhead" }
+{ "_id" : "Blondie" }
+{ "_id" : "Blood God" }
+{ "_id" : "Blood On The Dancefloor" }
+{ "_id" : "Bloodhound Gang" }
+{ "_id" : "Blossom Dearie" }
+{ "_id" : "Blowzabella" }
+{ "_id" : "Blu & Exile" }
+{ "_id" : "Blu Cantrell" }
+{ "_id" : "Blue" }
+{ "_id" : "Blue Bedouin" }
+{ "_id" : "Blue Cheer" }
+{ "_id" : "Blue King Brown" }
+{ "_id" : "Blue Mountain" }
+{ "_id" : "Blue Oyster Cult" }
+{ "_id" : "Blue Rodeo" }
+{ "_id" : "Blue Scholars" }
+{ "_id" : "Blue Sky Black Death" }
+{ "_id" : "Blue States" }
+{ "_id" : "Blueboy" }
+{ "_id" : "Blues Brothers" }
+{ "_id" : "Blues Company" }
+{ "_id" : "Blues Traveler" }
+{ "_id" : "Blumfeld" }
+{ "_id" : "Blur" }
+{ "_id" : "Blutonium Boy" }
+{ "_id" : "Bmx Bandits" }
+{ "_id" : "Bo Burnham" }
+{ "_id" : "Bo Kaspers" }
+{ "_id" : "Boa" }
 { "_id" : "Bob Dylan" }
+{ "_id" : "Bob Fox" }
+{ "_id" : "Bob James" }
+{ "_id" : "Bob Log" }
+{ "_id" : "Bob Log Iii" }
 { "_id" : "Bob Marley" }
+{ "_id" : "Bob Seger" }
+{ "_id" : "Bob Sinclar" }
+{ "_id" : "Bob Weir" }
+{ "_id" : "Bob Wills" }
+{ "_id" : "Bobaflex" }
+{ "_id" : "Bobby Bare" }
+{ "_id" : "Bobby Bland" }
+{ "_id" : "Bobby Caldwell" }
+{ "_id" : "Bobby Hebb" }
+{ "_id" : "Bobby Lyle" }
+{ "_id" : "Bobby Mcferrin" }
+{ "_id" : "Bobby Vinton" }
+{ "_id" : "Bodyjar" }
+{ "_id" : "Bodyrox" }
+{ "_id" : "Boiler Room" }
+{ "_id" : "Bolero" }
+{ "_id" : "Bombshell Rocks" }
+{ "_id" : "Bomfunk" }
+{ "_id" : "Bon Iver" }
+{ "_id" : "Bon Jovi" }
+{ "_id" : "Bonaparte" }
+{ "_id" : "Bonde Do Role" }
+{ "_id" : "Bone Thugs N Harmony" }
+{ "_id" : "Bone Thugs-N-Harmony" }
+{ "_id" : "Bone Thugz" }
+{ "_id" : "Bonecrusher" }
+{ "_id" : "Boney James" }
+{ "_id" : "Bonfire" }
+{ "_id" : "Bonnie \"Prince\" Billy" }
+{ "_id" : "Bonnie Tyler" }
+{ "_id" : "Boo Hewerdine" }
+{ "_id" : "Book Of Love" }
+{ "_id" : "Booka Shade" }
+{ "_id" : "Boom Bip" }
+{ "_id" : "Boomtown Rats" }
+{ "_id" : "Boondox" }
+{ "_id" : "Boredoms" }
+{ "_id" : "Boris Dlugosch" }
+{ "_id" : "Boris Kovac" }
+{ "_id" : "Boris S" }
+{ "_id" : "Boston" }
+{ "_id" : "Boston Pops Orchestra" }
+{ "_id" : "Bots" }
+{ "_id" : "Bottle Rockets" }
+{ "_id" : "Boundzound" }
+{ "_id" : "Bow Wow" }
+{ "_id" : "Bowling For Soup" }
+{ "_id" : "Box Car Racer" }
+{ "_id" : "Boxer Rebellion" }
+{ "_id" : "Boy 8 Bit" }
+{ "_id" : "Boy George" }
+{ "_id" : "Boy Meets Girl" }
+{ "_id" : "Boys Noize" }
+{ "_id" : "Boyskout" }
+{ "_id" : "Boytronic" }
+{ "_id" : "Boyz Ii Men" }
+{ "_id" : "Boyz In Da Hood" }
+{ "_id" : "Boyz Noize" }
+{ "_id" : "Boyzone" }
+{ "_id" : "Boz Scaggs" }
+{ "_id" : "Brand New" }
+{ "_id" : "Brand New Heavies" }
+{ "_id" : "Brandy" }
+{ "_id" : "Brant Bjork" }
+{ "_id" : "Bratkilla" }
+{ "_id" : "Bratze" }
+{ "_id" : "Brave Combo" }
+{ "_id" : "Brazil 66" }
+{ "_id" : "Bread" }
+{ "_id" : "Breadwinner" }
+{ "_id" : "Breakbot" }
+{ "_id" : "Breakcore" }
+{ "_id" : "Breakestra" }
+{ "_id" : "Breaking Benjamin" }
+{ "_id" : "Brennan Heart" }
+{ "_id" : "Brenton Wood" }
+{ "_id" : "Brian Blade" }
+{ "_id" : "Brian Eno" }
+{ "_id" : "Brian Mcknight" }
+{ "_id" : "Brian Wilson" }
+{ "_id" : "Brick Squad" }
+{ "_id" : "Bright Eyes" }
+{ "_id" : "Bring Me The Horizon" }
+{ "_id" : "Brisa Roche" }
+{ "_id" : "Britney Spears" }
+{ "_id" : "Broken Bells" }
+{ "_id" : "Brooke Valentine" }
+{ "_id" : "Brooklyn Tabernacle Choir" }
+{ "_id" : "Brooks & Dunn" }
+{ "_id" : "Brotha Lynch Hung" }
+{ "_id" : "Brother Cane" }
+{ "_id" : "Brother Lynch Hung" }
+{ "_id" : "Brothers Four" }
+{ "_id" : "Brown Smith & Grey" }
+{ "_id" : "Brubeck" }
+{ "_id" : "Bruce Cockburn" }
+{ "_id" : "Bruce Dickinson" }
+{ "_id" : "Bruce Hornsby" }
 { "_id" : "Bruce Springsteen" }
+{ "_id" : "Brule" }
+{ "_id" : "Bruno" }
+{ "_id" : "Bryan Adams" }
+{ "_id" : "Bryan Ferry" }
+{ "_id" : "Bsb" }
+{ "_id" : "Bubba Sparxxx" }
+{ "_id" : "Buck 65" }
+{ "_id" : "Buck Owens" }
+{ "_id" : "Bud Powell" }
+{ "_id" : "Buddy Guy" }
+{ "_id" : "Buddy Miller" }
+{ "_id" : "Buddy Rich" }
+{ "_id" : "Buffalo Daughter" }
+{ "_id" : "Buffalo Killers" }
+{ "_id" : "Buffalo Springfield" }
+{ "_id" : "Bullet For My Valentine" }
+{ "_id" : "Bulletboys" }
+{ "_id" : "Bungle" }
+{ "_id" : "Bunny Wailer" }
+{ "_id" : "Buraka Som Sistema" }
+{ "_id" : "Burhan G" }
+{ "_id" : "Burl Ives" }
+{ "_id" : "Burning Spear" }
+{ "_id" : "Busdriver" }
+{ "_id" : "Bush" }
+{ "_id" : "Busta Rhymes" }
+{ "_id" : "Busted" }
+{ "_id" : "Butterfield Blues Band" }
+{ "_id" : "Butterfly Child" }
+{ "_id" : "Butthole Surfers" }
+{ "_id" : "Byrds" }
+{ "_id" : "Cab Calloway" }
+{ "_id" : "Cabaret Voltaire" }
+{ "_id" : "Cactus" }
+{ "_id" : "Cady Groves" }
+{ "_id" : "Caesars" }
+{ "_id" : "Caetano Veloso" }
+{ "_id" : "Cafe Del Mar" }
+{ "_id" : "Cage The Elephant" }
+{ "_id" : "Cake" }
+{ "_id" : "Cal Tjader" }
+{ "_id" : "Cali Agents" }
+{ "_id" : "Calico System" }
+{ "_id" : "California Guitar Trio" }
+{ "_id" : "Call" }
+{ "_id" : "Callahan" }
+{ "_id" : "Calvin Harris" }
+{ "_id" : "Calvin Russell" }
+{ "_id" : "Calyx" }
+{ "_id" : "Camaron" }
+{ "_id" : "Camel" }
+{ "_id" : "Camera Obscura" }
+{ "_id" : "Camila" }
+{ "_id" : "Camp Lo" }
+{ "_id" : "Camper Van Beethoven" }
+{ "_id" : "Canadian Brass" }
+{ "_id" : "Candee Jay" }
+{ "_id" : "Canidas" }
+{ "_id" : "Canned Heat" }
+{ "_id" : "Cansei De Ser Sexy" }
+{ "_id" : "Cap'N Jazz" }
+{ "_id" : "Capercaillie" }
+{ "_id" : "Capgun Coup" }
+{ "_id" : "Capital J" }
+{ "_id" : "Capone-N-Noreaga" }
+{ "_id" : "Captain Beefheart" }
+{ "_id" : "Cara Dillon" }
+{ "_id" : "Caramell" }
+{ "_id" : "Caravan" }
+{ "_id" : "Caravan Palace" }
+{ "_id" : "Cardiacs" }
+{ "_id" : "Cardigans" }
+{ "_id" : "Carl Cox" }
+{ "_id" : "Carl Craig" }
+{ "_id" : "Carl Perkins" }
+{ "_id" : "Carla Bruni" }
+{ "_id" : "Carlos Santana" }
+{ "_id" : "Carlos Vives" }
+{ "_id" : "Carly Comando" }
+{ "_id" : "Carly Rae Jepson" }
+{ "_id" : "Carly Simon" }
+{ "_id" : "Caro Emerald" }
+{ "_id" : "Carreras" }
+{ "_id" : "Carrie Underwood" }
+{ "_id" : "Cars" }
+{ "_id" : "Carter Burwell" }
+{ "_id" : "Carter Usm" }
+{ "_id" : "Cartola" }
+{ "_id" : "Cascada" }
+{ "_id" : "Case" }
+{ "_id" : "Cashmoney" }
+{ "_id" : "Casiotone" }
+{ "_id" : "Caspa" }
+{ "_id" : "Caspa & Rusko" }
+{ "_id" : "Casper" }
+{ "_id" : "Cassandra Wilson" }
+{ "_id" : "Cassia Eller" }
+{ "_id" : "Cassie" }
+{ "_id" : "Cassius" }
+{ "_id" : "Cast" }
+{ "_id" : "Castaways" }
+{ "_id" : "Casting Crowns" }
+{ "_id" : "Castor" }
+{ "_id" : "Cat Power" }
+{ "_id" : "Cat Stevens" }
+{ "_id" : "Catatonia" }
+{ "_id" : "Catch 22" }
+{ "_id" : "Cazals" }
+{ "_id" : "Ce Ce Peniston" }
+{ "_id" : "Ce Ce Rogers" }
+{ "_id" : "Cecilia Bartoli" }
+{ "_id" : "Cee Lo" }
+{ "_id" : "Cee Lo Green" }
+{ "_id" : "Celine Dion" }
+{ "_id" : "Celtic Thunder" }
+{ "_id" : "Celtic Woman" }
+{ "_id" : "Cerati" }
+{ "_id" : "Cerrone" }
+{ "_id" : "Cerys Matthews" }
+{ "_id" : "Cevin Fisher" }
+{ "_id" : "Chad Mitchell Trio" }
+{ "_id" : "Chad Vangaalen" }
+{ "_id" : "Chairlift" }
+{ "_id" : "Chairmen Of The Board" }
+{ "_id" : "Chaka Khan" }
+{ "_id" : "Chakra And Edi" }
+{ "_id" : "Chameleon Circuit" }
+{ "_id" : "Chameleons" }
+{ "_id" : "Chamillionaire" }
+{ "_id" : "Champion Jack Dupree" }
+{ "_id" : "Channels" }
+{ "_id" : "Chantal Chamandy" }
+{ "_id" : "Charlatans" }
+{ "_id" : "Charles Bradley" }
+{ "_id" : "Charles Mingus" }
+{ "_id" : "Charles Webster" }
+{ "_id" : "Charley Pride" }
+{ "_id" : "Charlie Brown" }
+{ "_id" : "Charlie Haden" }
+{ "_id" : "Charlie Hunter" }
+{ "_id" : "Charlie Musselwhite" }
+{ "_id" : "Charlie Pride" }
+{ "_id" : "Charlie Rich" }
+{ "_id" : "Charlie Robison" }
+{ "_id" : "Charlie Simpson" }
+{ "_id" : "Charlotte Church" }
+{ "_id" : "Charlotte Hatherley" }
+{ "_id" : "Charly Lownoise" }
+{ "_id" : "Che Fu" }
+{ "_id" : "Cheap Trick" }
+{ "_id" : "Checkfield" }
+{ "_id" : "Chelsea" }
+{ "_id" : "Chemical Brothers" }
+{ "_id" : "Chemistry" }
+{ "_id" : "Cher" }
+{ "_id" : "Cherry Ghost" }
+{ "_id" : "Cherryholmes" }
+{ "_id" : "Cheryl Cole" }
+{ "_id" : "Cheryl Wheeler" }
+{ "_id" : "Chet Atkins" }
+{ "_id" : "Chet Baker" }
+{ "_id" : "Chet Faker" }
+{ "_id" : "Chevelle" }
+{ "_id" : "Chevy Woods" }
+{ "_id" : "Chic" }
+{ "_id" : "Chicago" }
+{ "_id" : "Chicago Transit Authority" }
+{ "_id" : "Chicken Lips" }
+{ "_id" : "Chickenfoot" }
+{ "_id" : "Chicks On Speed" }
+{ "_id" : "Chiddy Bang" }
+{ "_id" : "Chieftains" }
+{ "_id" : "Chihiro Onitsuka" }
+{ "_id" : "Children Of Bodom" }
+{ "_id" : "Chimaira" }
+{ "_id" : "China Drum" }
+{ "_id" : "Chingy" }
+{ "_id" : "Chip Davis" }
+{ "_id" : "Chip Tha Ripper" }
+{ "_id" : "Choking Victim" }
+{ "_id" : "Chris Cornell" }
+{ "_id" : "Chris De Burgh" }
+{ "_id" : "Chris Duarte" }
+{ "_id" : "Chris Isaak" }
+{ "_id" : "Chris Knight" }
+{ "_id" : "Chris Lake" }
+{ "_id" : "Chris Liebing" }
+{ "_id" : "Chris Potter" }
+{ "_id" : "Chris Webby" }
+{ "_id" : "Chrispy" }
+{ "_id" : "Christian Kjellvander" }
+{ "_id" : "Christina Aguilera" }
+{ "_id" : "Christina Milian" }
+{ "_id" : "Christina Perri" }
+{ "_id" : "Christopher Cross" }
+{ "_id" : "Christopher S." }
+{ "_id" : "Chuck Prophet" }
+{ "_id" : "Chuckie" }
+{ "_id" : "Chumbawamba" }
+{ "_id" : "Ciara" }
+{ "_id" : "Cibelle" }
+{ "_id" : "Cibo Matto" }
+{ "_id" : "Cincere" }
+{ "_id" : "Cinderella" }
+{ "_id" : "Cinematic Orchestra" }
+{ "_id" : "Circle Jerks" }
+{ "_id" : "Circulatory System" }
+{ "_id" : "Cirith Ungol" }
+{ "_id" : "Cirrus" }
+{ "_id" : "City And Colour" }
+{ "_id" : "City Boy" }
+{ "_id" : "City High" }
+{ "_id" : "Cj Stone" }
+{ "_id" : "Cky" }
+{ "_id" : "Clancy Brothers" }
+{ "_id" : "Clark Terry" }
+{ "_id" : "Class Actress" }
+{ "_id" : "Claude Von Stroke" }
+{ "_id" : "Claudio Sanchez" }
+{ "_id" : "Clay Aiken" }
+{ "_id" : "Clay People" }
+{ "_id" : "Clear Static" }
+{ "_id" : "Clearlake" }
+{ "_id" : "Click 5" }
+{ "_id" : "Clickclickdecker" }
+{ "_id" : "Cliff Richard" }
+{ "_id" : "Climax Blues Band" }
+{ "_id" : "Clinic" }
+{ "_id" : "Clint Eastwood" }
+{ "_id" : "Cloud Nothings" }
+{ "_id" : "Club" }
+{ "_id" : "Club 8" }
+{ "_id" : "Clueso" }
+{ "_id" : "Clutch" }
+{ "_id" : "Clyde Mcphatter" }
+{ "_id" : "Coal Chamber" }
+{ "_id" : "Coasters" }
+{ "_id" : "Cock Robin" }
+{ "_id" : "Cock Sucking" }
+{ "_id" : "Cocteau Twins" }
+{ "_id" : "Coeur De Pirate" }
+{ "_id" : "Cognito" }
+{ "_id" : "Coheed And Cambria" }
+{ "_id" : "Coki" }
+{ "_id" : "Colbie Caillat" }
+{ "_id" : "Cold House" }
+{ "_id" : "Cold War Kids" }
+{ "_id" : "Coldcut" }
+{ "_id" : "Coldfinger" }
 { "_id" : "Coldplay" }
+{ "_id" : "Colin Hay" }
+{ "_id" : "Colin Meloy" }
+{ "_id" : "Colosseum" }
+{ "_id" : "Coma Cinema" }
+{ "_id" : "Combichrist" }
+{ "_id" : "Commodores" }
+{ "_id" : "Common" }
+{ "_id" : "Common Market" }
+{ "_id" : "Common Rider" }
+{ "_id" : "Common Sense" }
+{ "_id" : "Compulsion" }
+{ "_id" : "Compulsive Gamblers" }
+{ "_id" : "Concrete Blonde" }
+{ "_id" : "Congo Natty" }
+{ "_id" : "Conor Oberst" }
+{ "_id" : "Controler.Controler" }
+{ "_id" : "Converge" }
+{ "_id" : "Cookie Monsta" }
+{ "_id" : "Cool" }
+{ "_id" : "Cool Notes" }
+{ "_id" : "Coolio" }
+{ "_id" : "Cooper Temple Clause" }
+{ "_id" : "Coralie Clement" }
+{ "_id" : "Cordelia'S Dad" }
+{ "_id" : "Corey Hart" }
+{ "_id" : "Corinne Bailey Rae" }
+{ "_id" : "Corky And The Juice Pigs" }
+{ "_id" : "Cornelius" }
+{ "_id" : "Cornershop" }
+{ "_id" : "Corona" }
+{ "_id" : "Corrosion Of Conformity" }
+{ "_id" : "Cory Chisel" }
+{ "_id" : "Cory Morrow" }
+{ "_id" : "Cosmic Gate" }
+{ "_id" : "Cosmicman" }
+{ "_id" : "Cosmos" }
+{ "_id" : "Costanza" }
+{ "_id" : "Count Basie" }
+{ "_id" : "Courtney Love" }
+{ "_id" : "Cousteau" }
+{ "_id" : "Cracker" }
+{ "_id" : "Craft Spells" }
+{ "_id" : "Cragga" }
+{ "_id" : "Craig Armstrong" }
+{ "_id" : "Craig David" }
+{ "_id" : "Cranberries" }
+{ "_id" : "Crash Kings" }
+{ "_id" : "Crash Parallel" }
+{ "_id" : "Crash Test Dummies" }
+{ "_id" : "Crazy Lixx" }
 { "_id" : "Cream" }
+{ "_id" : "Creed" }
 { "_id" : "Creedence Clearwater Revival" }
+{ "_id" : "Creem" }
+{ "_id" : "Creeper Lagoon" }
+{ "_id" : "Crescent" }
+{ "_id" : "Croce" }
+{ "_id" : "Crooked Still" }
+{ "_id" : "Crookers" }
+{ "_id" : "Crooklyn Clan" }
+{ "_id" : "Crosby Stills And Nash" }
+{ "_id" : "Crosby Stills Nash" }
+{ "_id" : "Crosby Stills Nash And Young" }
+{ "_id" : "Crosby, Stills And Nash" }
+{ "_id" : "Crosby, Stills, Nash & Young" }
+{ "_id" : "Cross Canadian Ragweed" }
+{ "_id" : "Crossbreed" }
+{ "_id" : "Crossed Out" }
+{ "_id" : "Crossfade" }
+{ "_id" : "Crowded House" }
+{ "_id" : "Cruel Sea" }
+{ "_id" : "Crusaders" }
+{ "_id" : "Crustation" }
+{ "_id" : "Cry Cry Cry" }
+{ "_id" : "Cry Of Love" }
+{ "_id" : "Cryogenic" }
+{ "_id" : "Cryptex" }
+{ "_id" : "Crystal Castles" }
+{ "_id" : "Crystal Gayle" }
+{ "_id" : "Crystal Lewis" }
+{ "_id" : "Crystal Method" }
+{ "_id" : "Crystal Stilts" }
+{ "_id" : "Css" }
+{ "_id" : "Culprate" }
+{ "_id" : "Cult Of Luna" }
+{ "_id" : "Cults" }
+{ "_id" : "Cultura Profetica" }
+{ "_id" : "Culture" }
+{ "_id" : "Culture Club" }
+{ "_id" : "Cunninlynguists" }
+{ "_id" : "Curren$Y" }
+{ "_id" : "Curse" }
+{ "_id" : "Cursive" }
+{ "_id" : "Curtis Mayfield" }
+{ "_id" : "Customs" }
+{ "_id" : "Cut Copy" }
+{ "_id" : "Cutkiller" }
+{ "_id" : "Cutting Crew" }
+{ "_id" : "Cutty Ranks" }
+{ "_id" : "Cyberoptix" }
+{ "_id" : "Cyhi Da Prynce" }
+{ "_id" : "Cymbals Eat Guitars" }
+{ "_id" : "Cyndi Lauper" }
+{ "_id" : "Cynthia" }
+{ "_id" : "Cypress Hill" }
+{ "_id" : "D Block" }
+{ "_id" : "D.H.T." }
+{ "_id" : "D12" }
+{ "_id" : "Da Band" }
+{ "_id" : "Da Brat" }
+{ "_id" : "Da Tweekaz" }
+{ "_id" : "Da Vinci'S Notebook" }
+{ "_id" : "Dada" }
+{ "_id" : "Dada Life" }
+{ "_id" : "Daddy Yankee" }
+{ "_id" : "Daft Punk" }
+{ "_id" : "Daily Terror" }
+{ "_id" : "Dajae" }
+{ "_id" : "Dalbello" }
+{ "_id" : "Dale Earnhardt Jr. Jr." }
+{ "_id" : "Dalorian" }
+{ "_id" : "Dam Funk" }
+{ "_id" : "Dambuilders" }
+{ "_id" : "Damian \"Junior Gong\" Marley" }
+{ "_id" : "Damian Lazarus" }
+{ "_id" : "Damien Jurado" }
+{ "_id" : "Damien Leith" }
+{ "_id" : "Damien Rice" }
+{ "_id" : "Damn!" }
+{ "_id" : "Dan Auerbach" }
+{ "_id" : "Dan Fogelberg" }
+{ "_id" : "Dan Hicks" }
+{ "_id" : "Dan Reeder" }
+{ "_id" : "Dana Glover" }
+{ "_id" : "Dana International" }
+{ "_id" : "Dance" }
+{ "_id" : "Dance Dance Revolution" }
+{ "_id" : "Dance Hall Crashers" }
+{ "_id" : "Dandy Warhols" }
+{ "_id" : "Danger Mouse" }
+{ "_id" : "Daniel Kandi" }
+{ "_id" : "Daniel Lanois" }
+{ "_id" : "Daniel Merriweather" }
+{ "_id" : "Danielson" }
+{ "_id" : "Danko Jones" }
+{ "_id" : "Dannii Minogue" }
+{ "_id" : "Danny Gatton" }
+{ "_id" : "Danny Howells" }
+{ "_id" : "Danny Michel" }
+{ "_id" : "Danny Tenaglia" }
+{ "_id" : "Danu" }
+{ "_id" : "Danuta" }
+{ "_id" : "Dap Kings" }
+{ "_id" : "Dar Williams" }
+{ "_id" : "Darek Oleszkiewicz" }
+{ "_id" : "Darius" }
+{ "_id" : "Dark Lotus" }
+{ "_id" : "Dark Lunacy" }
+{ "_id" : "Dark Oscillators" }
+{ "_id" : "Dark Star" }
+{ "_id" : "Darnell Jones" }
+{ "_id" : "Darrell Scott" }
+{ "_id" : "Darren Criss" }
+{ "_id" : "Darren Hayes" }
+{ "_id" : "Darren Styles" }
+{ "_id" : "Darude" }
+{ "_id" : "Daryle Singletary" }
+{ "_id" : "Das Pop" }
+{ "_id" : "Das Racist" }
+{ "_id" : "Dash & Will" }
+{ "_id" : "Dash Berlin" }
+{ "_id" : "Datarock" }
+{ "_id" : "Datsik" }
+{ "_id" : "Datura" }
+{ "_id" : "Daughter Darling" }
+{ "_id" : "Dave Alvin" }
+{ "_id" : "Dave Clarke" }
+{ "_id" : "Dave Darell" }
+{ "_id" : "Dave Dee" }
+{ "_id" : "Dave Edmunds" }
+{ "_id" : "Dave Grusin" }
+{ "_id" : "Dave Koz" }
+{ "_id" : "Dave Loggins" }
 { "_id" : "Dave Matthews" }
+{ "_id" : "Dave Navarro" }
+{ "_id" : "Dave Spoon" }
+{ "_id" : "Dave Stewart" }
+{ "_id" : "Dave Tipper" }
+{ "_id" : "Dave Weckl" }
+{ "_id" : "David Banner" }
+{ "_id" : "David Berkeley" }
 { "_id" : "David Bowie" }
+{ "_id" : "David Crosby" }
+{ "_id" : "David Crowder Band" }
+{ "_id" : "David Darling" }
+{ "_id" : "David Fanshawe" }
+{ "_id" : "David Francey" }
+{ "_id" : "David Garrett" }
+{ "_id" : "David Gray" }
+{ "_id" : "David Grisman" }
+{ "_id" : "David Guetta" }
+{ "_id" : "David Holmes" }
+{ "_id" : "David Lanz" }
+{ "_id" : "David Lindley" }
+{ "_id" : "David Mallett" }
+{ "_id" : "David Murray" }
+{ "_id" : "David Nevue" }
+{ "_id" : "David Sanborn" }
+{ "_id" : "David Sides" }
+{ "_id" : "David Tao" }
+{ "_id" : "David Thomas" }
+{ "_id" : "David Vendetta" }
+{ "_id" : "David Wilcox" }
+{ "_id" : "Davy Graham" }
+{ "_id" : "Dawes" }
+{ "_id" : "Dawn" }
+{ "_id" : "Dawn Of The Replicants" }
+{ "_id" : "Dax Riggs" }
+{ "_id" : "Dayton Family" }
+{ "_id" : "De Dannan" }
+{ "_id" : "De Facto" }
+{ "_id" : "De Jeugd Van Tegenwoordig" }
+{ "_id" : "De La Soul" }
+{ "_id" : "Dead Can Dance" }
+{ "_id" : "Dead Celebrity Status" }
+{ "_id" : "Dead Kennedys" }
+{ "_id" : "Dead Pirates" }
+{ "_id" : "Dead Prez" }
+{ "_id" : "Deadbolt" }
+{ "_id" : "Deadboy And The Elephantmen" }
+{ "_id" : "Deadmau5" }
+{ "_id" : "Deadstar Assembly" }
+{ "_id" : "Dean" }
+{ "_id" : "Dean Brody" }
+{ "_id" : "Death Cab For Cutie" }
+{ "_id" : "Death Weather" }
+{ "_id" : "Deathmetal" }
+{ "_id" : "Debbie Harry" }
+{ "_id" : "Dee Dee Bridgewater" }
+{ "_id" : "Deejay Carlee" }
+{ "_id" : "Deep" }
+{ "_id" : "Deep Blue Something" }
+{ "_id" : "Deep Dish" }
 { "_id" : "Deep Purple" }
+{ "_id" : "Deep Turtle" }
+{ "_id" : "Deepack" }
+{ "_id" : "Deepforces" }
+{ "_id" : "Deer Tick" }
+{ "_id" : "Deerhoof" }
+{ "_id" : "Deerhunter" }
+{ "_id" : "Def Leppard" }
+{ "_id" : "Default" }
+{ "_id" : "Deichkind" }
+{ "_id" : "Deine Lakaien" }
+{ "_id" : "Del Amitri" }
+{ "_id" : "Del Shannon" }
+{ "_id" : "Dela" }
+{ "_id" : "Delgados" }
+{ "_id" : "Delorean" }
+{ "_id" : "Delox" }
+{ "_id" : "Delta Goodrem" }
+{ "_id" : "Delta Spirit" }
+{ "_id" : "Deltron 3030" }
+{ "_id" : "Dem Franchize Boys" }
+{ "_id" : "Demented Are Go" }
+{ "_id" : "Demi Lovato" }
+{ "_id" : "Denison Witmer" }
+{ "_id" : "Denki Groove" }
+{ "_id" : "Dennis Ferrer" }
+{ "_id" : "Depeche Mode" }
+{ "_id" : "Der Dritte Raum" }
+{ "_id" : "Der Tante Renate" }
+{ "_id" : "Derek Trucks Band" }
+{ "_id" : "Derek Webb" }
+{ "_id" : "Derrick May" }
+{ "_id" : "Desaparecidos" }
+{ "_id" : "Descendents" }
+{ "_id" : "Deside" }
+{ "_id" : "Designer Drugs" }
+{ "_id" : "Destiny" }
+{ "_id" : "Destinys Child" }
+{ "_id" : "Detektivbyran" }
+{ "_id" : "Detroit Social Club" }
+{ "_id" : "Deus" }
+{ "_id" : "Dev" }
+{ "_id" : "Devil Makes Three" }
+{ "_id" : "Devin Davis" }
+{ "_id" : "Devo" }
+{ "_id" : "Dexter Gordon" }
+{ "_id" : "Diamanda Galas" }
+{ "_id" : "Diams" }
+{ "_id" : "Diana Krall" }
+{ "_id" : "Diana Ross" }
+{ "_id" : "Diana Ross & The Supremes" }
+{ "_id" : "Diana Vickers" }
+{ "_id" : "Diane Birch" }
+{ "_id" : "Diaspora Soul" }
+{ "_id" : "Diatribe" }
+{ "_id" : "Dick Dale" }
+{ "_id" : "Dick Gaughan" }
+{ "_id" : "Dickies" }
+{ "_id" : "Dictators" }
+{ "_id" : "Diddy Dirty Money" }
+{ "_id" : "Dido" }
+{ "_id" : "Die Aeronauten" }
+{ "_id" : "Die Klostertaler" }
+{ "_id" : "Die Mannequin" }
+{ "_id" : "Die Sterne" }
+{ "_id" : "Die Toten Hosen" }
+{ "_id" : "Dieselboy" }
+{ "_id" : "Digable Planets" }
+{ "_id" : "Digital Mystikz" }
+{ "_id" : "Digitalism" }
+{ "_id" : "Dillinja" }
+{ "_id" : "Dillon Francis" }
+{ "_id" : "Dimitri From Paris" }
+{ "_id" : "Dimrain47" }
+{ "_id" : "Dinah Washington" }
+{ "_id" : "Dinosaur Feathers" }
+{ "_id" : "Dio" }
+{ "_id" : "Dion" }
+{ "_id" : "Dion & The Belmonts" }
+{ "_id" : "Dione" }
+{ "_id" : "Dionne Bromfield" }
+{ "_id" : "Dionysos" }
+{ "_id" : "Diplo" }
+{ "_id" : "Dipset" }
+{ "_id" : "Dir En Grey" }
 { "_id" : "Dire Straits" }
+{ "_id" : "Dirk Diggler" }
+{ "_id" : "Dirk Powell" }
+{ "_id" : "Dirty Boys" }
+{ "_id" : "Dirty Penny" }
+{ "_id" : "Dirty Pretty Things" }
+{ "_id" : "Dirty South" }
+{ "_id" : "Dirty Sweet" }
+{ "_id" : "Dirtyphonics" }
+{ "_id" : "Discipline" }
+{ "_id" : "Disco Biscuits" }
+{ "_id" : "Discoboys" }
+{ "_id" : "Discotronic" }
+{ "_id" : "Discovery" }
+{ "_id" : "Disney" }
+{ "_id" : "Dispatch" }
+{ "_id" : "Dissociatives" }
+{ "_id" : "Disturbed" }
+{ "_id" : "Divine" }
+{ "_id" : "Divine Comedy" }
+{ "_id" : "Divo" }
+{ "_id" : "Dixie Chicks" }
+{ "_id" : "Dixie Dregs" }
+{ "_id" : "Dizzee Rascal" }
+{ "_id" : "Dj" }
+{ "_id" : "Dj Alligator" }
+{ "_id" : "Dj Antoine" }
+{ "_id" : "Dj Aphrodite" }
+{ "_id" : "Dj Bl3nd" }
+{ "_id" : "Dj Brisk" }
+{ "_id" : "Dj Cammy" }
+{ "_id" : "Dj Carpi" }
+{ "_id" : "Dj Charlie" }
+{ "_id" : "Dj Chuckie" }
+{ "_id" : "Dj Cool" }
+{ "_id" : "Dj Coone" }
+{ "_id" : "Dj Dag" }
+{ "_id" : "Dj Dan" }
+{ "_id" : "Dj Dean" }
+{ "_id" : "Dj Die" }
+{ "_id" : "Dj Element" }
+{ "_id" : "Dj Feelgood" }
+{ "_id" : "Dj Food" }
+{ "_id" : "Dj Format" }
+{ "_id" : "Dj Fresh" }
+{ "_id" : "Dj Furax" }
+{ "_id" : "Dj Gollum" }
+{ "_id" : "Dj Hixxy" }
+{ "_id" : "Dj Hype" }
+{ "_id" : "Dj Iq" }
+{ "_id" : "Dj Isaac" }
+{ "_id" : "Dj Karotte" }
+{ "_id" : "Dj Kool" }
+{ "_id" : "Dj Korsakoff" }
+{ "_id" : "Dj Koze" }
+{ "_id" : "Dj Laz" }
+{ "_id" : "Dj Luna" }
+{ "_id" : "Dj Mangoo" }
+{ "_id" : "Dj Manian" }
+{ "_id" : "Dj Markski" }
+{ "_id" : "Dj Marky" }
+{ "_id" : "Dj Mellow D" }
+{ "_id" : "Dj Mystik" }
+{ "_id" : "Dj Neophyte" }
+{ "_id" : "Dj Patife" }
+{ "_id" : "Dj Pulse" }
+{ "_id" : "Dj Pulsedriver" }
+{ "_id" : "Dj Quicksilver" }
+{ "_id" : "Dj Raaban" }
+{ "_id" : "Dj Radium" }
+{ "_id" : "Dj Rankin" }
+{ "_id" : "Dj Rap" }
+{ "_id" : "Dj Rectangle" }
+{ "_id" : "Dj Rocco" }
+{ "_id" : "Dj Rok" }
+{ "_id" : "Dj Ross" }
+{ "_id" : "Dj Rush" }
+{ "_id" : "Dj Rusko" }
+{ "_id" : "Dj Sakin & Friends" }
+{ "_id" : "Dj Sammy" }
+{ "_id" : "Dj Sasha" }
+{ "_id" : "Dj Satomi" }
+{ "_id" : "Dj Screw" }
+{ "_id" : "Dj Shadow" }
+{ "_id" : "Dj Sharpnel" }
+{ "_id" : "Dj Shog" }
+{ "_id" : "Dj Skinhead" }
+{ "_id" : "Dj Skully" }
+{ "_id" : "Dj Sneak" }
+{ "_id" : "Dj Sona" }
+{ "_id" : "Dj Splash" }
+{ "_id" : "Dj Ss" }
+{ "_id" : "Dj Teebee" }
+{ "_id" : "Dj Tiesto" }
+{ "_id" : "Dj Tonka" }
+{ "_id" : "Dj Touche" }
+{ "_id" : "Dj Valium" }
+{ "_id" : "Dj Venom" }
+{ "_id" : "Dj Vibe" }
+{ "_id" : "Dj Visage" }
+{ "_id" : "Dj Whitechild" }
+{ "_id" : "Dj Yoda" }
+{ "_id" : "Dj Zany" }
+{ "_id" : "Dj. Funk" }
+{ "_id" : "Django Django" }
+{ "_id" : "Django Reinhardt" }
+{ "_id" : "Djs At Work" }
+{ "_id" : "Dmc" }
+{ "_id" : "Dmx" }
+{ "_id" : "Do Or Die" }
+{ "_id" : "Doc Holliday" }
+{ "_id" : "Doc Watson" }
+{ "_id" : "Dock Boggs" }
+{ "_id" : "Doctor P" }
+{ "_id" : "Doctor Rockit" }
+{ "_id" : "Dodgy" }
+{ "_id" : "Dog Fashion Disco" }
+{ "_id" : "Dogg Pound" }
+{ "_id" : "Dogs Die In Hot Cars" }
+{ "_id" : "Dolly Parton" }
+{ "_id" : "Dom And Roland" }
+{ "_id" : "Domenico Scarlatti" }
+{ "_id" : "Dominator" }
+{ "_id" : "Domu" }
+{ "_id" : "Don Mclean" }
+{ "_id" : "Don Rimini" }
+{ "_id" : "Don Williams" }
+{ "_id" : "Donald Byrd" }
+{ "_id" : "Donald Fagen" }
+{ "_id" : "Donell Jones" }
+{ "_id" : "Dong Bang Shin Ki" }
+{ "_id" : "Donkey Rollers" }
+{ "_id" : "Donkeyboy" }
+{ "_id" : "Donna The Buffalo" }
+{ "_id" : "Donnis" }
+{ "_id" : "Donora" }
+{ "_id" : "Donovan" }
+{ "_id" : "Doobie Brothers" }
+{ "_id" : "Dooley Brothers" }
+{ "_id" : "Dorfmeister" }
+{ "_id" : "Dorian Concept" }
+{ "_id" : "Doris Day" }
+{ "_id" : "Dose One" }
+{ "_id" : "Double Drive" }
+{ "_id" : "Double Trouble" }
+{ "_id" : "Doug Martsch" }
+{ "_id" : "Douglas Spotted Eagle" }
+{ "_id" : "Dover" }
+{ "_id" : "Doves" }
+{ "_id" : "Down With Webster" }
+{ "_id" : "Downhere" }
+{ "_id" : "Downlink" }
+{ "_id" : "Downpilot" }
+{ "_id" : "Dozer" }
+{ "_id" : "Dr Alban" }
+{ "_id" : "Dr Dog" }
+{ "_id" : "Dr John" }
+{ "_id" : "Dr. Dre" }
+{ "_id" : "Dr. Feelgood" }
+{ "_id" : "Dr. Nico" }
+{ "_id" : "Dr.Dog" }
+{ "_id" : "Draco And The Malfoys" }
+{ "_id" : "Drake" }
+{ "_id" : "Dread Zeppelin" }
+{ "_id" : "Dream Academy" }
+{ "_id" : "Dream On, Dreamer" }
+{ "_id" : "Dream Theater" }
+{ "_id" : "Dream Warriors" }
+{ "_id" : "Dreams Come True" }
+{ "_id" : "Dresden Dolls" }
+{ "_id" : "Drive Like Jehu" }
+{ "_id" : "Drive-By Truckers" }
+{ "_id" : "Dru Hill" }
+{ "_id" : "Drumandbass" }
+{ "_id" : "Drumnbass" }
+{ "_id" : "Drunkenmunky" }
+{ "_id" : "Dry The River" }
+{ "_id" : "Dse" }
+{ "_id" : "Duane Eddy" }
+{ "_id" : "Dub Narcotic Sound System" }
+{ "_id" : "Dub Syndicate" }
+{ "_id" : "Dub Trio" }
+{ "_id" : "Dub War" }
+{ "_id" : "Dubfire" }
+{ "_id" : "Dubliners" }
+{ "_id" : "Duchess Says" }
+{ "_id" : "Duck Sauce" }
+{ "_id" : "Ducktails" }
+{ "_id" : "Duels" }
+{ "_id" : "Duffy" }
+{ "_id" : "Duke Ellington" }
+{ "_id" : "Dukes Of Stratosphear" }
+{ "_id" : "Dunderpatrullen" }
+{ "_id" : "Dune" }
+{ "_id" : "Dungen" }
+{ "_id" : "Dunkelbunt" }
+{ "_id" : "Duran Duran" }
+{ "_id" : "Dureforsog" }
+{ "_id" : "Dwight Yoakam" }
+{ "_id" : "Dynamite Mc" }
+{ "_id" : "Eagle Seagull" }
+{ "_id" : "Eagle-Eye Cherry" }
+{ "_id" : "Eagles Of Death Metal" }
+{ "_id" : "Earl Klugh" }
+{ "_id" : "Earl Sweatshirt" }
+{ "_id" : "Earth, Wind And Fire" }
+{ "_id" : "East Clubbers" }
+{ "_id" : "Easy Star All Star" }
+{ "_id" : "Eazy E" }
+{ "_id" : "Echobelly" }
+{ "_id" : "Echolyn" }
+{ "_id" : "Echt" }
+{ "_id" : "Ed Rush" }
+{ "_id" : "Ed Rush And Optical" }
+{ "_id" : "Ed Sheeran" }
+{ "_id" : "Eddie Amador" }
+{ "_id" : "Eddie Floyd" }
+{ "_id" : "Edit" }
+{ "_id" : "Edith Frost" }
+{ "_id" : "Edith Piaf" }
+{ "_id" : "Edmundo Ross" }
+{ "_id" : "Edward Maya" }
+{ "_id" : "Edward Sharp" }
+{ "_id" : "Edward Sharpe And The Magnetic Zeros" }
+{ "_id" : "Edx" }
+{ "_id" : "Eels" }
+{ "_id" : "Egberto Gismonti" }
+{ "_id" : "Eggstone" }
+{ "_id" : "Egotronic" }
+{ "_id" : "Eiffel" }
+{ "_id" : "Eiffel 65" }
+{ "_id" : "Eiffle 65" }
+{ "_id" : "Eight Legs" }
+{ "_id" : "Eileen Laverty" }
+{ "_id" : "Eilen Jewell" }
+{ "_id" : "Eilert Pilarm" }
+{ "_id" : "El Divo" }
+{ "_id" : "El Guincho" }
+{ "_id" : "El Perro Del Mar" }
+{ "_id" : "El-P" }
+{ "_id" : "Elastica" }
+{ "_id" : "Elastinen" }
+{ "_id" : "Elbow" }
+{ "_id" : "Electric Guest" }
+{ "_id" : "Electric Light Orchestra" }
+{ "_id" : "Electric Orange" }
+{ "_id" : "Electro Cypher" }
+{ "_id" : "Electrovamp" }
+{ "_id" : "Element Eighty" }
+{ "_id" : "Element Of Crime" }
+{ "_id" : "Eligh" }
+{ "_id" : "Elis Regina" }
+{ "_id" : "Eliza Carthy" }
+{ "_id" : "Eliza Doolittle" }
+{ "_id" : "Eliza Gilkyson" }
+{ "_id" : "Elizabeth Cook" }
+{ "_id" : "Elizabeth Cotten" }
+{ "_id" : "Ella Fitzgerald" }
+{ "_id" : "Ellie Goulding" }
+{ "_id" : "Elliott Brood" }
+{ "_id" : "Elliott Smith" }
+{ "_id" : "Elton John" }
+{ "_id" : "Eluvium" }
+{ "_id" : "Elvis Costello" }
+{ "_id" : "Elvis Perkins" }
+{ "_id" : "Elysian Fields" }
+{ "_id" : "Elysium" }
+{ "_id" : "Emalkay" }
+{ "_id" : "Emanuel" }
+{ "_id" : "Emerson Lake And Palmer" }
+{ "_id" : "Emi" }
+{ "_id" : "Emiliana Torrini" }
+{ "_id" : "Emilie Autumn" }
+{ "_id" : "Emilie Simon" }
+{ "_id" : "Emily Wells" }
+{ "_id" : "Eminem" }
+{ "_id" : "Emma Bunton" }
+{ "_id" : "Emmy Rossum" }
+{ "_id" : "Emmylou Harris" }
+{ "_id" : "Empire Of Sun" }
+{ "_id" : "Empire Of The Sun" }
+{ "_id" : "Engenheiros Do Hawaii" }
+{ "_id" : "England Dan" }
+{ "_id" : "Enigma" }
+{ "_id" : "Ennio Morricone" }
+{ "_id" : "Ennis Sisters" }
+{ "_id" : "Enon" }
+{ "_id" : "Enrique Iglesias" }
+{ "_id" : "Enter Shikari" }
+{ "_id" : "Entrain" }
+{ "_id" : "Enur" }
+{ "_id" : "Enya" }
+{ "_id" : "Ephixa" }
+{ "_id" : "Eric B. & Rakim" }
+{ "_id" : "Eric Bibb" }
 { "_id" : "Eric Clapton" }
+{ "_id" : "Eric Hutchinson" }
+{ "_id" : "Eric Prydz" }
+{ "_id" : "Eric Reed" }
+{ "_id" : "Eric Sardinas" }
+{ "_id" : "Erik Hassle" }
+{ "_id" : "Erin Mccarley" }
+{ "_id" : "Erin Mckeown" }
+{ "_id" : "Erykah Badu" }
+{ "_id" : "Esben And The Witch" }
+{ "_id" : "Escape The Fate" }
+{ "_id" : "Esham" }
+{ "_id" : "Esmee Denters" }
+{ "_id" : "Essential Dj Team" }
+{ "_id" : "Estelle" }
+{ "_id" : "Esthero" }
+{ "_id" : "Eternal" }
+{ "_id" : "Eths" }
+{ "_id" : "Etienne Daho" }
+{ "_id" : "Eulberg" }
+{ "_id" : "Europe" }
+{ "_id" : "Eurythmics" }
+{ "_id" : "Eva Cassidy" }
+{ "_id" : "Evanescence" }
+{ "_id" : "Eve" }
+{ "_id" : "Eve 6" }
+{ "_id" : "Everclear" }
+{ "_id" : "Everlast" }
+{ "_id" : "Everlife" }
+{ "_id" : "Everly Brothers" }
+{ "_id" : "Evermore" }
+{ "_id" : "Everon" }
+{ "_id" : "Everton Blender" }
+{ "_id" : "Every Little Thing" }
+{ "_id" : "Everything But The Girl" }
+{ "_id" : "Evil Superstars" }
+{ "_id" : "Evol Intent" }
+{ "_id" : "Ex 20" }
+{ "_id" : "Excision" }
+{ "_id" : "Exile" }
+{ "_id" : "Expendables" }
+{ "_id" : "Experimental Pop Band" }
+{ "_id" : "Explorers Club" }
+{ "_id" : "Expose" }
+{ "_id" : "Extrawelt" }
+{ "_id" : "Extreme" }
+{ "_id" : "Extreme Noise Terror" }
+{ "_id" : "Ezra Furman And The Harpoons" }
+{ "_id" : "Fabio" }
+{ "_id" : "Fabolous" }
+{ "_id" : "Fabulous Disaster" }
+{ "_id" : "Fabulous Thunderbirds" }
+{ "_id" : "Faded Paper Figures" }
+{ "_id" : "Faderhead" }
+{ "_id" : "Fahrenheit" }
+{ "_id" : "Fairmont" }
+{ "_id" : "Fairport Convention" }
+{ "_id" : "Fairweather" }
+{ "_id" : "Faith Evans" }
+{ "_id" : "Faith Hill" }
+{ "_id" : "Faith No More" }
+{ "_id" : "Faithless" }
+{ "_id" : "Falco" }
+{ "_id" : "Fall Out Boy" }
+{ "_id" : "Familjen" }
+{ "_id" : "Fantan Mojah" }
+{ "_id" : "Fantasia" }
+{ "_id" : "Fantastic Plastic Machine" }
+{ "_id" : "Faraquet" }
+{ "_id" : "Farben" }
+{ "_id" : "Fastball" }
+{ "_id" : "Fastway" }
+{ "_id" : "Fat Joe" }
+{ "_id" : "Fat Truckers" }
+{ "_id" : "Fatboy Slim" }
+{ "_id" : "Favez" }
+{ "_id" : "Faye Wong" }
+{ "_id" : "Fear Before" }
+{ "_id" : "Fear Before The March Of Flames" }
+{ "_id" : "Fear Factory" }
+{ "_id" : "Fedde La Grand" }
+{ "_id" : "Fedde Le Grand" }
+{ "_id" : "Fedde Le Grande" }
+{ "_id" : "Feed Me" }
+{ "_id" : "Feeder" }
+{ "_id" : "Feint" }
+{ "_id" : "Feist" }
+{ "_id" : "Fekete Vonat" }
+{ "_id" : "Fela Kuti" }
+{ "_id" : "Felix Cartal" }
+{ "_id" : "Felix Da Housecat" }
+{ "_id" : "Fences" }
+{ "_id" : "Fergie" }
+{ "_id" : "Fiction Plane" }
+{ "_id" : "Field Mice" }
+{ "_id" : "Fields Of The Nephilim" }
+{ "_id" : "Fiji" }
+{ "_id" : "Fila Brazillia" }
+{ "_id" : "Film" }
+{ "_id" : "Finch" }
+{ "_id" : "Finding Westerly" }
+{ "_id" : "Fine Young Cannibals" }
+{ "_id" : "Finger Eleven" }
+{ "_id" : "Fink" }
+{ "_id" : "Fionn Regan" }
+{ "_id" : "Firehouse" }
+{ "_id" : "Firewerk" }
+{ "_id" : "First Choice" }
+{ "_id" : "Fischerspooner" }
+{ "_id" : "Fish" }
+{ "_id" : "Fish Go Deep" }
+{ "_id" : "Fishbone" }
+{ "_id" : "Fito Y Fitipaldis" }
+{ "_id" : "Fitz And The Tantrums" }
+{ "_id" : "Five" }
+{ "_id" : "Five Finger Death Punch" }
+{ "_id" : "Five Foot Thick" }
+{ "_id" : "Five For Fighting" }
+{ "_id" : "Five Iron Frenzy" }
+{ "_id" : "Five O Clock Shadow" }
+{ "_id" : "Five Satins" }
+{ "_id" : "Flake Music" }
+{ "_id" : "Flamin Groovies" }
+{ "_id" : "Fleet Foxes" }
+{ "_id" : "Fleetwood Mac" }
+{ "_id" : "Flevans" }
+{ "_id" : "Flight Facilities" }
+{ "_id" : "Flight Of The Conchords" }
+{ "_id" : "Flinch" }
+{ "_id" : "Flip & Fill" }
+{ "_id" : "Flipmode" }
+{ "_id" : "Flippers" }
+{ "_id" : "Flipsyde" }
+{ "_id" : "Flo Rida" }
+{ "_id" : "Flogging Molly" }
+{ "_id" : "Floor" }
+{ "_id" : "Floorfilla" }
+{ "_id" : "Flotation Toy Warning" }
+{ "_id" : "Flower Kings" }
+{ "_id" : "Flunk" }
+{ "_id" : "Flux Pavilion" }
+{ "_id" : "Flux Pavillion" }
+{ "_id" : "Flying Pickets" }
+{ "_id" : "Flying Saucer Attack" }
+{ "_id" : "Flyleaf" }
+{ "_id" : "Fm Static" }
+{ "_id" : "Fob" }
+{ "_id" : "Focus" }
+{ "_id" : "Foghat" }
+{ "_id" : "Fokus" }
+{ "_id" : "Fonseca" }
+{ "_id" : "Foo Fighters" }
+{ "_id" : "For All Those Sleeping" }
+{ "_id" : "For King And Country" }
+{ "_id" : "Foreign Born" }
+{ "_id" : "Foreigner" }
+{ "_id" : "Format:b" }
+{ "_id" : "Fort Minor" }
+{ "_id" : "Foster The People" }
+{ "_id" : "Fotheringay" }
+{ "_id" : "Fountains Of Wayne" }
+{ "_id" : "Four Seasons" }
+{ "_id" : "Four Tops" }
+{ "_id" : "Foxy Brown" }
+{ "_id" : "Fragma" }
+{ "_id" : "France Gall" }
+{ "_id" : "Francis Cabrel" }
+{ "_id" : "Francois Hardy" }
+{ "_id" : "Francoise Hardy" }
+{ "_id" : "Francoiz Breut" }
+{ "_id" : "Frank Black" }
+{ "_id" : "Frank Marino & Mahogany Rush" }
+{ "_id" : "Frank Ocean" }
+{ "_id" : "Frank Sinatra" }
+{ "_id" : "Frank The Baptist" }
+{ "_id" : "Frank Zappa" }
+{ "_id" : "Frankenstein Drag Queens" }
+{ "_id" : "Frankie Beverly And Maze" }
+{ "_id" : "Frankie Goes To Hollywood" }
+{ "_id" : "Frankie Valli" }
+{ "_id" : "Frankie Valli And The Four Seasons" }
+{ "_id" : "Frankmusik" }
+{ "_id" : "Frans Bauer" }
+{ "_id" : "Franz Ferdinand" }
+{ "_id" : "Frau Doktor" }
+{ "_id" : "Fred Buscaglione" }
+{ "_id" : "Fred Eaglesmith" }
+{ "_id" : "Fred Falke" }
+{ "_id" : "Fred Neil" }
+{ "_id" : "Freddie Foxxx" }
+{ "_id" : "Freddie Gibbs" }
+{ "_id" : "Freddie Hubbard" }
 { "_id" : "Freddie Mercury" }
+{ "_id" : "Frederik" }
+{ "_id" : "Free" }
+{ "_id" : "Freejack" }
+{ "_id" : "Freelance Whales" }
+{ "_id" : "Freemasons" }
+{ "_id" : "Freestylers" }
+{ "_id" : "Frida" }
+{ "_id" : "Friendly Fire" }
+{ "_id" : "Friendly Fires" }
+{ "_id" : "Frightened Rabbit" }
+{ "_id" : "Frittenbude" }
+{ "_id" : "Fritz Brause" }
+{ "_id" : "From A Second Story Window" }
+{ "_id" : "Frontier Ruckus" }
+{ "_id" : "Frontkick" }
+{ "_id" : "Frumpy" }
+{ "_id" : "Fu Manchu" }
+{ "_id" : "Fugazi" }
+{ "_id" : "Fujiya & Miyagi" }
+{ "_id" : "Fukkk Offf" }
+{ "_id" : "Fun Lovin Criminals" }
+{ "_id" : "Fun." }
+{ "_id" : "Funeral Party" }
+{ "_id" : "Funk Brothers" }
+{ "_id" : "Funkadelic" }
+{ "_id" : "Funkdoobiest" }
+{ "_id" : "Funkstar De Luxe" }
+{ "_id" : "Funny Van Dannen" }
+{ "_id" : "Funtcase" }
+{ "_id" : "Further" }
+{ "_id" : "Future Cut" }
+{ "_id" : "Future Prophecies" }
+{ "_id" : "G-Unit" }
+{ "_id" : "Gabe Dixon" }
+{ "_id" : "Gabin" }
+{ "_id" : "Gabriella Cilmi" }
+{ "_id" : "Gabry Ponte" }
+{ "_id" : "Gaither Vocal Band" }
+{ "_id" : "Gal Costa" }
+{ "_id" : "Galactic" }
+{ "_id" : "Galactic Cowboys" }
+{ "_id" : "Gallon Drunk" }
+{ "_id" : "Galore" }
+{ "_id" : "Game Theory" }
+{ "_id" : "Gang Gang Dance" }
+{ "_id" : "Gang Green" }
+{ "_id" : "Gang Starr" }
+{ "_id" : "Gangsta Boo" }
+{ "_id" : "Gangstar" }
+{ "_id" : "Ganja Kru" }
+{ "_id" : "Gap Band" }
+{ "_id" : "Garaj Mahal" }
+{ "_id" : "Garbage" }
+{ "_id" : "Garnet Rogers" }
+{ "_id" : "Garth Brooks" }
+{ "_id" : "Gary Barlow" }
+{ "_id" : "Gary Jules" }
+{ "_id" : "Gary Numan" }
+{ "_id" : "Gasman" }
+{ "_id" : "Gavin Degraw" }
+{ "_id" : "Gayngs" }
+{ "_id" : "Gbh" }
+{ "_id" : "Gecko Turner" }
+{ "_id" : "Gem" }
+{ "_id" : "Gemini" }
+{ "_id" : "Gemma Hayes" }
+{ "_id" : "Gene" }
+{ "_id" : "Gene Autry" }
+{ "_id" : "Gene Harris" }
+{ "_id" : "Gene Pitney" }
+{ "_id" : "General Elektriks" }
+{ "_id" : "Genesis" }
+{ "_id" : "Gentle Giant" }
+{ "_id" : "Gentleman" }
+{ "_id" : "Geographer" }
+{ "_id" : "George Baker Selection" }
+{ "_id" : "George Benson" }
+{ "_id" : "George Michael" }
+{ "_id" : "George Strait" }
+{ "_id" : "George Winston" }
+{ "_id" : "Georgette Dee" }
+{ "_id" : "Georgia Satellites" }
+{ "_id" : "Geri Halliwell" }
+{ "_id" : "Gerry And The Pacemakers" }
+{ "_id" : "Gerry Mulligan" }
+{ "_id" : "Gerry Rafferty" }
+{ "_id" : "Get Him Eat Him" }
+{ "_id" : "Gift Of Gab" }
+{ "_id" : "Gigi" }
+{ "_id" : "Gigi Dagostino" }
+{ "_id" : "Gilberto" }
+{ "_id" : "Gillian Welch" }
+{ "_id" : "Gin Blossoms" }
+{ "_id" : "Gin Wigmore" }
+{ "_id" : "Ginuwine" }
+{ "_id" : "Giora Feidman" }
+{ "_id" : "Giorgio Moroder" }
+{ "_id" : "Gipsy Kings" }
+{ "_id" : "Girl Talk" }
+{ "_id" : "Girls" }
+{ "_id" : "Givers" }
+{ "_id" : "Gladys Knight" }
+{ "_id" : "Glashaus" }
+{ "_id" : "Glay" }
+{ "_id" : "Glee Cast" }
+{ "_id" : "Glen Campbell" }
+{ "_id" : "Glen Hansard" }
+{ "_id" : "Glen Miller" }
+{ "_id" : "Glenn Gould" }
+{ "_id" : "Glenn Jones" }
+{ "_id" : "Global Communication" }
+{ "_id" : "Global Deejays" }
+{ "_id" : "Globus" }
+{ "_id" : "Gloria Gaynor" }
+{ "_id" : "Glorybox" }
+{ "_id" : "Glossary" }
+{ "_id" : "Glow" }
+{ "_id" : "Gluecifer" }
+{ "_id" : "Gnarls Barkely" }
+{ "_id" : "Gnarls Barkley" }
+{ "_id" : "Go Betty Go" }
+{ "_id" : "Go Betweens" }
+{ "_id" : "Go Panda Go" }
+{ "_id" : "Goa Gil" }
+{ "_id" : "Goanna" }
+{ "_id" : "Gobble Gobble" }
+{ "_id" : "God" }
+{ "_id" : "God Help The Girl" }
+{ "_id" : "God Street Wine" }
+{ "_id" : "Godhead" }
+{ "_id" : "Godsmack" }
+{ "_id" : "Godspeed You! Black Emperor" }
+{ "_id" : "Golden Animals" }
+{ "_id" : "Golden Earring" }
+{ "_id" : "Golden Smog" }
+{ "_id" : "Goldfinger" }
+{ "_id" : "Goldfrapp" }
+{ "_id" : "Goldie" }
+{ "_id" : "Goldie Lookin Chain" }
+{ "_id" : "Goldman" }
+{ "_id" : "Gondwana" }
+{ "_id" : "Gonjasufi" }
+{ "_id" : "Goo Goo Dolls" }
+{ "_id" : "Good Charlotte" }
+{ "_id" : "Good With Grenades" }
+{ "_id" : "Goodnight Nurse" }
+{ "_id" : "Goons Of Doom" }
+{ "_id" : "Gordon Lightfoot" }
+{ "_id" : "Gorelord" }
+{ "_id" : "Gories" }
+{ "_id" : "Gorilla Zoe" }
+{ "_id" : "Gorillaz" }
+{ "_id" : "Gorrila Zoe" }
+{ "_id" : "Gospel" }
+{ "_id" : "Gossip" }
+{ "_id" : "Gotan Project" }
+{ "_id" : "Gotham City" }
+{ "_id" : "Gotthard" }
+{ "_id" : "Gottie" }
+{ "_id" : "Gouryella" }
+{ "_id" : "Grace Potter" }
+{ "_id" : "Grace Potter And The Nocturnals" }
+{ "_id" : "Grace Slick" }
+{ "_id" : "Graffiti6" }
+{ "_id" : "Gramatik" }
+{ "_id" : "Grand Archives" }
+{ "_id" : "Grand Belial'S Key" }
+{ "_id" : "Grand Central" }
+{ "_id" : "Grand Theft Audio" }
+{ "_id" : "Grandaddy" }
+{ "_id" : "Grandmaster Flash" }
+{ "_id" : "Granicus" }
+{ "_id" : "Grant Green" }
+{ "_id" : "Grant Lee Buffalo" }
+{ "_id" : "Grass Roots" }
+{ "_id" : "Grasscut" }
 { "_id" : "Grateful Dead" }
+{ "_id" : "Grave Digger" }
+{ "_id" : "Gravenhurst" }
+{ "_id" : "Great Big Sea" }
+{ "_id" : "Great Lake Swimmers" }
+{ "_id" : "Great Redneck Hope" }
+{ "_id" : "Green Day" }
+{ "_id" : "Green Velvet" }
+{ "_id" : "Greenhornes" }
+{ "_id" : "Greg Brown" }
+{ "_id" : "Greg Laswell" }
+{ "_id" : "Greg Trooper" }
+{ "_id" : "Greg Wilson" }
+{ "_id" : "Gregg Bissonette" }
+{ "_id" : "Gren Bartley" }
+{ "_id" : "Grendel" }
+{ "_id" : "Greyboy" }
+{ "_id" : "Greyboy Allstars" }
+{ "_id" : "Grim Skunk" }
+{ "_id" : "Grinderman" }
+{ "_id" : "Grits" }
+{ "_id" : "Groove Armada" }
+{ "_id" : "Groove Asylum" }
+{ "_id" : "Groove Coverage" }
+{ "_id" : "Grooverider" }
+{ "_id" : "Groovie Ghoulies" }
+{ "_id" : "Groundation" }
+{ "_id" : "Grouper" }
+{ "_id" : "Grouplove" }
+{ "_id" : "Guano Apes" }
+{ "_id" : "Guayacan" }
+{ "_id" : "Gucci Mane" }
+{ "_id" : "Gui Boratto" }
+{ "_id" : "Guillemots" }
+{ "_id" : "Guitar Wolf" }
 { "_id" : "Guns'N'Roses" }
+{ "_id" : "Gunther" }
+{ "_id" : "Guru Josh Project" }
+{ "_id" : "Guru'S Jazzmatazz" }
+{ "_id" : "Gus Black" }
+{ "_id" : "Gus Gus" }
+{ "_id" : "Guster" }
+{ "_id" : "Guts Pie Earshot" }
+{ "_id" : "Guy Forsyth" }
+{ "_id" : "Guy Lombardo" }
+{ "_id" : "Gwen Stefani" }
+{ "_id" : "Gypsy And The Cat" }
+{ "_id" : "H.A.W.K." }
+{ "_id" : "H2o" }
+{ "_id" : "Ha Ha Tonka" }
+{ "_id" : "Hacride" }
+{ "_id" : "Haddaway" }
+{ "_id" : "Haemorrhage" }
+{ "_id" : "Hagalaz Runedance" }
+{ "_id" : "Haha" }
+{ "_id" : "Half Man Half Biscuit" }
+{ "_id" : "Half-Handed Cloud" }
+{ "_id" : "Halford" }
+{ "_id" : "Hall And Oates" }
+{ "_id" : "Hallucinogen" }
+{ "_id" : "Halou" }
+{ "_id" : "Ham Sandwich" }
+{ "_id" : "Handshakes And Highfives" }
+{ "_id" : "Hank Green" }
+{ "_id" : "Hank Jr" }
+{ "_id" : "Hank Thompson" }
+{ "_id" : "Hank Williams Iii" }
+{ "_id" : "Hank Williams Jr" }
+{ "_id" : "Hank Williams Sr." }
+{ "_id" : "Hannah Montana" }
+{ "_id" : "Hannah Montanna" }
+{ "_id" : "Hans De Booij" }
+{ "_id" : "Hansi Hinterseer" }
+{ "_id" : "Happy End" }
+{ "_id" : "Happy Hardcore" }
+{ "_id" : "Happy Mondays" }
+{ "_id" : "Hardknox" }
+{ "_id" : "Hardnoise" }
+{ "_id" : "Hardstyle God" }
+{ "_id" : "Hardwell" }
+{ "_id" : "Hardy Hard" }
+{ "_id" : "Harland" }
+{ "_id" : "Harlem" }
+{ "_id" : "Harry And The Potters" }
+{ "_id" : "Harry Connick Jr" }
+{ "_id" : "Harry Connick, Jr." }
+{ "_id" : "Harry Nilsson" }
+{ "_id" : "Haruomi Hosono" }
+{ "_id" : "Harvey Danger" }
+{ "_id" : "Hasil Adkins" }
+{ "_id" : "Hatebreed" }
+{ "_id" : "Haus Arafna" }
+{ "_id" : "Have A Nice Life" }
+{ "_id" : "Havohej" }
+{ "_id" : "Hayes Carll" }
+{ "_id" : "Haystak" }
+{ "_id" : "Headhunterz" }
+{ "_id" : "Heart" }
+{ "_id" : "Heartless Bastards" }
+{ "_id" : "Heather Alexander" }
+{ "_id" : "Heather Dale" }
+{ "_id" : "Heather Eatman" }
+{ "_id" : "Heather Headley" }
+{ "_id" : "Heaven 17" }
+{ "_id" : "Heavenly" }
+{ "_id" : "Heavens" }
+{ "_id" : "Heavy Heavy Low Low" }
+{ "_id" : "Heavy Trash" }
+{ "_id" : "Heavy Vegetable" }
+{ "_id" : "Hector Berlioz" }
+{ "_id" : "Heidi" }
+{ "_id" : "Hell Raiser" }
+{ "_id" : "Hella" }
+{ "_id" : "Hellfish" }
+{ "_id" : "Hello Saferide" }
+{ "_id" : "Hello Seahorse" }
+{ "_id" : "Hellogoodbye" }
+{ "_id" : "Helloween" }
+{ "_id" : "Helmet" }
+{ "_id" : "Helmut Lotti" }
+{ "_id" : "Hem" }
+{ "_id" : "Henry Threadgill" }
+{ "_id" : "Herb Alpert" }
+{ "_id" : "Herbert" }
+{ "_id" : "Herbie Mann" }
+{ "_id" : "Hercules And Love Affair" }
+{ "_id" : "Here And Now" }
+{ "_id" : "Here Come The Mummies" }
+{ "_id" : "Heritage Singers" }
+{ "_id" : "Herman'S Hermits" }
+{ "_id" : "Hernan Cattaneo" }
+{ "_id" : "Heroes De Silencio" }
+{ "_id" : "Heroes Del Silencio" }
+{ "_id" : "Het Goede Doel" }
+{ "_id" : "Hey Marseilles" }
+{ "_id" : "Hey Monday" }
+{ "_id" : "Hey Sex Lady" }
+{ "_id" : "Hi" }
+{ "_id" : "Hi Tack" }
+{ "_id" : "Hidden Cameras" }
+{ "_id" : "High Contrast" }
+{ "_id" : "High Wheel" }
+{ "_id" : "Hijack" }
+{ "_id" : "Hilary Duff" }
+{ "_id" : "Hillsong" }
+{ "_id" : "Hilltop Hoods" }
+{ "_id" : "Him" }
+{ "_id" : "Hindi Zahra" }
+{ "_id" : "Hiromi Uehara" }
+{ "_id" : "Hive" }
+{ "_id" : "Hixxy" }
+{ "_id" : "Hoddie Allen" }
+{ "_id" : "Holden" }
+{ "_id" : "Hole" }
+{ "_id" : "Holiday Shores" }
+{ "_id" : "Hollerado" }
+{ "_id" : "Holly Cole Trio" }
+{ "_id" : "Holly Golightly" }
+{ "_id" : "Holly Williams" }
+{ "_id" : "Hollywood Undead" }
+{ "_id" : "Holopaw" }
+{ "_id" : "Holy Fuck" }
+{ "_id" : "Holy Ghost!" }
+{ "_id" : "Homebrew" }
+{ "_id" : "Homegrown" }
+{ "_id" : "Honey Claws" }
+{ "_id" : "Hoobastank" }
+{ "_id" : "Hoodie Allen" }
+{ "_id" : "Hoodoo Gurus" }
+{ "_id" : "Hootie And The Blowfish" }
+{ "_id" : "Hooverphonic" }
+{ "_id" : "Hope Sandoval" }
+{ "_id" : "Hopsin" }
+{ "_id" : "Horny United" }
+{ "_id" : "Horrorist" }
+{ "_id" : "Horrorpops" }
+{ "_id" : "Horrors" }
+{ "_id" : "Horrorshow" }
+{ "_id" : "Horslips" }
+{ "_id" : "Hot Chip" }
+{ "_id" : "Hot Chocolate" }
+{ "_id" : "Hot Club Of Cowtown" }
+{ "_id" : "Hot Hot Heat" }
+{ "_id" : "Hot Rod Circuit" }
+{ "_id" : "Hot Tuna" }
+{ "_id" : "Hotboys" }
+{ "_id" : "House" }
+{ "_id" : "House Music" }
+{ "_id" : "House Of Freaks" }
+{ "_id" : "House Of Pain" }
+{ "_id" : "House Vs Hurricane" }
+{ "_id" : "Howard Jones" }
+{ "_id" : "Howlin Wolf" }
+{ "_id" : "Howlin' Wolf" }
+{ "_id" : "Howling Hex" }
+{ "_id" : "Hrvatski" }
+{ "_id" : "Hubert Laws" }
+{ "_id" : "Huey Lewis" }
+{ "_id" : "Huey Lewis & The News" }
+{ "_id" : "Hugg & Pepp" }
+{ "_id" : "Hugo" }
+{ "_id" : "Human Resource" }
+{ "_id" : "Humble Pie" }
+{ "_id" : "Humpty Dumpty" }
+{ "_id" : "Hurleurs" }
+{ "_id" : "Hurricane Chris" }
+{ "_id" : "Hurriganes" }
+{ "_id" : "Hurts" }
+{ "_id" : "Husky Rescue" }
+{ "_id" : "Hybrid" }
+{ "_id" : "Hype" }
+{ "_id" : "Hyper Crush" }
+{ "_id" : "I Blame Coco" }
+{ "_id" : "I Killed The Prom Queen" }
+{ "_id" : "I Write Sins Not Tragedies" }
+{ "_id" : "I:cube" }
+{ "_id" : "Iamx" }
+{ "_id" : "Ian And Sylvia" }
+{ "_id" : "Ian Brown" }
+{ "_id" : "Ian Carey" }
+{ "_id" : "Ian Dury And The Blockheads" }
+{ "_id" : "Ian Hunter" }
+{ "_id" : "Ian Pooley" }
+{ "_id" : "Ian Van Dahl" }
+{ "_id" : "Ibrahim Ferrer" }
+{ "_id" : "Ice Cube" }
+{ "_id" : "Icehouse" }
+{ "_id" : "Ida" }
+{ "_id" : "Ida Corr" }
+{ "_id" : "Ida Maria" }
+{ "_id" : "Idina Menzel" }
+{ "_id" : "Idlewild" }
+{ "_id" : "Iggy Pop" }
+{ "_id" : "Iio" }
+{ "_id" : "Ikimono Gakari" }
+{ "_id" : "Ikon" }
+{ "_id" : "Ildjarn" }
+{ "_id" : "Immaculate Machine" }
+{ "_id" : "Imogen Heap" }
+{ "_id" : "In Flagranti" }
+{ "_id" : "In Gowan Ring" }
+{ "_id" : "Inara George" }
+{ "_id" : "Incubus" }
+{ "_id" : "Indeep" }
+{ "_id" : "Indigo Girls" }
+{ "_id" : "Infected Mushroom" }
+{ "_id" : "Infectious Grooves" }
+{ "_id" : "Infernal" }
+{ "_id" : "Information Society" }
+{ "_id" : "Ingrid Lucia" }
+{ "_id" : "Inhale Exhale" }
+{ "_id" : "Ini" }
+{ "_id" : "Inna" }
+{ "_id" : "Inner Circle" }
+{ "_id" : "Innerzone Orchestra" }
+{ "_id" : "Insane" }
+{ "_id" : "Insane Clown Posse" }
+{ "_id" : "Insect Surfers" }
+{ "_id" : "Inspector" }
+{ "_id" : "Intense" }
+{ "_id" : "International Pony" }
+{ "_id" : "Interpol" }
+{ "_id" : "Invisible Airline" }
+{ "_id" : "Iq" }
+{ "_id" : "Iris Dement" }
+{ "_id" : "Irish Descendants" }
+{ "_id" : "Irish Rovers" }
+{ "_id" : "Iron And Wine" }
+{ "_id" : "Iron Butterfly" }
+{ "_id" : "Iron Horse" }
+{ "_id" : "Iron Lung Corp." }
+{ "_id" : "Iron Maiden" }
+{ "_id" : "Isaac Hayes" }
+{ "_id" : "Ishtar" }
+{ "_id" : "Isley Brothers" }
+{ "_id" : "Isobel Campbell & Mark Lanegan" }
+{ "_id" : "Italobrothers" }
+{ "_id" : "Ivy" }
+{ "_id" : "J Majik" }
+{ "_id" : "J Roddy Walston And The Business" }
+{ "_id" : "J. Cole" }
+{ "_id" : "J. Holiday" }
+{ "_id" : "J. S. Bach" }
+{ "_id" : "J. Tillman" }
+{ "_id" : "J.J. Johnson" }
+{ "_id" : "Ja Rule" }
+{ "_id" : "Jace Everett" }
+{ "_id" : "Jack Beats" }
+{ "_id" : "Jack Black" }
+{ "_id" : "Jack Johnson" }
+{ "_id" : "Jack Off Jill" }
+{ "_id" : "Jack Planck" }
+{ "_id" : "Jack Rose" }
+{ "_id" : "Jack Wagner" }
+{ "_id" : "Jack White" }
+{ "_id" : "Jackie Greene" }
+{ "_id" : "Jacknife Lee" }
+{ "_id" : "Jackson 5" }
+{ "_id" : "Jackson Browne" }
+{ "_id" : "Jackson C Frank" }
+{ "_id" : "Jackson Jackson" }
+{ "_id" : "Jackyl" }
+{ "_id" : "Jaco Pastorius" }
+{ "_id" : "Jacob Miller" }
+{ "_id" : "Jacques Brel" }
+{ "_id" : "Jadakiss" }
+{ "_id" : "Jagged Edge" }
+{ "_id" : "Jah Wobble" }
+{ "_id" : "Jaheim" }
+{ "_id" : "Jakatta" }
+{ "_id" : "Jake One" }
+{ "_id" : "Jakob Dylan" }
+{ "_id" : "Jamelia" }
+{ "_id" : "James Blake" }
+{ "_id" : "James Brown" }
+{ "_id" : "James Cotton" }
+{ "_id" : "James Gang" }
+{ "_id" : "James Holden" }
+{ "_id" : "James Ingram" }
+{ "_id" : "James Keelaghan" }
+{ "_id" : "James Last" }
+{ "_id" : "James Lavelle" }
+{ "_id" : "James Mcmurtry" }
+{ "_id" : "James Morrison" }
+{ "_id" : "James Taylor" }
+{ "_id" : "James Vincent Mc Morrow" }
+{ "_id" : "James William Hindle" }
+{ "_id" : "James Yuill" }
+{ "_id" : "James Zabiela" }
+{ "_id" : "Jamie Jones" }
+{ "_id" : "Jamie Lidell" }
+{ "_id" : "Jamie Scott" }
+{ "_id" : "Jamie T" }
+{ "_id" : "Jamie Woon" }
+{ "_id" : "Jamie'S Elsewhere" }
+{ "_id" : "Jamiroquai" }
+{ "_id" : "Jamoa Jam" }
+{ "_id" : "Jan & Dean" }
+{ "_id" : "Jan Garbarek" }
+{ "_id" : "Jan Hammer" }
+{ "_id" : "Jan Hegenberg" }
+{ "_id" : "Jana Hunter" }
+{ "_id" : "Jandek" }
+{ "_id" : "Jane Birkin" }
+{ "_id" : "Jane Monheit" }
+{ "_id" : "Jane'S Addiction" }
+{ "_id" : "Janet Jackson" }
+{ "_id" : "Jann Arden" }
+{ "_id" : "Japancakes" }
+{ "_id" : "Japanther" }
+{ "_id" : "Jape" }
+{ "_id" : "Jark & Prongo" }
+{ "_id" : "Jason And The Scorchers" }
+{ "_id" : "Jason Boland" }
+{ "_id" : "Jason Collett" }
+{ "_id" : "Jason Falkner" }
+{ "_id" : "Jason Isbell" }
+{ "_id" : "Jason Isbell And The 400 Unit" }
+{ "_id" : "Jason Mraz" }
+{ "_id" : "Jawbox" }
+{ "_id" : "Jay And The Americans" }
+{ "_id" : "Jay Brannan" }
+{ "_id" : "Jay Chow" }
+{ "_id" : "Jay Reatard" }
+{ "_id" : "Jay-Jay Johanson" }
+{ "_id" : "Jay-Z" }
+{ "_id" : "Jazmine Sullivan" }
+{ "_id" : "Jazz Fusion" }
+{ "_id" : "Jazzanova" }
+{ "_id" : "Jazztet" }
+{ "_id" : "Jazzyfatnastees" }
+{ "_id" : "Jb'S" }
+{ "_id" : "Jc Chasez" }
+{ "_id" : "Jean Jacques Perrey" }
+{ "_id" : "Jean Leloup" }
+{ "_id" : "Jean Michel Jarre" }
+{ "_id" : "Jedi Mind Tricks" }
+{ "_id" : "Jeff Beck" }
+{ "_id" : "Jeff Beck Group" }
+{ "_id" : "Jeff Buckley" }
+{ "_id" : "Jeff Finlin" }
+{ "_id" : "Jeff Mangum" }
+{ "_id" : "Jeff Mills" }
+{ "_id" : "Jeffree Star" }
+{ "_id" : "Jeffrey Foucault" }
+{ "_id" : "Jeffrey Lewis" }
+{ "_id" : "Jehro" }
+{ "_id" : "Jel" }
+{ "_id" : "Jello Biafra" }
+{ "_id" : "Jelly Roll Morton" }
+{ "_id" : "Jenifer" }
+{ "_id" : "Jenna G" }
+{ "_id" : "Jennifer Knapp" }
+{ "_id" : "Jennifer Lopez" }
+{ "_id" : "Jennifer Love Hewitt" }
+{ "_id" : "Jens Lekman" }
+{ "_id" : "Jephte Guillaume" }
+{ "_id" : "Jeremy Messersmith" }
+{ "_id" : "Jerry Douglas" }
+{ "_id" : "Jerry Garcia Band" }
+{ "_id" : "Jerry Jeff Walker" }
+{ "_id" : "Jerry Reed" }
+{ "_id" : "Jeru" }
+{ "_id" : "Jes" }
+{ "_id" : "Jesse Mccartney" }
+{ "_id" : "Jessica Simpson" }
+{ "_id" : "Jessica Williams" }
+{ "_id" : "Jessie J" }
+{ "_id" : "Jestofunk" }
+{ "_id" : "Jesus And Mary Chain" }
+{ "_id" : "Jesus And The Mary Chain" }
+{ "_id" : "Jet" }
+{ "_id" : "Jethro Tull" }
+{ "_id" : "Jettblack" }
+{ "_id" : "Jew" }
+{ "_id" : "Jewel" }
+{ "_id" : "Jhene" }
+{ "_id" : "Jill Sobule" }
+{ "_id" : "Jill Tracy" }
+{ "_id" : "Jim Bianco" }
+{ "_id" : "Jim Black" }
+{ "_id" : "Jim Brickman" }
+{ "_id" : "Jim Carroll" }
+{ "_id" : "Jim Croce" }
+{ "_id" : "Jim Jones Revue" }
+{ "_id" : "Jim Kweskin Jug Band" }
+{ "_id" : "Jim Moray" }
+{ "_id" : "Jim Reeves" }
+{ "_id" : "Jimi Hazel" }
 { "_id" : "Jimi Hendrix" }
+{ "_id" : "Jimmie'S Chicken Shack" }
+{ "_id" : "Jimmies Chicken Shack" }
+{ "_id" : "Jimmy Barnes" }
+{ "_id" : "Jimmy Buffet" }
+{ "_id" : "Jimmy Cliff" }
+{ "_id" : "Jimmy Dorsey" }
+{ "_id" : "Jimmy Eat World" }
+{ "_id" : "Jimmy Page" }
+{ "_id" : "Jimmy Reed" }
+{ "_id" : "Jimmy Webb" }
+{ "_id" : "Jimpster" }
+{ "_id" : "Jinja Safari" }
+{ "_id" : "Jj Grey & Mofro" }
+{ "_id" : "Jj72" }
+{ "_id" : "Joan Of Arc" }
+{ "_id" : "Joan Osborne" }
+{ "_id" : "Joanna Newsom" }
+{ "_id" : "Joanne Shenandoah" }
+{ "_id" : "Joao Gilberto" }
+{ "_id" : "Jobim" }
+{ "_id" : "Jody Breeze" }
+{ "_id" : "Joe Bonamassa" }
+{ "_id" : "Joe Brooks" }
+{ "_id" : "Joe Cocker" }
+{ "_id" : "Joe Ely" }
+{ "_id" : "Joe Louis Walker" }
+{ "_id" : "Joe Lovano" }
+{ "_id" : "Joe Pass" }
+{ "_id" : "Joe Pug" }
+{ "_id" : "Joe Purdy" }
+{ "_id" : "Joe Satriani" }
+{ "_id" : "Joe Walsh" }
+{ "_id" : "Joe Zawinul" }
+{ "_id" : "Joel Phelps" }
+{ "_id" : "Joel Plaskett" }
+{ "_id" : "John Abercrombie" }
+{ "_id" : "John Aquaviva" }
+{ "_id" : "John Barry" }
+{ "_id" : "John Butler Trio" }
+{ "_id" : "John Cale" }
+{ "_id" : "John Coltrane" }
+{ "_id" : "John Dahlback" }
+{ "_id" : "John Denver" }
+{ "_id" : "John Digweed" }
+{ "_id" : "John Fahey" }
+{ "_id" : "John Farnham" }
+{ "_id" : "John Frusciante" }
+{ "_id" : "John Grant" }
+{ "_id" : "John Hammond" }
+{ "_id" : "John Hartford" }
+{ "_id" : "John Hiatt" }
+{ "_id" : "John Lee Hooker" }
+{ "_id" : "John Legend" }
+{ "_id" : "John Lennon" }
+{ "_id" : "John Martyn" }
+{ "_id" : "John Mayer" }
+{ "_id" : "John Mayer Trio" }
+{ "_id" : "John Prine" }
+{ "_id" : "John Reuben" }
+{ "_id" : "John Scofield" }
+{ "_id" : "John Sebastian" }
+{ "_id" : "John Travolta" }
+{ "_id" : "John Vanderslice" }
+{ "_id" : "Johnny And The Hurricanes" }
+{ "_id" : "Johnny Cash" }
+{ "_id" : "Johnny Hammond" }
+{ "_id" : "Johnny Mathis" }
+{ "_id" : "Johnny O" }
+{ "_id" : "Johnny Truant" }
+{ "_id" : "Johnny Winter" }
+{ "_id" : "Jojo" }
+{ "_id" : "Jolie Holland" }
+{ "_id" : "Jolly & The Flytrap" }
+{ "_id" : "Jon Anderson" }
+{ "_id" : "Jon B" }
+{ "_id" : "Jon Lajoie" }
+{ "_id" : "Jon Spencer Blues Explosion" }
+{ "_id" : "Joni Mitchell" }
+{ "_id" : "Jordin Sparks" }
+{ "_id" : "Jorge Ben" }
+{ "_id" : "Jorge Ben Jor" }
+{ "_id" : "Jose Luis Perales" }
+{ "_id" : "Joseph Arthur" }
+{ "_id" : "Joseph Israel" }
+{ "_id" : "Josh Groban" }
+{ "_id" : "Josh Klinghoffer" }
+{ "_id" : "Josh Pyke" }
+{ "_id" : "Josh Ritter" }
+{ "_id" : "Josh Rouse" }
+{ "_id" : "Josh Wink" }
+{ "_id" : "Joshua Kadison" }
+{ "_id" : "Joss Stone" }
+{ "_id" : "Jotunspor" }
+{ "_id" : "Journey" }
+{ "_id" : "Joy Denalane" }
+{ "_id" : "Joy Division" }
+{ "_id" : "Joyce" }
+{ "_id" : "Jr Ewing" }
+{ "_id" : "Jt Taylor" }
+{ "_id" : "Juan Atkins" }
+{ "_id" : "Juan Garcia Esquivel" }
+{ "_id" : "Juan Gotti" }
+{ "_id" : "Judas Priest" }
+{ "_id" : "Judds" }
+{ "_id" : "Judy Garland" }
+{ "_id" : "Julee Cruise" }
+{ "_id" : "Julia Migenes" }
+{ "_id" : "Julia Stone" }
+{ "_id" : "Julian Plenti" }
+{ "_id" : "Julian Sas" }
+{ "_id" : "Julie Andrews" }
+{ "_id" : "Julie Doiron" }
+{ "_id" : "Julie Miller" }
+{ "_id" : "Julien Lourau" }
+{ "_id" : "Juliette Greco" }
+{ "_id" : "Julio Jaramillo" }
+{ "_id" : "Jun Miyake" }
+{ "_id" : "Junior Jack" }
+{ "_id" : "Junior Kimbrough" }
+{ "_id" : "Junior Murvin" }
+{ "_id" : "Junior Walker" }
+{ "_id" : "Junior Wells" }
+{ "_id" : "Junip" }
+{ "_id" : "Juno Reactor" }
+{ "_id" : "Jurassic 5" }
+{ "_id" : "Juri Gagarin" }
+{ "_id" : "Justice" }
+{ "_id" : "Justin Berkovi" }
+{ "_id" : "Justin Moore" }
+{ "_id" : "Justin Timberlake" }
+{ "_id" : "Justin Townes Earle" }
+{ "_id" : "Justin Vernon" }
+{ "_id" : "Juvenile" }
+{ "_id" : "K D Lang" }
+{ "_id" : "K'Naan" }
+{ "_id" : "K'S Choice" }
+{ "_id" : "K.C And Jojo" }
+{ "_id" : "K.D.Lang" }
+{ "_id" : "Kaas" }
+{ "_id" : "Kahimi Karie" }
+{ "_id" : "Kai Tracid" }
+{ "_id" : "Kaisaschnitt" }
+{ "_id" : "Kaiser Chief" }
+{ "_id" : "Kaiser Chiefs" }
+{ "_id" : "Kaleidoscope" }
+{ "_id" : "Kalimba" }
+{ "_id" : "Kansas" }
+{ "_id" : "Kanye West" }
+{ "_id" : "Karaoke" }
+{ "_id" : "Karat" }
+{ "_id" : "Karate High School" }
+{ "_id" : "Karine Polwart" }
+{ "_id" : "Karl Berger" }
+{ "_id" : "Karl Dall" }
+{ "_id" : "Karl Denson" }
+{ "_id" : "Karl Denson'S Tiny Universe" }
+{ "_id" : "Karl Jenkins" }
+{ "_id" : "Karrin Allyson" }
+{ "_id" : "Kasabian" }
+{ "_id" : "Kaskade" }
+{ "_id" : "Kate Bush" }
+{ "_id" : "Kate Nash" }
+{ "_id" : "Kate Rusby" }
+{ "_id" : "Kathy Mattea" }
+{ "_id" : "Katie Melua" }
+{ "_id" : "Katy Perry" }
+{ "_id" : "Katy Rose" }
+{ "_id" : "Katzenjammer" }
+{ "_id" : "Kava" }
+{ "_id" : "Kaveh Azizi" }
+{ "_id" : "Kaye Styles" }
+{ "_id" : "Kc & Jojo" }
+{ "_id" : "Kci & Jojo" }
+{ "_id" : "Kdrew" }
+{ "_id" : "Ke$Ha" }
+{ "_id" : "Keak Da Sneak" }
+{ "_id" : "Keane" }
+{ "_id" : "Kei$Ha" }
+{ "_id" : "Keiichi Suzuki" }
+{ "_id" : "Keiko Matsui" }
+{ "_id" : "Keisha" }
+{ "_id" : "Keith Emerson" }
+{ "_id" : "Keith Green" }
+{ "_id" : "Keith Jarrett" }
+{ "_id" : "Keith Sweat" }
+{ "_id" : "Keith Urban" }
+{ "_id" : "Keith Whitley" }
+{ "_id" : "Kelis" }
+{ "_id" : "Keller Williams" }
+{ "_id" : "Kelley Stoltz" }
+{ "_id" : "Kelly" }
+{ "_id" : "Kelly Clarkson" }
+{ "_id" : "Kelly Family" }
+{ "_id" : "Kelly Joe Phelps" }
+{ "_id" : "Kenny Barron" }
+{ "_id" : "Kenny Chesney" }
+{ "_id" : "Kenny G" }
+{ "_id" : "Kenny Ken" }
+{ "_id" : "Kenny Rankin" }
+{ "_id" : "Kenny Rogers" }
+{ "_id" : "Kenotia" }
+{ "_id" : "Kent" }
+{ "_id" : "Keren Ann" }
+{ "_id" : "Keri Hilson" }
+{ "_id" : "Kerouac" }
+{ "_id" : "Ketama" }
+{ "_id" : "Kevin Fowler" }
+{ "_id" : "Kevin Gordon" }
+{ "_id" : "Kevin Mahogany" }
+{ "_id" : "Kevn Kinney" }
+{ "_id" : "Kid Alex" }
+{ "_id" : "Kid Cudi" }
+{ "_id" : "Kid Ink" }
+{ "_id" : "Kid Loco" }
+{ "_id" : "Kid Q" }
+{ "_id" : "Kid Rock" }
+{ "_id" : "Kidcrash" }
+{ "_id" : "Kidneythieves" }
+{ "_id" : "Kids" }
+{ "_id" : "Kids Of 88" }
+{ "_id" : "Kiko Veneno" }
+{ "_id" : "Kill The Noise" }
+{ "_id" : "Killer Barbies" }
+{ "_id" : "Kim Wilde" }
+{ "_id" : "Kimberly Locke" }
+{ "_id" : "Kimbra" }
+{ "_id" : "King Adora" }
+{ "_id" : "King Creosote" }
+{ "_id" : "King Crimson" }
+{ "_id" : "King Curtis" }
+{ "_id" : "King Diamond" }
+{ "_id" : "King Khan" }
+{ "_id" : "King Khan And The Shrines" }
+{ "_id" : "King Missile" }
+{ "_id" : "King Orgasmus" }
+{ "_id" : "King Tubby" }
+{ "_id" : "King'S X" }
+{ "_id" : "Kings" }
+{ "_id" : "Kings Of Convenience" }
 { "_id" : "Kings Of Leon" }
+{ "_id" : "Kings Of Nuthin'" }
+{ "_id" : "Kings Of Tomorrow" }
+{ "_id" : "Kingspade" }
+{ "_id" : "Kingston Trio" }
+{ "_id" : "Kirko Bangz" }
+{ "_id" : "Kirsty Hawkshaw" }
+{ "_id" : "Kishore Kumar" }
+{ "_id" : "Kiss" }
+{ "_id" : "Kit Clayton" }
+{ "_id" : "Kittie" }
+{ "_id" : "Kitty Daisy & Lewis" }
+{ "_id" : "Kitty, Daisy & Lewis" }
+{ "_id" : "Klaas" }
+{ "_id" : "Klaatu" }
+{ "_id" : "Klaus Doldinger" }
+{ "_id" : "Klaypex" }
+{ "_id" : "Klf" }
+{ "_id" : "Kloak" }
+{ "_id" : "Kmk" }
+{ "_id" : "Knapsack" }
+{ "_id" : "Knife Party" }
+{ "_id" : "Ko" }
+{ "_id" : "Koan Sound" }
+{ "_id" : "Koda Kumi" }
+{ "_id" : "Kokia" }
+{ "_id" : "Kolya" }
+{ "_id" : "Kompressor" }
+{ "_id" : "Kool And The Gang" }
+{ "_id" : "Kool Savas" }
+{ "_id" : "Koop" }
+{ "_id" : "Korn" }
+{ "_id" : "Korpiklaani" }
+{ "_id" : "Korsakoff" }
+{ "_id" : "Kosheen" }
+{ "_id" : "Kotoko" }
+{ "_id" : "Kottonmouth Kings" }
+{ "_id" : "Kraftwerk" }
+{ "_id" : "Kreayshawn" }
+{ "_id" : "Kreidler" }
+{ "_id" : "Krewella" }
+{ "_id" : "Kris Delmhorst" }
+{ "_id" : "Kris Kristofferson" }
+{ "_id" : "Kristinia Debarge" }
+{ "_id" : "Krizz Kaliko" }
+{ "_id" : "Kroko" }
+{ "_id" : "Krokus" }
+{ "_id" : "Krs One" }
+{ "_id" : "Krust" }
+{ "_id" : "Ksm" }
+{ "_id" : "Kt Tunstall" }
+{ "_id" : "Kudai" }
+{ "_id" : "Kula Shaker" }
+{ "_id" : "Kumar Sanu" }
+{ "_id" : "Kurd Maverick" }
+{ "_id" : "Kurt Elling" }
+{ "_id" : "Kurt Vile" }
+{ "_id" : "Kurtis Blow" }
+{ "_id" : "Kurupt" }
+{ "_id" : "Kwoon" }
+{ "_id" : "Kyle Andrews" }
+{ "_id" : "Kyle Park" }
+{ "_id" : "Kylie Minogue" }
+{ "_id" : "Kyoto Jazz Massive" }
+{ "_id" : "Kyuss" }
+{ "_id" : "L'Arc En Ciel" }
+{ "_id" : "La Bottine Souriante" }
+{ "_id" : "La Bouche" }
+{ "_id" : "La De Vazquez" }
+{ "_id" : "La Roux" }
+{ "_id" : "La Ruda Salska" }
+{ "_id" : "La Symphony" }
+{ "_id" : "La'S" }
+{ "_id" : "Labi Siffre" }
+{ "_id" : "Labradford" }
+{ "_id" : "Lacrimosa" }
+{ "_id" : "Lacrosse" }
+{ "_id" : "Lady And Bird" }
+{ "_id" : "Lady Gaga" }
+{ "_id" : "Lady Of Rage" }
+{ "_id" : "Lady Tom" }
+{ "_id" : "Ladyhawke" }
+{ "_id" : "Ladytron" }
+{ "_id" : "Lafaro" }
+{ "_id" : "Laidback Luke" }
+{ "_id" : "Laila France" }
+{ "_id" : "Lamb" }
+{ "_id" : "Lamb Of God" }
+{ "_id" : "Lambchop" }
+{ "_id" : "Lana Del Rey" }
+{ "_id" : "Lange" }
+{ "_id" : "Larrikin Love" }
+{ "_id" : "Larry Levan" }
+{ "_id" : "Lasgo" }
+{ "_id" : "Late Night Alumni" }
+{ "_id" : "Late Of The Pier" }
+{ "_id" : "Latifa" }
+{ "_id" : "Laughing Hyenas" }
+{ "_id" : "Laura Izibor" }
+{ "_id" : "Laura Jansen" }
+{ "_id" : "Laura Marling" }
+{ "_id" : "Laura Pausini" }
+{ "_id" : "Laura Stevenson" }
+{ "_id" : "Laura Stevenson And The Cans" }
+{ "_id" : "Laura Veirs" }
+{ "_id" : "Laurence Juber" }
+{ "_id" : "Laurent Garnier" }
+{ "_id" : "Laurent Wolf" }
+{ "_id" : "Laurie Anderson" }
+{ "_id" : "Lavender Diamond" }
+{ "_id" : "Lawrence Arms" }
+{ "_id" : "Lawrence Welk" }
+{ "_id" : "Lazy Dog" }
+{ "_id" : "Lazy Rich" }
+{ "_id" : "Le Castle Vania" }
+{ "_id" : "Le Loup" }
+{ "_id" : "Lea Salonga" }
+{ "_id" : "Leadbelly" }
+{ "_id" : "Leann Rimes" }
+{ "_id" : "Leaves' Eyes" }
+{ "_id" : "Lebendig" }
+{ "_id" : "Lebensart" }
 { "_id" : "Led Zeppelin" }
+{ "_id" : "Lee \"Scratch\" Perry" }
+{ "_id" : "Lee Clayton" }
+{ "_id" : "Lee Fields" }
+{ "_id" : "Lee Hazlewood" }
+{ "_id" : "Lee Michaels" }
+{ "_id" : "Lee Ritenour" }
+{ "_id" : "Lee Scratch Perry" }
+{ "_id" : "Leftover Crack" }
+{ "_id" : "Leftover Salmon" }
+{ "_id" : "Legendary Pink Dots" }
+{ "_id" : "Leisure Society" }
+{ "_id" : "Lemon Jelly" }
+{ "_id" : "Len" }
+{ "_id" : "Lena" }
+{ "_id" : "Lenny Breau" }
+{ "_id" : "Lenny Bruce" }
+{ "_id" : "Lenny Kravitz" }
+{ "_id" : "Leo Kottke" }
+{ "_id" : "Leon Redbone" }
+{ "_id" : "Leon Russel" }
+{ "_id" : "Leon Russell" }
+{ "_id" : "Leon Ware" }
+{ "_id" : "Leona Lewis" }
+{ "_id" : "Leonard Cohen" }
+{ "_id" : "Les Brown" }
+{ "_id" : "Les Colocs" }
+{ "_id" : "Les Garcons" }
+{ "_id" : "Les Miserables" }
+{ "_id" : "Les Negresses Vertes" }
+{ "_id" : "Les Nubians" }
+{ "_id" : "Leslie Fish" }
+{ "_id" : "Leslie Gore" }
+{ "_id" : "Less Than Jake" }
+{ "_id" : "Lester Flatt & Earl Scruggs" }
+{ "_id" : "Lethal Bizzle" }
+{ "_id" : "Lettermen" }
+{ "_id" : "Lettuce" }
+{ "_id" : "Level 42" }
+{ "_id" : "Levitation" }
+{ "_id" : "Levon Helm" }
+{ "_id" : "Lexo And The Leapers" }
+{ "_id" : "Lexy & K-Paul" }
+{ "_id" : "Lfo" }
+{ "_id" : "Lhasa De Sela" }
+{ "_id" : "Liam Lynch" }
+{ "_id" : "Lian Ross" }
+{ "_id" : "Liars" }
+{ "_id" : "Libera" }
+{ "_id" : "Liberty X" }
+{ "_id" : "Lichtenfels" }
+{ "_id" : "Life In Film" }
+{ "_id" : "Life Of Agony" }
+{ "_id" : "Lifehouse" }
+{ "_id" : "Light This City" }
+{ "_id" : "Lightforce" }
+{ "_id" : "Lightning Seeds" }
+{ "_id" : "Lil B" }
+{ "_id" : "Lil Bow Bow" }
+{ "_id" : "Lil Flip" }
+{ "_id" : "Lil Keke" }
+{ "_id" : "Lil Kim" }
+{ "_id" : "Lil Rob" }
+{ "_id" : "Lil Wayne" }
+{ "_id" : "Lil Wyte" }
+{ "_id" : "Lil Zane" }
+{ "_id" : "Lillix" }
+{ "_id" : "Lily Allen" }
+{ "_id" : "Limbonic Art" }
+{ "_id" : "Limp Bizkit" }
+{ "_id" : "Linda Lemay" }
+{ "_id" : "Linda Ronstadt" }
+{ "_id" : "Lindisfarne" }
+{ "_id" : "Lindsay Lohan" }
+{ "_id" : "Lindstrom" }
+{ "_id" : "Link 80" }
+{ "_id" : "Link Wray" }
+{ "_id" : "Linkin Park" }
+{ "_id" : "Lionel Richie" }
+{ "_id" : "Lior" }
+{ "_id" : "Liquid Soul" }
+{ "_id" : "Liquid Stranger" }
+{ "_id" : "Liquid Tension Experiment" }
+{ "_id" : "Liquido" }
+{ "_id" : "Lisa Ekdahl" }
+{ "_id" : "Lisa Hannigan" }
+{ "_id" : "Lisa Shaw" }
+{ "_id" : "Lissie" }
+{ "_id" : "Little Axe" }
+{ "_id" : "Little Computer People" }
+{ "_id" : "Little Feat" }
+{ "_id" : "Little Joy" }
+{ "_id" : "Little Man Tate" }
+{ "_id" : "Little River Band" }
+{ "_id" : "Little T" }
+{ "_id" : "Little Trophy" }
+{ "_id" : "Little Village" }
+{ "_id" : "Little Walter" }
+{ "_id" : "Live" }
+{ "_id" : "Liz Story" }
+{ "_id" : "Ll Cool J" }
+{ "_id" : "Lloyd Banks" }
+{ "_id" : "Lmfao" }
+{ "_id" : "Locksley" }
+{ "_id" : "Loco Dice" }
+{ "_id" : "Loess" }
+{ "_id" : "Logan Whitehurst" }
+{ "_id" : "Loggins & Messina" }
+{ "_id" : "Logh" }
+{ "_id" : "Lol" }
+{ "_id" : "Loli Ripe" }
+{ "_id" : "London After Midnight" }
+{ "_id" : "London Elektricity" }
+{ "_id" : "Lone Justice" }
+{ "_id" : "Lone Star" }
+{ "_id" : "Long Beach Dub Allstars" }
+{ "_id" : "Long John Hunter" }
+{ "_id" : "Lonnie Mack" }
+{ "_id" : "Loona" }
+{ "_id" : "Loop Guru" }
+{ "_id" : "Looper" }
+{ "_id" : "Loose Ends" }
+{ "_id" : "Lordi" }
+{ "_id" : "Lords Of Acid" }
+{ "_id" : "Loreena Mckennitt" }
+{ "_id" : "Los Banditos" }
+{ "_id" : "Los Coronas" }
+{ "_id" : "Los Rabanes" }
+{ "_id" : "Los Straitjackets" }
+{ "_id" : "Los Tres" }
+{ "_id" : "Los Zafiros" }
+{ "_id" : "Lost Immigrants" }
+{ "_id" : "Lost In The Trees" }
+{ "_id" : "Lost On Purpose" }
+{ "_id" : "Lost Patrol" }
+{ "_id" : "Lost Sounds" }
+{ "_id" : "Lostprophets" }
+{ "_id" : "Lotus" }
+{ "_id" : "Lou Bega" }
+{ "_id" : "Lou Rawls" }
+{ "_id" : "Lou Reed" }
+{ "_id" : "Loudness" }
+{ "_id" : "Loudon Wainwright Iii" }
+{ "_id" : "Louie Austen" }
+{ "_id" : "Louis Jordan" }
+{ "_id" : "Louvin Brothers" }
+{ "_id" : "Love" }
+{ "_id" : "Love Inc" }
+{ "_id" : "Loverboy" }
+{ "_id" : "Lovers Electric" }
+{ "_id" : "Lovetronic" }
+{ "_id" : "Low" }
+{ "_id" : "Low Flying Owls" }
+{ "_id" : "Lower Dens" }
+{ "_id" : "Lowrider" }
+{ "_id" : "Lox" }
+{ "_id" : "Ltj Bukem" }
+{ "_id" : "Lucero" }
+{ "_id" : "Luciano" }
+{ "_id" : "Luciano Pavarotti" }
+{ "_id" : "Lucinda Williams" }
+{ "_id" : "Lucky Dube" }
+{ "_id" : "Lucky Jim" }
+{ "_id" : "Lucky Soul" }
+{ "_id" : "Lucky Twice" }
+{ "_id" : "Lucy Kaplansky" }
+{ "_id" : "Lucy Woodward" }
+{ "_id" : "Ludacris" }
+{ "_id" : "Ludwig Van Beethoven" }
+{ "_id" : "Luis Miguel" }
+{ "_id" : "Luke Chable" }
+{ "_id" : "Luke Fair" }
+{ "_id" : "Luke Pickett" }
+{ "_id" : "Lulu" }
+{ "_id" : "Luna Park" }
+{ "_id" : "Luna Sea" }
+{ "_id" : "Lunascape" }
+{ "_id" : "Lunatic Calm" }
+{ "_id" : "Luni Coleone" }
+{ "_id" : "Lunik" }
+{ "_id" : "Luomo" }
+{ "_id" : "Lupe Fiasco" }
+{ "_id" : "Lupine Howl" }
+{ "_id" : "Luscious Jackson" }
+{ "_id" : "Lusine Icl" }
+{ "_id" : "Luther Allison" }
+{ "_id" : "Luv" }
+{ "_id" : "Lydia" }
+{ "_id" : "Lykke Li" }
+{ "_id" : "Lyle Lovett" }
+{ "_id" : "Lynch Mob" }
+{ "_id" : "Lynn Miles" }
+{ "_id" : "Lynyrd Skynyrd" }
+{ "_id" : "Lyrics Born" }
+{ "_id" : "M. Ward" }
+{ "_id" : "M.O.P." }
+{ "_id" : "M1dy" }
+{ "_id" : "M2m" }
+{ "_id" : "M3" }
+{ "_id" : "Maaya Sakamoto" }
+{ "_id" : "Mac Dre" }
+{ "_id" : "Mac Miller" }
+{ "_id" : "Maceo Parker" }
+{ "_id" : "Machine Head" }
+{ "_id" : "Macklemore" }
+{ "_id" : "Mad Caddies" }
+{ "_id" : "Mad Capsule Markets" }
+{ "_id" : "Madcon" }
+{ "_id" : "Made In Heights" }
+{ "_id" : "Madeleine Peyroux" }
+{ "_id" : "Madina Lake" }
+{ "_id" : "Madison Avenue" }
+{ "_id" : "Madonna" }
+{ "_id" : "Madrugada" }
+{ "_id" : "Mae" }
+{ "_id" : "Magda" }
+{ "_id" : "Magic City" }
+{ "_id" : "Magic Malik" }
+{ "_id" : "Magic Man" }
+{ "_id" : "Magma" }
+{ "_id" : "Magnolia Electric Co" }
+{ "_id" : "Mahmoud Ahmed" }
+{ "_id" : "Maino" }
+{ "_id" : "Maja S.K. Ratkje" }
+{ "_id" : "Majestic 12" }
+{ "_id" : "Majesty" }
+{ "_id" : "Majid" }
+{ "_id" : "Makaveli" }
+{ "_id" : "Makeveli" }
+{ "_id" : "Maktub" }
+{ "_id" : "Malajube" }
+{ "_id" : "Malcolm Middleton" }
+{ "_id" : "Male Bonding" }
+{ "_id" : "Malene Mortensen" }
+{ "_id" : "Malice" }
+{ "_id" : "Malice Mizer" }
+{ "_id" : "Mama" }
+{ "_id" : "Mamady Keita" }
+{ "_id" : "Man Man" }
+{ "_id" : "Man Or Astro-Man?" }
+{ "_id" : "Man Or Astroman" }
+{ "_id" : "Mandalay" }
+{ "_id" : "Mando Diao" }
+{ "_id" : "Mandy Moore" }
+{ "_id" : "Manfred Mann'S Earth Band" }
+{ "_id" : "Manfredo Fest" }
+{ "_id" : "Mangoo" }
+{ "_id" : "Manhattan Transfer" }
+{ "_id" : "Manian" }
+{ "_id" : "Manic Street Preachers" }
+{ "_id" : "Mannheim Steamroller" }
+{ "_id" : "Mano Negra" }
+{ "_id" : "Mansun" }
+{ "_id" : "Mantovani" }
+{ "_id" : "Manu Chao" }
+{ "_id" : "Manu Le Malin" }
+{ "_id" : "Maps And Atlases" }
+{ "_id" : "Marah" }
+{ "_id" : "Marc Almond" }
+{ "_id" : "Marc Broussard" }
+{ "_id" : "Marc Houle" }
+{ "_id" : "Marc Ribot" }
+{ "_id" : "Marcin Czubala" }
+{ "_id" : "Marco Borsato" }
+{ "_id" : "Marco Remus" }
+{ "_id" : "Marcus Miller" }
+{ "_id" : "Margot & The Nuclear So & So'S" }
+{ "_id" : "Maria Rita" }
+{ "_id" : "Mariah Carey" }
+{ "_id" : "Marie Laforet" }
+{ "_id" : "Marillion" }
+{ "_id" : "Marilyn Manson" }
+{ "_id" : "Marin Marais" }
+{ "_id" : "Mario Lanza" }
+{ "_id" : "Mario Lopez" }
+{ "_id" : "Marion" }
+{ "_id" : "Marion Raven" }
+{ "_id" : "Mark B And Blade" }
+{ "_id" : "Mark Hollis" }
+{ "_id" : "Mark Knopfler" }
+{ "_id" : "Mark Lanegan" }
+{ "_id" : "Mark Oh" }
+{ "_id" : "Mark Owen" }
+{ "_id" : "Marko Nastic" }
+{ "_id" : "Markus Nikolai" }
+{ "_id" : "Marlene Dietrich" }
+{ "_id" : "Marmaduke Duke" }
+{ "_id" : "Maroon 5" }
+{ "_id" : "Marquess" }
+{ "_id" : "Mars Argo" }
+{ "_id" : "Marshal Tucker Band" }
+{ "_id" : "Marshall Jefferson" }
+{ "_id" : "Marshall Tucker" }
+{ "_id" : "Marteria" }
+{ "_id" : "Martha Tilston" }
+{ "_id" : "Martin Solveig" }
+{ "_id" : "Martinez" }
+{ "_id" : "Marty Robbins" }
+{ "_id" : "Martyparty" }
+{ "_id" : "Marvelous 3" }
+{ "_id" : "Marvin Gaye" }
+{ "_id" : "Mary Black" }
+{ "_id" : "Mary Chapin Carpenter" }
+{ "_id" : "Mary Gauthier" }
+{ "_id" : "Mary J Blige" }
+{ "_id" : "Mary Wells" }
+{ "_id" : "Marymary" }
+{ "_id" : "Maskinen" }
+{ "_id" : "Massive Attack" }
+{ "_id" : "Master Blaster" }
+{ "_id" : "Master P" }
+{ "_id" : "Masters @ Work" }
+{ "_id" : "Masters Of Hardcore" }
+{ "_id" : "Mastodon" }
+{ "_id" : "Mat Zo" }
+{ "_id" : "Matchbox 20" }
+{ "_id" : "Mathieu Boogaerts" }
+{ "_id" : "Matisyahu" }
+{ "_id" : "Matrix" }
+{ "_id" : "Matt & Kim" }
+{ "_id" : "Matt Bianco" }
+{ "_id" : "Matt Darey" }
+{ "_id" : "Matt Ward" }
+{ "_id" : "Matthew Good" }
+{ "_id" : "Matthew Mayfield" }
+{ "_id" : "Matthew Perryman Jones" }
+{ "_id" : "Matthew Sweet" }
+{ "_id" : "Matthias Reim" }
+{ "_id" : "Mattias Ia Eklundh" }
+{ "_id" : "Mavericks" }
+{ "_id" : "Max Farenthide" }
+{ "_id" : "Max Herre" }
+{ "_id" : "Max Pezzali" }
+{ "_id" : "Maxi Priest" }
+{ "_id" : "Maximilian Hecker" }
+{ "_id" : "Mazes" }
+{ "_id" : "Mazzy Star" }
+{ "_id" : "Mc Basstard" }
+{ "_id" : "Mc Bastard" }
+{ "_id" : "Mc Fly" }
+{ "_id" : "Mc Hammer" }
+{ "_id" : "Mc Paul Barman" }
+{ "_id" : "Mc Solaar" }
+{ "_id" : "Mc Vapour" }
+{ "_id" : "Mc5" }
+{ "_id" : "Mdfmk" }
+{ "_id" : "Meaghan Smith" }
+{ "_id" : "Meat Loaf" }
+{ "_id" : "Medeski, Martin & Wood" }
+{ "_id" : "Mediaeval Baebes" }
+{ "_id" : "Medication" }
+{ "_id" : "Meg & Dia" }
+{ "_id" : "Mega Nrg Man" }
+{ "_id" : "Megadeth" }
+{ "_id" : "Meinrad Jungblut" }
+{ "_id" : "Melanie" }
+{ "_id" : "Meliah Rage" }
+{ "_id" : "Melissa Etheridge" }
+{ "_id" : "Melissa Horn" }
+{ "_id" : "Melody Gardot" }
+{ "_id" : "Melvins" }
+{ "_id" : "Members Of Mayday" }
+{ "_id" : "Memphis Bleek" }
+{ "_id" : "Memphis Jug Band" }
+{ "_id" : "Memphis Minnie" }
+{ "_id" : "Memphis Slim" }
+{ "_id" : "Men" }
+{ "_id" : "Men At Work" }
+{ "_id" : "Men Without Hats" }
+{ "_id" : "Menomena" }
+{ "_id" : "Mercedes Sosa" }
+{ "_id" : "Mercury Program" }
+{ "_id" : "Mercyme" }
+{ "_id" : "Meredith Monk" }
+{ "_id" : "Merle Haggard" }
+{ "_id" : "Merle Travis" }
+{ "_id" : "Mermen" }
+{ "_id" : "Merzbow" }
+{ "_id" : "Mes Aieux" }
+{ "_id" : "Messer Chups" }
+{ "_id" : "Mest" }
 { "_id" : "Metallica" }
+{ "_id" : "Meters" }
+{ "_id" : "Method Man" }
+{ "_id" : "Methods Of Mayhem" }
+{ "_id" : "Metric" }
+{ "_id" : "Metrickz" }
+{ "_id" : "Metro Station" }
+{ "_id" : "Metronomy" }
+{ "_id" : "Meursault" }
+{ "_id" : "Mew" }
+{ "_id" : "Mfsb" }
+{ "_id" : "Mgmt" }
+{ "_id" : "Mia Doi Todd" }
+{ "_id" : "Miami Horror" }
+{ "_id" : "Micha Moor" }
+{ "_id" : "Michael" }
+{ "_id" : "Michael Bolton" }
+{ "_id" : "Michael Brecker" }
+{ "_id" : "Michael Bubble" }
+{ "_id" : "Michael Crawford" }
+{ "_id" : "Michael Franks" }
+{ "_id" : "Michael Franti" }
+{ "_id" : "Michael Franti & Spearhead" }
+{ "_id" : "Michael Gray" }
+{ "_id" : "Michael Hedges" }
+{ "_id" : "Michael Holm" }
+{ "_id" : "Michael Hurley" }
+{ "_id" : "Michael Jackson" }
+{ "_id" : "Michael Manring" }
+{ "_id" : "Michael Mind" }
+{ "_id" : "Michael Nesmith" }
+{ "_id" : "Michael Penn" }
+{ "_id" : "Michael W Smith" }
+{ "_id" : "Michel Berger" }
+{ "_id" : "Michel Fugain" }
+{ "_id" : "Michel Jonasz" }
+{ "_id" : "Michelle Branch" }
+{ "_id" : "Michelle Shocked" }
+{ "_id" : "Mickey Finn" }
+{ "_id" : "Mickie Krause" }
+{ "_id" : "Micky And The Motorcars" }
+{ "_id" : "Microbunny" }
+{ "_id" : "Microstoria" }
+{ "_id" : "Middle Brother" }
+{ "_id" : "Middle Class Rut" }
+{ "_id" : "Midge Ure" }
+{ "_id" : "Midlake" }
+{ "_id" : "Midnight Juggernauts" }
+{ "_id" : "Midnight Oil" }
+{ "_id" : "Midnight Youth" }
+{ "_id" : "Miguel" }
+{ "_id" : "Miguel Migs" }
+{ "_id" : "Miike Snow" }
+{ "_id" : "Mika" }
+{ "_id" : "Mike & The Mechanics" }
+{ "_id" : "Mike Foyle" }
+{ "_id" : "Mike Jones" }
+{ "_id" : "Mike Koglin" }
+{ "_id" : "Mike Oldfield" }
+{ "_id" : "Mike Stern" }
+{ "_id" : "Mike Stud" }
+{ "_id" : "Miles Davis" }
+{ "_id" : "Miles Davis Quintet" }
+{ "_id" : "Miles Kane" }
+{ "_id" : "Milk & Sugar" }
+{ "_id" : "Milk Inc." }
+{ "_id" : "Millenium" }
+{ "_id" : "Millionaire" }
+{ "_id" : "Millionnaire" }
+{ "_id" : "Millionyoung" }
+{ "_id" : "Milt Jackson" }
+{ "_id" : "Mims" }
+{ "_id" : "Mina" }
+{ "_id" : "Mindless Self Indulgence" }
+{ "_id" : "Minibosses" }
+{ "_id" : "Ministry Of Sound" }
+{ "_id" : "Mink Deville" }
+{ "_id" : "Mint Condition" }
+{ "_id" : "Mint Royale" }
+{ "_id" : "Mintzkov" }
+{ "_id" : "Minus 8" }
+{ "_id" : "Minus The Bear" }
+{ "_id" : "Mira" }
+{ "_id" : "Miracle Legion" }
+{ "_id" : "Miranda" }
+{ "_id" : "Miranda Sex Garden" }
+{ "_id" : "Mireille Matthieu" }
+{ "_id" : "Miss Kittin" }
+{ "_id" : "Miss Platnum" }
+{ "_id" : "Mission Of Burma" }
+{ "_id" : "Mississippi Fred Mcdowell" }
+{ "_id" : "Mississippi John Hurt" }
+{ "_id" : "Missy Elliott" }
+{ "_id" : "Missy Higgins" }
+{ "_id" : "Mistress Barbara" }
+{ "_id" : "Mitch Miller" }
+{ "_id" : "Mitch Ryder" }
+{ "_id" : "Mj Cole" }
+{ "_id" : "Mjq" }
+{ "_id" : "Mobb Deep" }
+{ "_id" : "Mobi" }
+{ "_id" : "Moby" }
+{ "_id" : "Modern Jazz Quartet" }
+{ "_id" : "Modern Life Is War" }
+{ "_id" : "Modest Mouse" }
+{ "_id" : "Modestep" }
+{ "_id" : "Modjo" }
+{ "_id" : "Moe." }
+{ "_id" : "Mofro" }
+{ "_id" : "Moguai" }
+{ "_id" : "Mogwai" }
+{ "_id" : "Mohit Chauhan" }
+{ "_id" : "Mohombi" }
+{ "_id" : "Moi Dix Mois" }
+{ "_id" : "Mojo Nixon" }
+{ "_id" : "Molly Hatchet" }
+{ "_id" : "Moloko" }
+{ "_id" : "Molotov Jive" }
+{ "_id" : "Momus" }
+{ "_id" : "Mondo Generator" }
+{ "_id" : "Money Mark" }
+{ "_id" : "Mongo Santamaria" }
+{ "_id" : "Monica" }
+{ "_id" : "Monika Kruse" }
+{ "_id" : "Monochrome Set" }
+{ "_id" : "Monster Magnet" }
+{ "_id" : "Montez De Durango" }
+{ "_id" : "Montrose" }
+{ "_id" : "Moody Blues" }
+{ "_id" : "Moodymann" }
+{ "_id" : "Moon Duo" }
+{ "_id" : "Moonbabies" }
+{ "_id" : "Moonbootica" }
+{ "_id" : "Morcheeba" }
+{ "_id" : "Mord Fustang" }
+{ "_id" : "Morgan Heritage" }
+{ "_id" : "Moricone Ennio" }
+{ "_id" : "Mormon Tabernacle Choir" }
+{ "_id" : "Morning Teleportation" }
+{ "_id" : "Morningwood" }
+{ "_id" : "Morphine" }
+{ "_id" : "Morrissey" }
+{ "_id" : "Mortification" }
+{ "_id" : "Mos Def" }
+{ "_id" : "Mothers Of Invention" }
+{ "_id" : "Motion City Soundtrack" }
+{ "_id" : "Motion Trio" }
+{ "_id" : "Motopony" }
+{ "_id" : "Motorcycle" }
+{ "_id" : "Moulin Rouge" }
+{ "_id" : "Mount Eden" }
+{ "_id" : "Mountain Goats" }
+{ "_id" : "Mourning Widows" }
+{ "_id" : "Mousse T" }
+{ "_id" : "Movielife" }
+{ "_id" : "Movits" }
+{ "_id" : "Movits!" }
+{ "_id" : "Moya Brennan" }
+{ "_id" : "Mozart" }
+{ "_id" : "Mr Oizo" }
+{ "_id" : "Mr. Big" }
+{ "_id" : "Mr. Mister" }
+{ "_id" : "Mr. Sancho" }
+{ "_id" : "Mr.Children" }
+{ "_id" : "Ms. Jade" }
+{ "_id" : "Msi" }
+{ "_id" : "Mstrkrft" }
+{ "_id" : "Mt Eden" }
+{ "_id" : "Mtume" }
+{ "_id" : "Muck Sticky" }
+{ "_id" : "Mudmen" }
+{ "_id" : "Mudvayne" }
+{ "_id" : "Muldoon'S Picnic" }
+{ "_id" : "Mule" }
+{ "_id" : "Mumford & Sons" }
+{ "_id" : "Munk" }
+{ "_id" : "Murray Head" }
+{ "_id" : "Muse" }
+{ "_id" : "Museum" }
+{ "_id" : "Mushman" }
+{ "_id" : "Mute Math" }
+{ "_id" : "My American Heart" }
+{ "_id" : "My Brightest Diamond" }
+{ "_id" : "My Chemical Romance" }
+{ "_id" : "My Goodness" }
+{ "_id" : "My Mine" }
+{ "_id" : "My Morning Jacket" }
+{ "_id" : "My Ruin" }
+{ "_id" : "My Vitriol" }
+{ "_id" : "Mya" }
+{ "_id" : "Mylene Farmer" }
+{ "_id" : "Mylo" }
+{ "_id" : "Mynameisjohnmichael" }
+{ "_id" : "Mystery Jets" }
+{ "_id" : "Mystical" }
+{ "_id" : "Mystikal" }
+{ "_id" : "N-Dubz" }
+{ "_id" : "N.E.R.D." }
+{ "_id" : "N.O.H.A" }
+{ "_id" : "N.W.A." }
+{ "_id" : "Nacha Pop" }
+{ "_id" : "Nada Surf" }
+{ "_id" : "Nadia Ali" }
+{ "_id" : "Naked On The Vague" }
+{ "_id" : "Namie Amuro" }
+{ "_id" : "Nana Kitade" }
+{ "_id" : "Nancy Sinatra" }
+{ "_id" : "Nappy Roots" }
+{ "_id" : "Nas" }
+{ "_id" : "Nasa" }
+{ "_id" : "Natalie Cole" }
+{ "_id" : "Natalie Merchant" }
+{ "_id" : "Natas" }
+{ "_id" : "Natasha Bedingfield" }
+{ "_id" : "Natasja" }
+{ "_id" : "Nate57" }
+{ "_id" : "Nathan" }
+{ "_id" : "Nathaniel Rateliff" }
+{ "_id" : "Nazareth" }
+{ "_id" : "Nebula" }
+{ "_id" : "Necro" }
+{ "_id" : "Neil Diamond" }
+{ "_id" : "Neil Finn" }
+{ "_id" : "Neil Halstead" }
+{ "_id" : "Neil Landstrumm" }
+{ "_id" : "Neil Leyton" }
 { "_id" : "Neil Young" }
+{ "_id" : "Neimo" }
+{ "_id" : "Neko Case" }
+{ "_id" : "Nellie Mckay" }
+{ "_id" : "Nelly" }
+{ "_id" : "Nelly Furtado" }
+{ "_id" : "Nelo" }
+{ "_id" : "Nelson" }
+{ "_id" : "Neo" }
+{ "_id" : "Neo Cortex" }
+{ "_id" : "Neon Indian" }
+{ "_id" : "Neon Judgement" }
+{ "_id" : "Neon Zoo" }
+{ "_id" : "Neptunes" }
+{ "_id" : "Nerd" }
+{ "_id" : "Nero" }
+{ "_id" : "Nerve Agents" }
+{ "_id" : "Netsky" }
+{ "_id" : "Network 23" }
+{ "_id" : "Neville Brothers" }
+{ "_id" : "New Found Glory" }
+{ "_id" : "New Low" }
+{ "_id" : "New Monsoon" }
+{ "_id" : "New Musik" }
+{ "_id" : "New Order" }
+{ "_id" : "New York Dolls" }
+{ "_id" : "New Young Pony Club" }
+{ "_id" : "Newsong" }
+{ "_id" : "Next" }
+{ "_id" : "Niche" }
+{ "_id" : "Nick Cave" }
+{ "_id" : "Nick Cave And The Bad Seeds" }
+{ "_id" : "Nick Lowe" }
+{ "_id" : "Nick Waterhouse" }
+{ "_id" : "Nickelback" }
+{ "_id" : "Nicky Blackmarket" }
+{ "_id" : "Nicky Romero" }
+{ "_id" : "Nico" }
+{ "_id" : "Nicole" }
+{ "_id" : "Nicole Kidman" }
+{ "_id" : "Nicole Willis" }
+{ "_id" : "Nigel Kennedy" }
+{ "_id" : "Nightcore" }
+{ "_id" : "Nightwish" }
+{ "_id" : "Nikki & Rich" }
+{ "_id" : "Nikki Flores" }
+{ "_id" : "Nils Lofgren" }
+{ "_id" : "Nina Kinert" }
+{ "_id" : "Nina Mc" }
+{ "_id" : "Nina Simone" }
+{ "_id" : "Nina Sky" }
+{ "_id" : "Nine Black Alps" }
+{ "_id" : "Nine Inch Nails" }
+{ "_id" : "Nipsey Hussle" }
 { "_id" : "Nirvana" }
+{ "_id" : "Nit Grit" }
+{ "_id" : "Nits" }
+{ "_id" : "Nitty Gritty Dirt Band" }
+{ "_id" : "Nlt" }
+{ "_id" : "Nneka" }
+{ "_id" : "No Age" }
+{ "_id" : "No Angels" }
+{ "_id" : "No Comment" }
+{ "_id" : "No Doubt" }
+{ "_id" : "Noah23" }
+{ "_id" : "Nobunny" }
+{ "_id" : "Nocando" }
+{ "_id" : "Noel Gallagher" }
+{ "_id" : "Noel Gallagher'S High Flying Birds" }
+{ "_id" : "Nofx" }
+{ "_id" : "Noisecontrollers" }
+{ "_id" : "Noisestorm" }
+{ "_id" : "Noisia" }
+{ "_id" : "Nomad" }
+{ "_id" : "Nomo" }
+{ "_id" : "Nonpoint" }
+{ "_id" : "Nore" }
+{ "_id" : "Normaal" }
+{ "_id" : "Norman Bass" }
+{ "_id" : "Norman Palm" }
+{ "_id" : "North" }
+{ "_id" : "North Mississippi Allstars" }
+{ "_id" : "Northern Lite" }
+{ "_id" : "Nosferatu" }
+{ "_id" : "Nostalgia" }
+{ "_id" : "Nothing But The Girl" }
+{ "_id" : "Nought" }
+{ "_id" : "Nouvelle Vogue" }
+{ "_id" : "Novaspace" }
+{ "_id" : "Novos Baianos" }
+{ "_id" : "Now It'S Overhead" }
+{ "_id" : "Nrbq" }
+{ "_id" : "Number One Gun" }
+{ "_id" : "O'Jays" }
+{ "_id" : "O.A.R." }
+{ "_id" : "O.G.C." }
+{ "_id" : "Oak Ridge Boys" }
 { "_id" : "Oasis" }
+{ "_id" : "Obie Trice" }
+{ "_id" : "Obsidia" }
+{ "_id" : "Ocean Avenue" }
+{ "_id" : "Ocean Colour Scene" }
+{ "_id" : "Octopus Project" }
+{ "_id" : "Odb" }
+{ "_id" : "Odetta" }
+{ "_id" : "Of Monsters And Men" }
+{ "_id" : "Of Montreal" }
+{ "_id" : "Ofra Haza" }
+{ "_id" : "Ofwgkta" }
+{ "_id" : "Oh Land" }
+{ "_id" : "Oh Mercy" }
+{ "_id" : "Ohgr" }
+{ "_id" : "Ohio Express" }
+{ "_id" : "Ohio Players" }
+{ "_id" : "Oingo Boingo" }
+{ "_id" : "Okkervil River" }
+{ "_id" : "Ol Dirty Bastard" }
+{ "_id" : "Ol' Dirty Bastard" }
+{ "_id" : "Olav Basoski" }
+{ "_id" : "Old 97'S" }
+{ "_id" : "Old And In The Way" }
+{ "_id" : "Ole Van Dansk" }
+{ "_id" : "Oleander" }
+{ "_id" : "Olive" }
+{ "_id" : "Oliver Boyd And The Remembralls" }
+{ "_id" : "Oliver Nelson" }
+{ "_id" : "Olivia" }
+{ "_id" : "Olivia Newton John" }
+{ "_id" : "Olu" }
+{ "_id" : "Olu Dara" }
+{ "_id" : "Omar And The Howlers" }
+{ "_id" : "Omar Rodriguez Lopez" }
+{ "_id" : "Omega" }
+{ "_id" : "Oncue" }
+{ "_id" : "One Direction" }
+{ "_id" : "One Less Reason" }
+{ "_id" : "One Man Army" }
+{ "_id" : "One T" }
+{ "_id" : "Oneohtrix Point Never" }
+{ "_id" : "Onerepublic" }
+{ "_id" : "Onyx" }
+{ "_id" : "Oojami" }
+{ "_id" : "Operation Ivy" }
+{ "_id" : "Opeth" }
+{ "_id" : "Ophidian" }
+{ "_id" : "Opshop" }
+{ "_id" : "Orange Juice" }
+{ "_id" : "Orange Range" }
+{ "_id" : "Orchestral Manoeuvres In The Dark" }
+{ "_id" : "Oren Lavie" }
+{ "_id" : "Orestus" }
+{ "_id" : "Orgy" }
+{ "_id" : "Orishas" }
+{ "_id" : "Ornette Coleman" }
+{ "_id" : "Os Mutantes" }
+{ "_id" : "Oscar Peterson" }
+{ "_id" : "Oscar Peterson Trio" }
+{ "_id" : "Osunlade" }
+{ "_id" : "Otep" }
+{ "_id" : "Other Lives" }
+{ "_id" : "Otis Redding" }
+{ "_id" : "Ottmar Liebert" }
+{ "_id" : "Ou Est Le Swimming Pool" }
+{ "_id" : "Oumou Sangare" }
+{ "_id" : "Our Lady Peace" }
+{ "_id" : "Out Of Eden" }
+{ "_id" : "Outasight" }
+{ "_id" : "Outkast" }
+{ "_id" : "Outlandish" }
+{ "_id" : "Outlaws" }
+{ "_id" : "Oval" }
+{ "_id" : "Overkill" }
+{ "_id" : "Overseer" }
+{ "_id" : "Owl City" }
+{ "_id" : "Oxford Collapse" }
+{ "_id" : "Oysterhead" }
+{ "_id" : "Ozark Mountain Daredevils" }
+{ "_id" : "Ozma" }
+{ "_id" : "Ozone" }
+{ "_id" : "Ozzy Osbourne" }
+{ "_id" : "P. Diddy" }
+{ "_id" : "P. J. Harvey" }
+{ "_id" : "P.J. Harvey" }
+{ "_id" : "Pablo Cruise" }
+{ "_id" : "Paddy Reilly" }
+{ "_id" : "Paffendorf" }
+{ "_id" : "Painted Palms" }
+{ "_id" : "Pakito" }
+{ "_id" : "Palace Brothers" }
+{ "_id" : "Palaxy Tracks" }
+{ "_id" : "Pam Tillis" }
+{ "_id" : "Panasonic" }
+{ "_id" : "Panda Bear" }
+{ "_id" : "Panic! At The Disco" }
+{ "_id" : "Pantera" }
+{ "_id" : "Paolo Fedreghini" }
+{ "_id" : "Papa Roach" }
+{ "_id" : "Papa Wemba" }
+{ "_id" : "Paper Doll" }
+{ "_id" : "Paper Lions" }
+{ "_id" : "Papercuts" }
+{ "_id" : "Papoose" }
+{ "_id" : "Parabelle" }
+{ "_id" : "Paragonx9" }
+{ "_id" : "Paralamas Do Sucesso" }
+{ "_id" : "Paramore" }
+{ "_id" : "Parazitii" }
+{ "_id" : "Parchis" }
+{ "_id" : "Parkway Drive" }
+{ "_id" : "Parokya Ni Edgar" }
+{ "_id" : "Particle" }
+{ "_id" : "Passion Pit" }
+{ "_id" : "Passport" }
+{ "_id" : "Pastor Troy" }
+{ "_id" : "Pat Benatar" }
+{ "_id" : "Pat Kelly" }
+{ "_id" : "Pat Metheny" }
+{ "_id" : "Pat Travers" }
+{ "_id" : "Patife" }
+{ "_id" : "Patrice" }
+{ "_id" : "Patricia Barber" }
+{ "_id" : "Patricia Kaas" }
+{ "_id" : "Patrick Alavi" }
+{ "_id" : "Patrick Park" }
+{ "_id" : "Patrick Wolf" }
+{ "_id" : "Patti Griffin" }
+{ "_id" : "Patty Griffin" }
+{ "_id" : "Patty Loveless" }
+{ "_id" : "Paty Cantu" }
+{ "_id" : "Paul Collins" }
+{ "_id" : "Paul Curreri" }
+{ "_id" : "Paul Di'Anno" }
+{ "_id" : "Paul Johnson" }
+{ "_id" : "Paul Kalkbrenner" }
+{ "_id" : "Paul Keeley" }
+{ "_id" : "Paul Mccartney" }
+{ "_id" : "Paul Oakenfold" }
+{ "_id" : "Paul Potts" }
+{ "_id" : "Paul Revere And The Raiders" }
+{ "_id" : "Paul Schwartz" }
 { "_id" : "Paul Simon" }
+{ "_id" : "Paul Thorn" }
+{ "_id" : "Paul Van Dyk" }
+{ "_id" : "Paul Weller" }
+{ "_id" : "Paul Winter" }
+{ "_id" : "Paul Young" }
+{ "_id" : "Paula Abdul" }
+{ "_id" : "Paulina Rubio" }
+{ "_id" : "Paulson" }
+{ "_id" : "Pavement" }
+{ "_id" : "Paxi" }
+{ "_id" : "Payable On Death" }
+{ "_id" : "Pcd" }
+{ "_id" : "Peabo Bryson" }
+{ "_id" : "Peace Orchestra" }
+{ "_id" : "Peaches" }
+{ "_id" : "Peaking Lights" }
 { "_id" : "Pearl Jam" }
+{ "_id" : "Pearlene" }
+{ "_id" : "Pearls Before Swine" }
+{ "_id" : "Peasant" }
+{ "_id" : "Peggy Lee" }
+{ "_id" : "Pelle Carlberg" }
+{ "_id" : "Pelle Miljoona" }
+{ "_id" : "Pendragon" }
+{ "_id" : "Pendulum" }
+{ "_id" : "Penguin Cafe Orchestra" }
+{ "_id" : "Penis" }
+{ "_id" : "Peoples Choice" }
+{ "_id" : "Pepe Bradock" }
+{ "_id" : "Pepe Habichuela" }
+{ "_id" : "Pepper" }
+{ "_id" : "Percy Faith" }
+{ "_id" : "Percy Jones" }
+{ "_id" : "Pere Ubu" }
+{ "_id" : "Pernice Brothers" }
+{ "_id" : "Perpetual Groove" }
+{ "_id" : "Perplex" }
+{ "_id" : "Persecution Mania" }
+{ "_id" : "Pest" }
+{ "_id" : "Pete Doherty" }
+{ "_id" : "Pete Townshend" }
+{ "_id" : "Pete Yorn" }
+{ "_id" : "Peter Bailey" }
+{ "_id" : "Peter Bradley Adams" }
+{ "_id" : "Peter Cetera" }
+{ "_id" : "Peter Fox" }
+{ "_id" : "Peter Frampton" }
+{ "_id" : "Peter Gabriel" }
+{ "_id" : "Peter Green" }
+{ "_id" : "Peter Himmelman" }
+{ "_id" : "Peter Licht" }
+{ "_id" : "Peter Paul And Mary" }
+{ "_id" : "Peter Tosh" }
+{ "_id" : "Peter, Paul And Mary" }
+{ "_id" : "Petey Pablo" }
+{ "_id" : "Petra" }
+{ "_id" : "Phantom Limbs" }
+{ "_id" : "Phantom Of The Opera" }
+{ "_id" : "Phantom Planet" }
+{ "_id" : "Pharcyde" }
+{ "_id" : "Phaser" }
+{ "_id" : "Phat Kat" }
+{ "_id" : "Phil Collins" }
+{ "_id" : "Phil K" }
+{ "_id" : "Phil Keaggy" }
+{ "_id" : "Phil Lesh And Friends" }
+{ "_id" : "Phil Ochs" }
+{ "_id" : "Phil Seymour" }
+{ "_id" : "Philip Glass" }
+{ "_id" : "Phillip Boa" }
+{ "_id" : "Philosopher Kings" }
+{ "_id" : "Phish" }
+{ "_id" : "Phoenix" }
+{ "_id" : "Photek" }
+{ "_id" : "Photo" }
+{ "_id" : "Piebald" }
+{ "_id" : "Pimp Code" }
+{ "_id" : "Pine Box Boys" }
+{ "_id" : "Pinhani" }
 { "_id" : "Pink Floyd" }
+{ "_id" : "Pink Martini" }
+{ "_id" : "Pistol Annies" }
+{ "_id" : "Pit Er Pat" }
+{ "_id" : "Pitbull" }
+{ "_id" : "Pitchshifter" }
+{ "_id" : "Pizzicato Five" }
+{ "_id" : "Pjotr Iljitsch Tschaikowski" }
+{ "_id" : "Placebo" }
+{ "_id" : "Placido Domingo" }
+{ "_id" : "Plain White Tees" }
+{ "_id" : "Planes Mistaken For Stars" }
+{ "_id" : "Planet Funk" }
+{ "_id" : "Planet Gong" }
+{ "_id" : "Plants And Animals" }
+{ "_id" : "Plastic Bertrand" }
+{ "_id" : "Plastic City" }
+{ "_id" : "Plastikman" }
+{ "_id" : "Player" }
+{ "_id" : "Plies" }
+{ "_id" : "Plummet" }
+{ "_id" : "Pnau" }
+{ "_id" : "Poco" }
+{ "_id" : "Poe" }
+{ "_id" : "Pogues" }
+{ "_id" : "Poi Dog Pondering" }
+{ "_id" : "Point Blank" }
+{ "_id" : "Poison Idea" }
+{ "_id" : "Pole Folder" }
 { "_id" : "Police" }
+{ "_id" : "Polvo" }
+{ "_id" : "Pond" }
+{ "_id" : "Poni Hoax" }
+{ "_id" : "Pony Pony Run Run" }
+{ "_id" : "Popeda" }
+{ "_id" : "Popof" }
+{ "_id" : "Porcupine Tree" }
+{ "_id" : "Porno For Pyros" }
+{ "_id" : "Port O'Brien" }
+{ "_id" : "Porter Robinson" }
+{ "_id" : "Portishead" }
+{ "_id" : "Portugal. The Man" }
+{ "_id" : "Posies" }
+{ "_id" : "Postal Service" }
+{ "_id" : "Power Station" }
+{ "_id" : "Powerman 5000" }
+{ "_id" : "Powerwolf" }
+{ "_id" : "Preservation Hall Jazz Band" }
+{ "_id" : "Presidents Of The U.S.A." }
+{ "_id" : "Preston School Of Industry" }
+{ "_id" : "Presuntos Implicados" }
+{ "_id" : "Pretty Lights" }
+{ "_id" : "Pretty Maids" }
+{ "_id" : "Pretty Ricky" }
+{ "_id" : "Pretty Things" }
+{ "_id" : "Prezioso" }
+{ "_id" : "Prick" }
+{ "_id" : "Primus" }
+{ "_id" : "Prince" }
+{ "_id" : "Prince And The Revolution" }
+{ "_id" : "Princess Chelsea" }
+{ "_id" : "Pro-Pain" }
+{ "_id" : "Procol Harum" }
+{ "_id" : "Professor Longhair" }
+{ "_id" : "Project Pat" }
+{ "_id" : "Prong" }
+{ "_id" : "Propellerhead" }
+{ "_id" : "Propellerheads" }
+{ "_id" : "Prozzak" }
+{ "_id" : "Psychedelic Furs" }
+{ "_id" : "Psychostick" }
+{ "_id" : "Psytekk" }
+{ "_id" : "Public Enemy" }
+{ "_id" : "Puckish" }
+{ "_id" : "Puddle Of Mudd" }
+{ "_id" : "Pugacheva" }
+{ "_id" : "Pulled Apart By Horses" }
+{ "_id" : "Pulp" }
+{ "_id" : "Pulp Fiction" }
+{ "_id" : "Pulsedriver" }
+{ "_id" : "Punks Jump Up" }
+{ "_id" : "Puscifer" }
+{ "_id" : "Pussy Galore" }
+{ "_id" : "Pussycat Dolls" }
+{ "_id" : "Pussycats" }
+{ "_id" : "Pzycho Bitch" }
+{ "_id" : "Q-Tip" }
+{ "_id" : "Q65" }
+{ "_id" : "Quantic Soul Orchestra" }
+{ "_id" : "Quarterflash" }
+{ "_id" : "Quasi" }
 { "_id" : "Queen" }
+{ "_id" : "Queens Of The Stone Age" }
+{ "_id" : "Queensryche" }
+{ "_id" : "Questlove" }
+{ "_id" : "Quiet Riot" }
+{ "_id" : "Quincy Jones" }
+{ "_id" : "Quireboys" }
+{ "_id" : "Quirk" }
+{ "_id" : "Quruli" }
 { "_id" : "R.E.M." }
+{ "_id" : "R.I.O." }
+{ "_id" : "R.Kelly" }
+{ "_id" : "R.L. Burnside" }
+{ "_id" : "Ra" }
+{ "_id" : "Rachael Yamagata" }
+{ "_id" : "Rachel'S" }
+{ "_id" : "Rachelle Ferrell" }
+{ "_id" : "Rackets And Drapes" }
+{ "_id" : "Raconteurs" }
+{ "_id" : "Racoon" }
+{ "_id" : "Radio Moscow" }
 { "_id" : "Radiohead" }
+{ "_id" : "Radwimps" }
+{ "_id" : "Rae & Christian" }
+{ "_id" : "Rage Against The Machine" }
+{ "_id" : "Rahzel" }
+{ "_id" : "Railroad Earth" }
+{ "_id" : "Rainbow" }
+{ "_id" : "Rainbow Arabia" }
+{ "_id" : "Ralph Lawson" }
+{ "_id" : "Ralph Mctell" }
+{ "_id" : "Ralph Myerz" }
+{ "_id" : "Ralph Towner" }
+{ "_id" : "Ram" }
+{ "_id" : "Ram Trilogy" }
+{ "_id" : "Ramadanman" }
+{ "_id" : "Rammstein" }
+{ "_id" : "Rancid" }
+{ "_id" : "Randy California" }
+{ "_id" : "Randy Crawford" }
+{ "_id" : "Randy Newman" }
+{ "_id" : "Randy Rogers Band" }
+{ "_id" : "Randy Travis" }
+{ "_id" : "Rankin Family" }
+{ "_id" : "Rare Earth" }
+{ "_id" : "Rascall Flatts" }
+{ "_id" : "Rasputina" }
+{ "_id" : "Rasta Knast" }
+{ "_id" : "Ratatat" }
+{ "_id" : "Ratdog" }
+{ "_id" : "Raul Seixas" }
+{ "_id" : "Ravage" }
+{ "_id" : "Rave" }
+{ "_id" : "Rave Allstars" }
+{ "_id" : "Raven Maize" }
+{ "_id" : "Ray Anderson" }
+{ "_id" : "Ray Brown" }
+{ "_id" : "Ray Charles" }
+{ "_id" : "Ray Conniff" }
+{ "_id" : "Ray Knox" }
+{ "_id" : "Ray Lamontagne" }
+{ "_id" : "Razorlight" }
+{ "_id" : "Rbd" }
+{ "_id" : "Reactor" }
+{ "_id" : "Real Booty Babes" }
+{ "_id" : "Real Estate" }
+{ "_id" : "Real Mccoy" }
+{ "_id" : "Reamonn" }
+{ "_id" : "Reba Mcentire" }
+{ "_id" : "Rebecca Black" }
+{ "_id" : "Rebecca Pidgeon" }
+{ "_id" : "Rebel Son" }
+{ "_id" : "Rebelution" }
+{ "_id" : "Reboot" }
+{ "_id" : "Reckless Kelly" }
+{ "_id" : "Red Clay Ramblers" }
 { "_id" : "Red Hot Chili Peppers" }
+{ "_id" : "Red House Painters" }
+{ "_id" : "Red Light Company" }
+{ "_id" : "Red Lorry Yellow Lorry" }
+{ "_id" : "Red Snapper" }
+{ "_id" : "Redman" }
+{ "_id" : "Redwalls" }
+{ "_id" : "Reef" }
+{ "_id" : "Reel Big Fish" }
+{ "_id" : "Reflekt" }
+{ "_id" : "Regina Spektor" }
+{ "_id" : "Reinhard Mey" }
+{ "_id" : "Remedy" }
+{ "_id" : "Remix" }
+{ "_id" : "Remy Zero" }
+{ "_id" : "Renee Fleming" }
+{ "_id" : "Renft" }
+{ "_id" : "Reo Speedwagon" }
+{ "_id" : "Reprazent" }
+{ "_id" : "Reptar" }
+{ "_id" : "Republica" }
+{ "_id" : "Requake" }
+{ "_id" : "Return To Forever" }
+{ "_id" : "Revelation Theory" }
+{ "_id" : "Reverend Horton Heat" }
+{ "_id" : "Revis" }
+{ "_id" : "Revolution Void" }
+{ "_id" : "Rhymin Simon" }
+{ "_id" : "Rialto" }
+{ "_id" : "Ricardo Villalobos" }
+{ "_id" : "Richard Ashcroft" }
+{ "_id" : "Richard Barone" }
+{ "_id" : "Richard Buckner" }
+{ "_id" : "Richard Clayderman" }
+{ "_id" : "Richard Galliano" }
+{ "_id" : "Richard Thompson" }
+{ "_id" : "Richard Wagner" }
+{ "_id" : "Richie Havens" }
+{ "_id" : "Richmond Fontaine" }
+{ "_id" : "Rick Astley" }
+{ "_id" : "Rick Danko" }
+{ "_id" : "Rick Ross" }
+{ "_id" : "Rick Springfield" }
+{ "_id" : "Rick Wakeman" }
+{ "_id" : "Ricky Skaggs" }
+{ "_id" : "Riddlin Kids" }
+{ "_id" : "Rihanna" }
+{ "_id" : "Rinocerose" }
+{ "_id" : "Rio" }
+{ "_id" : "Rise Against" }
+{ "_id" : "Rivingtons" }
+{ "_id" : "Rizzle Kicks" }
+{ "_id" : "Rjd2" }
+{ "_id" : "Rmb" }
+{ "_id" : "Rob Mayth" }
+{ "_id" : "Rob Thomas" }
+{ "_id" : "Rob Zombie" }
+{ "_id" : "Robbie Fulks" }
+{ "_id" : "Robbie Robertson" }
+{ "_id" : "Robbie Williams" }
+{ "_id" : "Robert Babicz" }
+{ "_id" : "Robert Cray" }
+{ "_id" : "Robert Earl Keen" }
+{ "_id" : "Robert Francis" }
+{ "_id" : "Robert Miles" }
+{ "_id" : "Robert Plant" }
+{ "_id" : "Robert Randolph" }
+{ "_id" : "Robert Randolph And The Family Band" }
+{ "_id" : "Robert Scott Thompson" }
+{ "_id" : "Robert Wells" }
+{ "_id" : "Robin S" }
+{ "_id" : "Robin Thicke" }
+{ "_id" : "Robots In Disguise" }
+{ "_id" : "Robyn" }
+{ "_id" : "Rocco" }
+{ "_id" : "Rockafella" }
+{ "_id" : "Rocket From The Crypt" }
+{ "_id" : "Rockpile" }
+{ "_id" : "Rocky Horror Picture Show" }
+{ "_id" : "Rod Stewart" }
+{ "_id" : "Rodney Crowell" }
+{ "_id" : "Rodney King" }
+{ "_id" : "Roger Sanchez" }
+{ "_id" : "Roger Waters" }
+{ "_id" : "Rogue Traders" }
+{ "_id" : "Roisin Murphy" }
+{ "_id" : "Roky Erickson" }
+{ "_id" : "Romeo" }
+{ "_id" : "Romeo Santos" }
+{ "_id" : "Rompeprop" }
+{ "_id" : "Ron Carter" }
+{ "_id" : "Ron Trent" }
+{ "_id" : "Ronan Hardiman" }
+{ "_id" : "Roni Size" }
+{ "_id" : "Ronnie Earl" }
+{ "_id" : "Ronnie Lane" }
+{ "_id" : "Room 2012" }
+{ "_id" : "Roomful Of Blues" }
+{ "_id" : "Rooney" }
+{ "_id" : "Roots Manuva" }
+{ "_id" : "Rory Gallagher" }
+{ "_id" : "Rory Mcleod" }
+{ "_id" : "Rosana" }
+{ "_id" : "Rosanne Cash" }
+{ "_id" : "Rosemary Clooney" }
+{ "_id" : "Rosetta Stone" }
+{ "_id" : "Rosey" }
+{ "_id" : "Rosie And Me" }
+{ "_id" : "Ross" }
+{ "_id" : "Rotary Connection" }
+{ "_id" : "Roter Mohn" }
+{ "_id" : "Roudoudou" }
+{ "_id" : "Roxette" }
+{ "_id" : "Roxy Music" }
+{ "_id" : "Roy Acuff" }
+{ "_id" : "Roy Buchanan" }
+{ "_id" : "Roy Hargrove" }
+{ "_id" : "Roy Orbison" }
+{ "_id" : "Royal Gigolos" }
+{ "_id" : "Royal Republic" }
+{ "_id" : "Royce Da 5'9\"" }
+{ "_id" : "Royce Da 59" }
+{ "_id" : "Rpwl" }
+{ "_id" : "Ruarri Joseph" }
+{ "_id" : "Ruben Studdard" }
+{ "_id" : "Ruff Ryders" }
+{ "_id" : "Rufio" }
+{ "_id" : "Rufus" }
+{ "_id" : "Rufus Wainwright" }
+{ "_id" : "Ruins" }
+{ "_id" : "Rumer" }
+{ "_id" : "Run Level Zero" }
+{ "_id" : "Running Wild" }
+{ "_id" : "Runrig" }
+{ "_id" : "Rush" }
+{ "_id" : "Rusko" }
+{ "_id" : "Russell Watson" }
+{ "_id" : "Ry Cooder" }
+{ "_id" : "Ry Legit" }
+{ "_id" : "Ryan Adams" }
+{ "_id" : "Ryan Bingham" }
+{ "_id" : "Ryan Cabrera" }
+{ "_id" : "Rykers" }
+{ "_id" : "Ryuichi Sakamoto" }
+{ "_id" : "Saalschutz" }
+{ "_id" : "Sabot" }
+{ "_id" : "Sack" }
+{ "_id" : "Sad Cafe" }
+{ "_id" : "Sad Lovers & Giants" }
+{ "_id" : "Sade" }
+{ "_id" : "Saffire" }
+{ "_id" : "Safri Duo" }
+{ "_id" : "Saga" }
+{ "_id" : "Said The Whale" }
+{ "_id" : "Saint Etienne" }
+{ "_id" : "Saints" }
+{ "_id" : "Sak Noel" }
+{ "_id" : "Salad" }
+{ "_id" : "Sam" }
+{ "_id" : "Sam Bush" }
+{ "_id" : "Sam Phillips" }
+{ "_id" : "Sambassadeur" }
+{ "_id" : "Samira Said" }
+{ "_id" : "Samla Mammas Manna" }
+{ "_id" : "Sammy Davis Jr" }
+{ "_id" : "Samy Deluxe" }
+{ "_id" : "Sanctuary" }
+{ "_id" : "Sander Van Doorn" }
+{ "_id" : "Sandi Patti" }
+{ "_id" : "Sandy Denny" }
+{ "_id" : "Santana" }
+{ "_id" : "Santo & Johnny" }
+{ "_id" : "Santos" }
+{ "_id" : "Saosin" }
+{ "_id" : "Sara Bareillies" }
+{ "_id" : "Sarah Blackwood" }
+{ "_id" : "Sarah Brightman" }
+{ "_id" : "Sarah Harmer" }
+{ "_id" : "Sarah Mclachlan" }
+{ "_id" : "Sarah Vaughan" }
+{ "_id" : "Sascha" }
+{ "_id" : "Sascha Braemer" }
+{ "_id" : "Sash!" }
+{ "_id" : "Sasha" }
+{ "_id" : "Savage Garden" }
+{ "_id" : "Savatage" }
+{ "_id" : "Saves The Day" }
+{ "_id" : "Saving Abel" }
+{ "_id" : "Saving Jane" }
+{ "_id" : "Savoy Brown" }
+{ "_id" : "Savoy Grand" }
+{ "_id" : "Say Anything" }
+{ "_id" : "Saycet" }
+{ "_id" : "Scala" }
+{ "_id" : "Scarf" }
+{ "_id" : "Scarlatti" }
+{ "_id" : "Scarling." }
+{ "_id" : "Scholastic Deth" }
+{ "_id" : "School Of Seven Bells" }
+{ "_id" : "Schrottgrenze" }
+{ "_id" : "Schubert" }
+{ "_id" : "Schumacher" }
+{ "_id" : "Scientist" }
+{ "_id" : "Scissor Sisters" }
+{ "_id" : "Scooter" }
+{ "_id" : "Scorpions" }
+{ "_id" : "Scot Project" }
+{ "_id" : "Scott Brown" }
+{ "_id" : "Scott Joplin" }
+{ "_id" : "Scott Matthews" }
+{ "_id" : "Scott Walker" }
+{ "_id" : "Scratch Perverts" }
+{ "_id" : "Scratching Post" }
+{ "_id" : "Scratchtrack" }
+{ "_id" : "Screaming Blue Messiahs" }
+{ "_id" : "Screaming Females" }
+{ "_id" : "Screeching Weasel" }
+{ "_id" : "Sea Level" }
+{ "_id" : "Sea Wolf" }
+{ "_id" : "Seachange" }
+{ "_id" : "Seahorses" }
+{ "_id" : "Seal" }
+{ "_id" : "Seals & Crofts" }
+{ "_id" : "Sean Deason" }
+{ "_id" : "Sean Hayes" }
+{ "_id" : "Sean Lennon" }
+{ "_id" : "Sean Paul" }
+{ "_id" : "Sean Price" }
+{ "_id" : "Sean Tyas" }
+{ "_id" : "Sebastian Ingrosso" }
+{ "_id" : "Sebastien Tellier" }
+{ "_id" : "Secondhand" }
+{ "_id" : "Secondhand Serenade" }
+{ "_id" : "Secret And Whisper" }
+{ "_id" : "Secret Garden" }
+{ "_id" : "Seeed" }
+{ "_id" : "Seether" }
+{ "_id" : "Selena" }
+{ "_id" : "Selena Gomez" }
+{ "_id" : "Semi Precious Weapons" }
+{ "_id" : "Semisonic" }
+{ "_id" : "September" }
+{ "_id" : "Sepultura" }
+{ "_id" : "Serena Ryder" }
+{ "_id" : "Serendipity Singers" }
+{ "_id" : "Sergent Garcia" }
+{ "_id" : "Ses" }
+{ "_id" : "Seter" }
+{ "_id" : "Seth Lakeman" }
+{ "_id" : "Sevendust" }
+{ "_id" : "Sex Mob" }
+{ "_id" : "Sha Na Na" }
+{ "_id" : "Shadowfax" }
+{ "_id" : "Shadows" }
+{ "_id" : "Shadows Fall" }
+{ "_id" : "Shadows Of Knight" }
+{ "_id" : "Shadowy Men On A Shadowy Planet" }
+{ "_id" : "Shaggs" }
+{ "_id" : "Shaggy" }
+{ "_id" : "Shai" }
+{ "_id" : "Shakira" }
+{ "_id" : "Shakti" }
+{ "_id" : "Shamans Harvest" }
+{ "_id" : "Shane Macgowan" }
+{ "_id" : "Shangri Las" }
+{ "_id" : "Shania Twain" }
+{ "_id" : "Shanice Wilson" }
+{ "_id" : "Shapeshifters" }
+{ "_id" : "Sharam" }
+{ "_id" : "Sharks Keep Moving" }
+{ "_id" : "Sharon Jones" }
+{ "_id" : "Sharon Jones And The Dap Kings" }
+{ "_id" : "Shaun Baker" }
+{ "_id" : "Shawn Colvin" }
+{ "_id" : "She" }
+{ "_id" : "Shearwater" }
+{ "_id" : "Shed Seven" }
+{ "_id" : "Sheep On Drugs" }
+{ "_id" : "Sheepdogs" }
+{ "_id" : "Shellac" }
+{ "_id" : "Sheryfa Luna" }
+{ "_id" : "Sheryl Crow" }
+{ "_id" : "Shihad" }
+{ "_id" : "Shinedown" }
+{ "_id" : "Shiner" }
+{ "_id" : "Shiny Toy Guns" }
+{ "_id" : "Shocking Blue" }
+{ "_id" : "Shooter Jennings" }
+{ "_id" : "Shout Out Louds" }
+{ "_id" : "Show Of Hands" }
+{ "_id" : "Showtek" }
+{ "_id" : "Shrubbies" }
+{ "_id" : "Shuggie Otis" }
+{ "_id" : "Shugo Tokumaru" }
+{ "_id" : "Shy Fx" }
+{ "_id" : "Sia" }
+{ "_id" : "Siam Shade" }
+{ "_id" : "Sidi Bou Said" }
+{ "_id" : "Sidney Bechet" }
+{ "_id" : "Sido" }
+{ "_id" : "Sidsel Endresen" }
+{ "_id" : "Sienna Skies" }
+{ "_id" : "Sigue Sigue Sputnik" }
+{ "_id" : "Sigur Ros" }
+{ "_id" : "Silver" }
+{ "_id" : "Silver Apples" }
+{ "_id" : "Silver Bullet" }
+{ "_id" : "Silvercrush" }
+{ "_id" : "Silverstein" }
+{ "_id" : "Silversun Pickups" }
+{ "_id" : "Silvertide" }
+{ "_id" : "Silvery" }
+{ "_id" : "Silvie Vartan" }
+{ "_id" : "Simian" }
 { "_id" : "Simon & Garfunkel" }
+{ "_id" : "Simple Kid" }
+{ "_id" : "Simple Plan" }
+{ "_id" : "Sina Vodjani" }
+{ "_id" : "Sinead O'Connor" }
+{ "_id" : "Singers And Players" }
+{ "_id" : "Sioen" }
+{ "_id" : "Sir Colin" }
+{ "_id" : "Sirius" }
+{ "_id" : "Sis" }
+{ "_id" : "Sisqo" }
+{ "_id" : "Sissy Cowboys" }
+{ "_id" : "Sister Bliss" }
+{ "_id" : "Sister Sledge" }
+{ "_id" : "Sisters Of Mercy" }
+{ "_id" : "Sistol" }
+{ "_id" : "Six60" }
+{ "_id" : "Sixto Rodriguez" }
+{ "_id" : "Ska-P" }
+{ "_id" : "Skamp" }
+{ "_id" : "Skee Lo" }
+{ "_id" : "Skeeter Davis" }
+{ "_id" : "Skeptix" }
+{ "_id" : "Sketch Show" }
+{ "_id" : "Skid Row" }
+{ "_id" : "Skillet" }
+{ "_id" : "Skindred" }
+{ "_id" : "Skream" }
+{ "_id" : "Skrew" }
+{ "_id" : "Skrillex" }
+{ "_id" : "Skunk Anansie" }
+{ "_id" : "Skunkhour" }
+{ "_id" : "Sky Eats Airplane" }
+{ "_id" : "Skybox" }
+{ "_id" : "Skye" }
+{ "_id" : "Skylab" }
+{ "_id" : "Slagsmalsklubben" }
+{ "_id" : "Slapstick" }
+{ "_id" : "Slaughterhouse" }
+{ "_id" : "Slayer" }
+{ "_id" : "Sleeper Agent" }
+{ "_id" : "Sleeping People" }
+{ "_id" : "Sleepy Sun" }
+{ "_id" : "Sleigh Bells" }
+{ "_id" : "Slick Rick" }
+{ "_id" : "Slick Shoes" }
+{ "_id" : "Slightly Stoopid" }
+{ "_id" : "Slim Cessna'S Auto Club" }
+{ "_id" : "Slim Thug" }
+{ "_id" : "Slipknot" }
+{ "_id" : "Slobberbone" }
+{ "_id" : "Slow Club" }
+{ "_id" : "Slow Train Soul" }
+{ "_id" : "Slowblow" }
+{ "_id" : "Slum Village" }
+{ "_id" : "Sluts For Hire" }
+{ "_id" : "Small Faces" }
+{ "_id" : "Smash Mouth" }
+{ "_id" : "Smashmouth" }
+{ "_id" : "Smile.Dk" }
+{ "_id" : "Smith & Mighty" }
+{ "_id" : "Smith Westerns" }
+{ "_id" : "Smokey Robinson" }
+{ "_id" : "Smokie" }
+{ "_id" : "Smooth Jazz" }
+{ "_id" : "Snake River Conspiracy" }
+{ "_id" : "Snakefinger" }
+{ "_id" : "Snap!" }
+{ "_id" : "Sneaker Pimps" }
+{ "_id" : "Sneaky Sound System" }
+{ "_id" : "Snoop Doggy Dog" }
+{ "_id" : "Snow" }
+{ "_id" : "Snow Patrol" }
+{ "_id" : "Snubnoze" }
+{ "_id" : "Soad" }
+{ "_id" : "Social Distortion" }
+{ "_id" : "Sofa Surfers" }
+{ "_id" : "Soft Boys" }
+{ "_id" : "Soft Machine" }
+{ "_id" : "Sohodolls" }
+{ "_id" : "Soja" }
+{ "_id" : "Soko" }
+{ "_id" : "Sol" }
+{ "_id" : "Sol Seppy" }
+{ "_id" : "Sold Out" }
+{ "_id" : "Soldiers Of Jah Army" }
+{ "_id" : "Sole" }
+{ "_id" : "Soledad Brothers" }
+{ "_id" : "Solee" }
+{ "_id" : "Solomon Burke" }
+{ "_id" : "Somersault" }
+{ "_id" : "Son Kite" }
+{ "_id" : "Son Volt" }
+{ "_id" : "Song" }
+{ "_id" : "Songs: Ohia" }
+{ "_id" : "Songs:ohia" }
+{ "_id" : "Sonia Dada" }
+{ "_id" : "Sonic Youth" }
+{ "_id" : "Sonique" }
+{ "_id" : "Sonny Boy Williamson" }
+{ "_id" : "Sonny Landreth" }
+{ "_id" : "Sons Of The Pioneers" }
+{ "_id" : "Sophie Ellis Bextor" }
+{ "_id" : "Sophie Milman" }
+{ "_id" : "Sos Band" }
+{ "_id" : "Sosodef" }
+{ "_id" : "Souad Massi" }
+{ "_id" : "Soul Embraced" }
+{ "_id" : "Soulive" }
+{ "_id" : "Soulstice" }
+{ "_id" : "Soulwax" }
+{ "_id" : "Sound Team" }
+{ "_id" : "Sound Tribe Sector 9" }
+{ "_id" : "Soundgarden" }
+{ "_id" : "Southern Culture On The Skids" }
+{ "_id" : "Spacehog" }
+{ "_id" : "Spacemen 3" }
+{ "_id" : "Spacenight" }
+{ "_id" : "Spark Is A Diamond" }
+{ "_id" : "Sparkadia" }
+{ "_id" : "Sparklehorse" }
+{ "_id" : "Sparks The Rescue" }
+{ "_id" : "Sparta" }
+{ "_id" : "Special Aka" }
+{ "_id" : "Special D" }
+{ "_id" : "Special Duties" }
+{ "_id" : "Speedy West & Jimmy Bryant" }
+{ "_id" : "Spencer & Hill" }
+{ "_id" : "Spencer Davis Group" }
+{ "_id" : "Spice Girls" }
+{ "_id" : "Spike Jones" }
+{ "_id" : "Spiller" }
+{ "_id" : "Spinal Tap" }
+{ "_id" : "Spinners" }
+{ "_id" : "Spinvis" }
+{ "_id" : "Spiral Tribe" }
+{ "_id" : "Spirit" }
+{ "_id" : "Spiritual Beggars" }
+{ "_id" : "Split Enz" }
+{ "_id" : "Spooky" }
+{ "_id" : "Spooky Tooth" }
+{ "_id" : "Spoon" }
+{ "_id" : "Spor" }
+{ "_id" : "Sportfreunde Stiller" }
+{ "_id" : "Spose" }
+{ "_id" : "Spratleys Japs" }
+{ "_id" : "Spyro Gyra" }
+{ "_id" : "Square One" }
+{ "_id" : "Squeeze" }
+{ "_id" : "Ss501" }
+{ "_id" : "St Vincent" }
+{ "_id" : "St. Germain" }
+{ "_id" : "St. Vincent" }
+{ "_id" : "Stabilo" }
+{ "_id" : "Stacey Kent" }
+{ "_id" : "Stacie Orrico" }
+{ "_id" : "Staind" }
+{ "_id" : "Stakka And Skynet" }
+{ "_id" : "Stan Getz" }
+{ "_id" : "Stan Rogers" }
+{ "_id" : "Star Fucking Hipsters" }
+{ "_id" : "Starchild" }
+{ "_id" : "Stardeath And White Dwarfs" }
+{ "_id" : "Stardust" }
+{ "_id" : "Starecase" }
+{ "_id" : "Starland Vocal Band" }
+{ "_id" : "Starlings" }
+{ "_id" : "Starsailor" }
+{ "_id" : "Starship" }
+{ "_id" : "Starsplash" }
+{ "_id" : "Stateless" }
+{ "_id" : "Static Sound System" }
+{ "_id" : "Static-X" }
+{ "_id" : "Statler Brothers" }
+{ "_id" : "Status Quo" }
+{ "_id" : "Steamhammer" }
+{ "_id" : "Steel Pulse" }
+{ "_id" : "Steeley Dan" }
+{ "_id" : "Steeleye Span" }
+{ "_id" : "Steely Dan" }
+{ "_id" : "Stefanie Heinzmann" }
+{ "_id" : "Stemm" }
+{ "_id" : "Stephan Micus" }
+{ "_id" : "Stephane Attias" }
+{ "_id" : "Stephanie" }
+{ "_id" : "Stephanie Mcintosh" }
+{ "_id" : "Stephen Lynch" }
+{ "_id" : "Stephen Malkmus" }
+{ "_id" : "Steps" }
+{ "_id" : "Stereolab" }
+{ "_id" : "Stereophonics" }
+{ "_id" : "Steve Angello" }
+{ "_id" : "Steve Aoki" }
+{ "_id" : "Steve Bailey" }
+{ "_id" : "Steve Coleman" }
+{ "_id" : "Steve Earle" }
+{ "_id" : "Steve Goodman" }
+{ "_id" : "Steve Green" }
+{ "_id" : "Steve Hackett" }
+{ "_id" : "Steve Khan" }
+{ "_id" : "Steve Lawler" }
+{ "_id" : "Steve Miller Band" }
+{ "_id" : "Steve Morse" }
+{ "_id" : "Steve Murano" }
+{ "_id" : "Steve Reich" }
+{ "_id" : "Steve Smooth" }
+{ "_id" : "Steve Spacek" }
+{ "_id" : "Steve Tyrell" }
+{ "_id" : "Steve Vai" }
+{ "_id" : "Steve Winwood" }
+{ "_id" : "Stevie B" }
+{ "_id" : "Stevie Nicks" }
+{ "_id" : "Stevie Ray Vaughan" }
+{ "_id" : "Stevie Wonder" }
+{ "_id" : "Stiff Dylans" }
+{ "_id" : "Stiff Little Fingers" }
+{ "_id" : "Sting" }
+{ "_id" : "Stoa" }
+{ "_id" : "Stokes" }
+{ "_id" : "Stomp Music" }
+{ "_id" : "Stone Roses" }
+{ "_id" : "Stone Sour" }
+{ "_id" : "Stone Temple Pilots" }
+{ "_id" : "Stooges" }
+{ "_id" : "Storyville" }
+{ "_id" : "Straight No Chaser" }
+{ "_id" : "Strange Talk" }
+{ "_id" : "Strangelove" }
+{ "_id" : "Stranglers" }
+{ "_id" : "Stranjah" }
+{ "_id" : "Strawberry Alarm Clock" }
+{ "_id" : "Strawbs" }
+{ "_id" : "Straylight Run" }
+{ "_id" : "Streetlight Manifesto" }
+{ "_id" : "Stretcher Case" }
+{ "_id" : "Stromae" }
+{ "_id" : "Studio Killers" }
+{ "_id" : "Style Council" }
+{ "_id" : "Style Of Eye" }
+{ "_id" : "Stylistics" }
+{ "_id" : "Styx" }
+{ "_id" : "Sub Focus" }
+{ "_id" : "Subdudes" }
+{ "_id" : "Subhead" }
+{ "_id" : "Sublime" }
+{ "_id" : "Sublime With Rome" }
+{ "_id" : "Subliner" }
+{ "_id" : "Subway Sect" }
+{ "_id" : "Sucioperro" }
+{ "_id" : "Suede" }
+{ "_id" : "Sufjan Stevens" }
+{ "_id" : "Sugababes" }
+{ "_id" : "Sugar Hill Gang" }
+{ "_id" : "Sugar Ray" }
+{ "_id" : "Sugarcubes" }
+{ "_id" : "Sugarplum Fairy" }
+{ "_id" : "Suicide" }
+{ "_id" : "Suicide Commando" }
+{ "_id" : "Sum 41" }
+{ "_id" : "Summer Camp" }
+{ "_id" : "Sun Ra Arkestra" }
+{ "_id" : "Sunbeam" }
+{ "_id" : "Sunna" }
+{ "_id" : "Sunny Day Real Estate" }
+{ "_id" : "Sunscreem" }
+{ "_id" : "Sunshine Underground" }
+{ "_id" : "Super Furry Animals" }
+{ "_id" : "Super Mash Bros." }
+{ "_id" : "Supercell" }
+{ "_id" : "Superchic[k]" }
+{ "_id" : "Superchick" }
+{ "_id" : "Superchunk" }
+{ "_id" : "Supergrass" }
+{ "_id" : "Superheist" }
+{ "_id" : "Supermayer" }
+{ "_id" : "Supermode" }
+{ "_id" : "Supershirt" }
+{ "_id" : "Supersonic" }
+{ "_id" : "Supertones" }
+{ "_id" : "Supertramp" }
+{ "_id" : "Supremes" }
+{ "_id" : "Surgeon" }
+{ "_id" : "Susannah Mccorkle" }
+{ "_id" : "Suspiria" }
+{ "_id" : "Swedish House Mafia" }
+{ "_id" : "Sweet Honey In The Rock" }
+{ "_id" : "Sweet Sensation" }
+{ "_id" : "Swervedriver" }
+{ "_id" : "Swinging Blue Jeans" }
+{ "_id" : "Swishahouse" }
+{ "_id" : "Switchblade Symphony" }
+{ "_id" : "Syd Barrett" }
+{ "_id" : "Sylver" }
+{ "_id" : "Symphony X" }
+{ "_id" : "System Of A Down" }
+{ "_id" : "T'Pau" }
+{ "_id" : "T. Rex" }
+{ "_id" : "T.A.T.U." }
+{ "_id" : "T.I." }
+{ "_id" : "T.S.O.L." }
+{ "_id" : "Taj Mahal" }
+{ "_id" : "Take 6" }
+{ "_id" : "Taking Back Sunday" }
+{ "_id" : "Talib Kweli" }
+{ "_id" : "Talking Heads" }
+{ "_id" : "Tall Dwarfs" }
+{ "_id" : "Talla 2xlc" }
+{ "_id" : "Tally Hall" }
+{ "_id" : "Tame Impala" }
+{ "_id" : "Tammy Trent" }
+{ "_id" : "Tangerine Dream" }
+{ "_id" : "Tanghetto" }
+{ "_id" : "Tangiers" }
+{ "_id" : "Tank" }
+{ "_id" : "Tankard" }
+{ "_id" : "Tanya Tucker" }
+{ "_id" : "Tapes 'N Tapes" }
+{ "_id" : "Tapping The Vein" }
+{ "_id" : "Taproot" }
+{ "_id" : "Taste" }
+{ "_id" : "Tatanka" }
+{ "_id" : "Tattoo" }
+{ "_id" : "Tatu" }
+{ "_id" : "Tatum" }
+{ "_id" : "Taucher" }
+{ "_id" : "Tay Zonday" }
+{ "_id" : "Team Sleep" }
+{ "_id" : "Tears For Fears" }
+{ "_id" : "Tech N9ne" }
+{ "_id" : "Techno" }
+{ "_id" : "Technoboy" }
+{ "_id" : "Technossomy" }
+{ "_id" : "Technotronic" }
+{ "_id" : "Teddy Afro" }
+{ "_id" : "Teddy Pendegrass" }
+{ "_id" : "Teddybears" }
+{ "_id" : "Teddybears Stockholm" }
+{ "_id" : "Teebee" }
+{ "_id" : "Teenage Fanclub" }
+{ "_id" : "Teenage Jesus And The Jerks" }
+{ "_id" : "Tek-One" }
+{ "_id" : "Telepopmusik" }
+{ "_id" : "Ten" }
+{ "_id" : "Ten Kens" }
+{ "_id" : "Ten Mile Tide" }
+{ "_id" : "Ten Tenors" }
+{ "_id" : "Ten Years" }
+{ "_id" : "Ten Years After" }
+{ "_id" : "Tenacious D" }
+{ "_id" : "Tenor Saw" }
+{ "_id" : "Terence Trent Darby" }
+{ "_id" : "Terra" }
+{ "_id" : "Terranova" }
+{ "_id" : "Terravita" }
+{ "_id" : "Terri Hendrix" }
+{ "_id" : "Terror Squad" }
+{ "_id" : "Terrorvision" }
+{ "_id" : "Tesla" }
+{ "_id" : "Testament" }
+{ "_id" : "Texas Tornados" }
+{ "_id" : "Texta" }
+{ "_id" : "Tha Joker" }
+{ "_id" : "Thalia" }
+{ "_id" : "That Dog" }
+{ "_id" : "The Acorn" }
+{ "_id" : "The Advent" }
+{ "_id" : "The Age Of Rockets" }
+{ "_id" : "The Agony Scene" }
+{ "_id" : "The Aliens" }
+{ "_id" : "The All Seeing I" }
+{ "_id" : "The All-American Rejects" }
+{ "_id" : "The Aluminium Group" }
+{ "_id" : "The Animals" }
+{ "_id" : "The Anniversary" }
+{ "_id" : "The Answer" }
+{ "_id" : "The Antlers" }
+{ "_id" : "The Apartments" }
+{ "_id" : "The Archies" }
+{ "_id" : "The Ark" }
+{ "_id" : "The Art Of Noise" }
+{ "_id" : "The Ascetic Junkies" }
+{ "_id" : "The Asteroids Galaxy Tour" }
+{ "_id" : "The Avett Brothers" }
+{ "_id" : "The B Foundation" }
+{ "_id" : "The Babys" }
+{ "_id" : "The Bananas" }
 { "_id" : "The Band" }
+{ "_id" : "The Baseballs" }
+{ "_id" : "The Be Good Tanyas" }
 { "_id" : "The Beach Boys" }
+{ "_id" : "The Beat" }
 { "_id" : "The Beatles" }
+{ "_id" : "The Beautiful South" }
+{ "_id" : "The Bee Gees" }
+{ "_id" : "The Beloved" }
+{ "_id" : "The Bird And The Bee" }
+{ "_id" : "The Birthday Massacre" }
+{ "_id" : "The Black Belles" }
+{ "_id" : "The Black Dahlia Murder" }
 { "_id" : "The Black Keys" }
+{ "_id" : "The Blackbyrds" }
+{ "_id" : "The Blanks" }
+{ "_id" : "The Bled" }
+{ "_id" : "The Blue Aeroplanes" }
+{ "_id" : "The Bluetones" }
+{ "_id" : "The Bogmen" }
+{ "_id" : "The Boo Radleys" }
+{ "_id" : "The Boogie Pimps" }
+{ "_id" : "The Braids" }
+{ "_id" : "The Brakes" }
+{ "_id" : "The Bravery" }
+{ "_id" : "The Breeders" }
+{ "_id" : "The Brew" }
+{ "_id" : "The Bronze Medal" }
+{ "_id" : "The Bruisers" }
+{ "_id" : "The Bunny The Bear" }
+{ "_id" : "The Calling" }
+{ "_id" : "The Chantays" }
+{ "_id" : "The Chariot" }
+{ "_id" : "The Charlatans U.K." }
 { "_id" : "The Clash" }
+{ "_id" : "The Clik Clik" }
+{ "_id" : "The Coathangers" }
+{ "_id" : "The Concretes" }
+{ "_id" : "The Constellations" }
+{ "_id" : "The Cooks" }
+{ "_id" : "The Corries" }
+{ "_id" : "The Corrs" }
+{ "_id" : "The Cruxshadows" }
+{ "_id" : "The Cure" }
+{ "_id" : "The Dan Band" }
+{ "_id" : "The Darkness" }
+{ "_id" : "The Dave Clark Five" }
+{ "_id" : "The Dead 60'S" }
+{ "_id" : "The Dead Weather" }
+{ "_id" : "The Deadly Syndrome" }
+{ "_id" : "The Decemberists" }
+{ "_id" : "The Del Vikings" }
+{ "_id" : "The Descendants" }
+{ "_id" : "The Detroit Cobras" }
+{ "_id" : "The Dillinger Escape Plan" }
+{ "_id" : "The Dimes" }
+{ "_id" : "The Diplomats" }
+{ "_id" : "The Dirty Dozen Brass Band" }
+{ "_id" : "The Dirty Guv'Nahs" }
+{ "_id" : "The Dirty Heads" }
+{ "_id" : "The Dirty Projectors" }
+{ "_id" : "The Dirty Secrets" }
+{ "_id" : "The Disco Boys" }
+{ "_id" : "The Distillers" }
+{ "_id" : "The Dogs" }
+{ "_id" : "The Donnas" }
 { "_id" : "The Doors" }
+{ "_id" : "The Dwarves" }
 { "_id" : "The Eagles" }
+{ "_id" : "The Early November" }
+{ "_id" : "The Easybeats" }
+{ "_id" : "The Electric Soft Parade" }
+{ "_id" : "The English Beat" }
+{ "_id" : "The Enid" }
+{ "_id" : "The Essex Green" }
+{ "_id" : "The Ettes" }
+{ "_id" : "The Everybodyfields" }
+{ "_id" : "The Faces" }
+{ "_id" : "The Faint" }
+{ "_id" : "The Fifth Dimension" }
+{ "_id" : "The Fight" }
+{ "_id" : "The Fixx" }
+{ "_id" : "The Flaming Lips" }
+{ "_id" : "The Flashcubes" }
+{ "_id" : "The Flock" }
+{ "_id" : "The Flying Burrito Brothers" }
+{ "_id" : "The Flying Eyes" }
+{ "_id" : "The Format" }
+{ "_id" : "The Fresh And Onlys" }
+{ "_id" : "The Frogs" }
+{ "_id" : "The Fucking Champs" }
+{ "_id" : "The Fureys" }
+{ "_id" : "The Futureheads" }
+{ "_id" : "The Gaia" }
+{ "_id" : "The Galvatrons" }
+{ "_id" : "The Game" }
+{ "_id" : "The Gentle Waves" }
+{ "_id" : "The Ghost Is Dancing" }
+{ "_id" : "The Gladiators" }
+{ "_id" : "The Glee Club" }
+{ "_id" : "The Glitch Mob" }
+{ "_id" : "The Go! Team" }
+{ "_id" : "The God Machine" }
+{ "_id" : "The Good Husbands" }
+{ "_id" : "The Gourds" }
+{ "_id" : "The Grifters" }
+{ "_id" : "The Grouch & Eligh" }
+{ "_id" : "The Groundhogs" }
+{ "_id" : "The Growlers" }
+{ "_id" : "The Haunted" }
+{ "_id" : "The Heavy" }
+{ "_id" : "The Hellecasters" }
+{ "_id" : "The Herbaliser" }
+{ "_id" : "The Higher" }
+{ "_id" : "The Hitmen" }
+{ "_id" : "The Hives" }
+{ "_id" : "The Hollies" }
+{ "_id" : "The Holy Kiss" }
+{ "_id" : "The Honey Trees" }
+{ "_id" : "The Hooters" }
+{ "_id" : "The Hundred In The Hands" }
+{ "_id" : "The Hush Sound" }
+{ "_id" : "The Jakes" }
+{ "_id" : "The Jam" }
+{ "_id" : "The Japanese Popstars" }
+{ "_id" : "The Jayhawks" }
+{ "_id" : "The Jeffs" }
+{ "_id" : "The Jezabels" }
+{ "_id" : "The Jicks" }
+{ "_id" : "The Joy Formidable" }
+{ "_id" : "The June Spirit" }
+{ "_id" : "The Killers" }
+{ "_id" : "The Kills" }
 { "_id" : "The Kinks" }
+{ "_id" : "The Knife" }
+{ "_id" : "The Knux" }
+{ "_id" : "The Kooks" }
+{ "_id" : "The Lacs" }
+{ "_id" : "The Las" }
+{ "_id" : "The Last Shadow Puppets" }
+{ "_id" : "The Leaving Trains" }
+{ "_id" : "The Legendary Shack Shakers" }
+{ "_id" : "The Libertines" }
+{ "_id" : "The Life And Times" }
+{ "_id" : "The Lighthouse Family" }
+{ "_id" : "The Like" }
+{ "_id" : "The Lillingtons" }
+{ "_id" : "The Limeliters" }
+{ "_id" : "The Limousines" }
+{ "_id" : "The Lively Ones" }
+{ "_id" : "The Living End" }
+{ "_id" : "The Locust" }
+{ "_id" : "The Magic Numbers" }
+{ "_id" : "The Magnetic Fields" }
+{ "_id" : "The Maine" }
+{ "_id" : "The Marked Men" }
+{ "_id" : "The Marmalade" }
+{ "_id" : "The Mars Volta" }
+{ "_id" : "The Marshall Tucker Band" }
+{ "_id" : "The Marvelettes" }
+{ "_id" : "The Medic Droid" }
+{ "_id" : "The Middle East" }
+{ "_id" : "The Minders" }
+{ "_id" : "The Minutes" }
+{ "_id" : "The Miracles" }
+{ "_id" : "The Moaning Myrtles" }
+{ "_id" : "The Monkees" }
+{ "_id" : "The Monomen" }
+{ "_id" : "The Mopeds" }
+{ "_id" : "The Motels" }
+{ "_id" : "The Mummies" }
+{ "_id" : "The Music" }
+{ "_id" : "The Naked And Famous" }
+{ "_id" : "The National" }
+{ "_id" : "The Nerves" }
+{ "_id" : "The New Amsterdams" }
+{ "_id" : "The New Deal" }
+{ "_id" : "The Nields" }
+{ "_id" : "The Notorious B.I.G." }
+{ "_id" : "The Notwist" }
+{ "_id" : "The Ocean Blue" }
+{ "_id" : "The Offspring" }
+{ "_id" : "The Old Canes" }
+{ "_id" : "The Only Ones" }
+{ "_id" : "The Outfield" }
+{ "_id" : "The Pains Of Being Pure At Heart" }
+{ "_id" : "The Panthers" }
+{ "_id" : "The Paper Kites" }
+{ "_id" : "The Phenomenal Handclap Band" }
+{ "_id" : "The Phenomenauts" }
+{ "_id" : "The Phoenix Foundation" }
+{ "_id" : "The Piano Guys" }
+{ "_id" : "The Pierces" }
+{ "_id" : "The Pitcher" }
+{ "_id" : "The Pixies" }
+{ "_id" : "The Platters" }
+{ "_id" : "The Plimsouls" }
+{ "_id" : "The Postelles" }
+{ "_id" : "The Presets" }
+{ "_id" : "The Presidents" }
+{ "_id" : "The Presidents Of The United States Of America" }
+{ "_id" : "The Presidents Of The Usa" }
+{ "_id" : "The Pretty Reckless" }
+{ "_id" : "The Proclaimers" }
+{ "_id" : "The Prodigy" }
+{ "_id" : "The Prophet" }
+{ "_id" : "The Pyramids" }
+{ "_id" : "The Radiators" }
+{ "_id" : "The Radio Dept." }
 { "_id" : "The Ramones" }
+{ "_id" : "The Rattles" }
+{ "_id" : "The Real Mckenzies" }
+{ "_id" : "The Reason" }
+{ "_id" : "The Red Elvises" }
+{ "_id" : "The Refreshments" }
+{ "_id" : "The Remus Lupins" }
+{ "_id" : "The Replacements" }
+{ "_id" : "The Republic Tigers" }
+{ "_id" : "The Rescues" }
 { "_id" : "The Rolling Stones" }
+{ "_id" : "The Romantics" }
+{ "_id" : "The Roots" }
+{ "_id" : "The Rubinoos" }
+{ "_id" : "The Rural Alberta Advantage" }
+{ "_id" : "The Samples" }
+{ "_id" : "The Sandals" }
+{ "_id" : "The Sandwitches" }
+{ "_id" : "The Saturday Knights" }
+{ "_id" : "The Saturdays" }
+{ "_id" : "The Screamers" }
+{ "_id" : "The Seekers" }
+{ "_id" : "The Shams" }
+{ "_id" : "The Sheep Dogs" }
+{ "_id" : "The Shins" }
+{ "_id" : "The Silent Comedy" }
+{ "_id" : "The Six Parts Seven" }
+{ "_id" : "The Slip" }
+{ "_id" : "The Smashing Pumpkins" }
+{ "_id" : "The Smiths" }
+{ "_id" : "The Snake Corps" }
+{ "_id" : "The Sonics" }
+{ "_id" : "The Sound" }
+{ "_id" : "The Spill Canvas" }
+{ "_id" : "The Spotnicks" }
+{ "_id" : "The Stanley Brothers" }
+{ "_id" : "The Starting Line" }
+{ "_id" : "The Stills" }
+{ "_id" : "The Stitches" }
+{ "_id" : "The Stone Foxes" }
+{ "_id" : "The Strange Boys" }
+{ "_id" : "The Street Brats" }
+{ "_id" : "The Streets" }
+{ "_id" : "The String Cheese Incident" }
+{ "_id" : "The Strokes" }
+{ "_id" : "The Subways" }
+{ "_id" : "The Suicide Machines" }
+{ "_id" : "The Sunstreak" }
+{ "_id" : "The Supersuckers" }
+{ "_id" : "The Swell Season" }
+{ "_id" : "The Sword" }
+{ "_id" : "The Tallest Man On Earth" }
+{ "_id" : "The Team" }
+{ "_id" : "The Temper Trap" }
+{ "_id" : "The Temptations" }
+{ "_id" : "The Three Sounds" }
+{ "_id" : "The Time" }
+{ "_id" : "The Ting Tings" }
+{ "_id" : "The Toadies" }
+{ "_id" : "The Transmissionary Six" }
+{ "_id" : "The Tubes" }
+{ "_id" : "The Turtles" }
+{ "_id" : "The Twilight Sad" }
+{ "_id" : "The Tyde" }
+{ "_id" : "The Union Underground" }
+{ "_id" : "The Urge" }
+{ "_id" : "The Used" }
+{ "_id" : "The Van Jets" }
+{ "_id" : "The Varukers" }
+{ "_id" : "The Veils" }
 { "_id" : "The Velvet Underground" }
+{ "_id" : "The Ventures" }
+{ "_id" : "The Veronicas" }
+{ "_id" : "The Verve" }
+{ "_id" : "The Verve Pipe" }
+{ "_id" : "The Vincent Black Shadow" }
+{ "_id" : "The Vines" }
+{ "_id" : "The Virgins" }
+{ "_id" : "The Weakerthans" }
+{ "_id" : "The Weavers" }
+{ "_id" : "The Weekend" }
 { "_id" : "The White Stripes" }
+{ "_id" : "The White Tie Affair" }
+{ "_id" : "The Whitest Boy Alive" }
 { "_id" : "The Who" }
+{ "_id" : "The Whomping Willows" }
+{ "_id" : "The Wilders" }
+{ "_id" : "The Woggles" }
+{ "_id" : "The Wombats" }
+{ "_id" : "The Wood Brothers" }
+{ "_id" : "The Xx" }
+{ "_id" : "The Yardbirds" }
+{ "_id" : "The Young Veins" }
+{ "_id" : "The Zawinul Syndicate" }
+{ "_id" : "The Zutons" }
+{ "_id" : "Theatre Of Tragedy" }
+{ "_id" : "Thee Headcoats" }
+{ "_id" : "Thee Oh Sees" }
+{ "_id" : "Thelonious Monk" }
+{ "_id" : "Them Crooked Vultures" }
+{ "_id" : "Therapy?" }
+{ "_id" : "There Will Be Fireworks" }
+{ "_id" : "These Arms Are Snakes" }
+{ "_id" : "They Might Be Giants" }
+{ "_id" : "Thievery Corporation" }
+{ "_id" : "Thin Lizzy" }
+{ "_id" : "Thingy" }
+{ "_id" : "Thinking Fellers Union Local 2" }
+{ "_id" : "Thinking Plague" }
+{ "_id" : "Third Eye Blind" }
+{ "_id" : "Thirsty Merc" }
+{ "_id" : "This Heat" }
+{ "_id" : "This Is Ivy League" }
+{ "_id" : "This Is Me Smiling" }
+{ "_id" : "Thomas Dutronc" }
+{ "_id" : "Thompson Twins" }
+{ "_id" : "Those Dancing Days" }
+{ "_id" : "Those Darlins" }
+{ "_id" : "Three Days Grace" }
+{ "_id" : "Three Dog Night" }
+{ "_id" : "Three Doors Down" }
+{ "_id" : "Three Mile Pilot" }
+{ "_id" : "Three Six Mafia" }
+{ "_id" : "Thrice" }
+{ "_id" : "Throw Me The Statue" }
+{ "_id" : "Thumb" }
+{ "_id" : "Thundercat" }
+{ "_id" : "Thursday" }
+{ "_id" : "Ticon" }
+{ "_id" : "Tiefschwarz" }
+{ "_id" : "Tiffany" }
+{ "_id" : "Tiger Lillies" }
+{ "_id" : "Tiger Lou" }
+{ "_id" : "Tijuana Brass" }
+{ "_id" : "Tilt" }
+{ "_id" : "Tim & Jean" }
+{ "_id" : "Tim Buckley" }
+{ "_id" : "Tim Finn" }
+{ "_id" : "Tim Hardin" }
+{ "_id" : "Tim Janis" }
+{ "_id" : "Tim Kasher" }
+{ "_id" : "Tim Maia" }
+{ "_id" : "Tim Mcgraw" }
+{ "_id" : "Tim Minchin" }
+{ "_id" : "Tim Smith" }
+{ "_id" : "Timati" }
+{ "_id" : "Timbalada" }
+{ "_id" : "Timbaland" }
+{ "_id" : "Timbiriche" }
+{ "_id" : "Times New Viking" }
+{ "_id" : "Timpuri Noi" }
+{ "_id" : "Tin Hat Trio" }
+{ "_id" : "Tina Dico" }
+{ "_id" : "Tina Turner" }
+{ "_id" : "Tindersticks" }
+{ "_id" : "Tito And Tarantula" }
+{ "_id" : "Tito Puente" }
+{ "_id" : "Tits" }
+{ "_id" : "Tj Helmerich" }
+{ "_id" : "Tlc" }
+{ "_id" : "Toad The Wet Sprocket" }
+{ "_id" : "Tobias Schmidt" }
+{ "_id" : "Toby Keith" }
+{ "_id" : "Toby Love" }
+{ "_id" : "Toby Mac" }
+{ "_id" : "Tocadisco" }
+{ "_id" : "Tocotronic" }
+{ "_id" : "Tod" }
+{ "_id" : "Todd Rundgren" }
+{ "_id" : "Todd Snider" }
+{ "_id" : "Toddla T" }
+{ "_id" : "Toe Tag" }
+{ "_id" : "Tokyo Police Club" }
+{ "_id" : "Tom Cochrane" }
+{ "_id" : "Tom Jones" }
+{ "_id" : "Tom Lehrer" }
+{ "_id" : "Tom Novy" }
+{ "_id" : "Tom Paxton" }
+{ "_id" : "Tom Petty" }
+{ "_id" : "Tom Petty & The Heartbreakers" }
+{ "_id" : "Tom Scott" }
+{ "_id" : "Tom Vek" }
 { "_id" : "Tom Waits" }
+{ "_id" : "Tom Ze" }
+{ "_id" : "Tomasz Stanko" }
+{ "_id" : "Tomcraft" }
+{ "_id" : "Tommy Bolin" }
+{ "_id" : "Tommy Dorsey" }
+{ "_id" : "Tommy Reilly" }
+{ "_id" : "Tommy Sparks" }
+{ "_id" : "Tommy Trash" }
+{ "_id" : "Toni Braxton" }
+{ "_id" : "Toni Price" }
+{ "_id" : "Toni Rios" }
+{ "_id" : "Tony Bennett" }
+{ "_id" : "Tony Furtado" }
+{ "_id" : "Tony Igy" }
+{ "_id" : "Tony Joe White" }
+{ "_id" : "Tony Rebel" }
+{ "_id" : "Tony Rice" }
+{ "_id" : "Tony Yayo" }
+{ "_id" : "Too Short" }
+{ "_id" : "Tool" }
+{ "_id" : "Toots And The Maytals" }
+{ "_id" : "Torche" }
+{ "_id" : "Tori Amos" }
+{ "_id" : "Tornadoes" }
+{ "_id" : "Tortoise" }
+{ "_id" : "Total Chaos" }
+{ "_id" : "Total Science" }
+{ "_id" : "Toto" }
+{ "_id" : "Toto La Momposina" }
+{ "_id" : "Tower Of Power" }
+{ "_id" : "Town Mountain" }
+{ "_id" : "Townes Van Zandt" }
+{ "_id" : "Toyah Wilcox" }
+{ "_id" : "Trace Bundy" }
+{ "_id" : "Tracy Chapman" }
+{ "_id" : "Trae" }
+{ "_id" : "Traffic" }
+{ "_id" : "Tragically Hip" }
+{ "_id" : "Train" }
+{ "_id" : "Tram" }
+{ "_id" : "Trance" }
+{ "_id" : "Trance Allstars" }
+{ "_id" : "Trance Control" }
+{ "_id" : "Trans X" }
+{ "_id" : "Transa" }
+{ "_id" : "Transatlantic" }
+{ "_id" : "Transglobal Underground" }
+{ "_id" : "Transiberian Orchestra" }
+{ "_id" : "Trapeze" }
+{ "_id" : "Trapt" }
+{ "_id" : "Trash Can Sinatras" }
+{ "_id" : "Trashmen" }
+{ "_id" : "Travie Mcoy" }
+{ "_id" : "Travis" }
+{ "_id" : "Travis Tritt" }
+{ "_id" : "Trei Sud Est" }
+{ "_id" : "Tremeloes" }
+{ "_id" : "Trespassers William" }
+{ "_id" : "Tri Yann" }
+{ "_id" : "Tribal Tech" }
+{ "_id" : "Trick Daddy" }
+{ "_id" : "Tricky" }
+{ "_id" : "Triggerfinger" }
+{ "_id" : "Trigon" }
+{ "_id" : "Trillville" }
+{ "_id" : "Trina" }
+{ "_id" : "Triple 6 Mafia" }
+{ "_id" : "Trisha Yearwood" }
+{ "_id" : "Triumvirat" }
+{ "_id" : "Trooper" }
+{ "_id" : "Trout Fishing In America" }
+{ "_id" : "Troy Pierce" }
+{ "_id" : "Tryo" }
+{ "_id" : "Ttc" }
+{ "_id" : "Tuck And Patti" }
+{ "_id" : "Tune Up" }
+{ "_id" : "Tune Up!" }
+{ "_id" : "Tune Yards" }
+{ "_id" : "Tuneboy" }
+{ "_id" : "Tura Satana" }
+{ "_id" : "Turbonegro" }
+{ "_id" : "Turbulence" }
+{ "_id" : "Turisas" }
+{ "_id" : "Turntablerocker" }
+{ "_id" : "Tuss" }
+{ "_id" : "Tv Rock" }
+{ "_id" : "Twain" }
+{ "_id" : "Twin Atlantic" }
+{ "_id" : "Twin Shadow" }
+{ "_id" : "Twin Sister" }
+{ "_id" : "Twista" }
+{ "_id" : "Twiztid" }
+{ "_id" : "Two Cow Garage" }
+{ "_id" : "Two Door Cinema Club" }
+{ "_id" : "Two Gallants" }
+{ "_id" : "Two Ton Boa" }
+{ "_id" : "Ty" }
+{ "_id" : "Ty Segall" }
+{ "_id" : "Tyga" }
+{ "_id" : "Tyler The Creator" }
+{ "_id" : "Tyler, The Creator" }
+{ "_id" : "Type O Negative" }
+{ "_id" : "Typhoon" }
+{ "_id" : "Tyrannosaurus Rex" }
+{ "_id" : "Tyrese" }
+{ "_id" : "Tyrone Wells" }
 { "_id" : "U2" }
+{ "_id" : "Ub40" }
+{ "_id" : "Uff" }
+{ "_id" : "Ugk" }
+{ "_id" : "Ugly Cassanova" }
+{ "_id" : "Ukf" }
+{ "_id" : "Ultrabeat" }
+{ "_id" : "Ultrasonic" }
+{ "_id" : "Ultravox" }
+{ "_id" : "Umek" }
+{ "_id" : "Umphrey'S Mcgee" }
+{ "_id" : "Uncle Earl" }
+{ "_id" : "Uncle Kracker" }
+{ "_id" : "Uncle Tupelo" }
+{ "_id" : "Underworld" }
+{ "_id" : "Unida" }
+{ "_id" : "United States Of America" }
+{ "_id" : "Unkle" }
+{ "_id" : "Unknown Mortal Orchestra" }
+{ "_id" : "Untold" }
+{ "_id" : "Unwritten Law" }
+{ "_id" : "Uppermost" }
+{ "_id" : "Urban Cookie Collective" }
+{ "_id" : "Urge Overkill" }
+{ "_id" : "Urlaub In Polen" }
+{ "_id" : "Us Bombs" }
+{ "_id" : "Usher" }
+{ "_id" : "Usura" }
+{ "_id" : "Utada" }
+{ "_id" : "Utada Hikaru" }
+{ "_id" : "Ute Lemper" }
+{ "_id" : "Uton" }
+{ "_id" : "Uutuus" }
+{ "_id" : "V8 Wankers" }
+{ "_id" : "Vagina" }
+{ "_id" : "Vampire Beach Babes" }
+{ "_id" : "Vampire Weekend" }
+{ "_id" : "Van Der Graaf Generator" }
+{ "_id" : "Van Halen" }
 { "_id" : "Van Morrison" }
+{ "_id" : "Vandalism" }
+{ "_id" : "Vanden Plas" }
+{ "_id" : "Vanessa Carlton" }
+{ "_id" : "Vanessa Daou" }
+{ "_id" : "Vanessa Paradis" }
+{ "_id" : "Vangelis" }
+{ "_id" : "Vanguard" }
+{ "_id" : "Vanilla Fudge" }
+{ "_id" : "Vanity 6" }
+{ "_id" : "Vashti Bunyan" }
+{ "_id" : "Vast" }
+{ "_id" : "Vaya Con Dios" }
+{ "_id" : "Vendetta Red" }
+{ "_id" : "Venga Boys" }
+{ "_id" : "Versaemerge" }
+{ "_id" : "Vertical Horizon" }
+{ "_id" : "Veruca Salt" }
+{ "_id" : "Verve Remixed" }
+{ "_id" : "Vibekings" }
+{ "_id" : "Vibesquad" }
+{ "_id" : "Victor Wooten" }
+{ "_id" : "Victoria Williams" }
+{ "_id" : "Video Kids" }
+{ "_id" : "Vienna Scientists" }
+{ "_id" : "Vienna Teng" }
+{ "_id" : "Vierzueins" }
+{ "_id" : "Village People" }
+{ "_id" : "Villalobos" }
+{ "_id" : "Vince Gill" }
+{ "_id" : "Vince Guaraldi" }
+{ "_id" : "Vinnie Colaiuta" }
+{ "_id" : "Vinnie Paz" }
+{ "_id" : "Violent Femmes" }
+{ "_id" : "Violent Soho" }
+{ "_id" : "Violent Work Of Art" }
+{ "_id" : "Visionaries" }
+{ "_id" : "Vital Information" }
+{ "_id" : "Vivaldi" }
+{ "_id" : "Vivian Girls" }
+{ "_id" : "Vladimir Cosma" }
+{ "_id" : "Vlado Georgiev" }
+{ "_id" : "Vnv Nation" }
+{ "_id" : "Volcano Choir" }
+{ "_id" : "Von Bondies" }
+{ "_id" : "Vonda Shepard" }
+{ "_id" : "Voodoo Mambo" }
+{ "_id" : "Voz Veis" }
+{ "_id" : "Vulgaires Machins" }
+{ "_id" : "Waco Brothers" }
+{ "_id" : "Wage Of Sin" }
+{ "_id" : "Wagner" }
+{ "_id" : "Wakey Wakey" }
+{ "_id" : "Walkabouts" }
+{ "_id" : "Walter Gibbons" }
+{ "_id" : "Walter Horton" }
+{ "_id" : "Wanda Jackson" }
+{ "_id" : "War" }
+{ "_id" : "Warmduscher" }
+{ "_id" : "Warp Brothers" }
+{ "_id" : "Warpaint" }
+{ "_id" : "Warren G" }
+{ "_id" : "Warren Haynes" }
+{ "_id" : "Warren Zevon" }
+{ "_id" : "Watcha Clan" }
+{ "_id" : "Waterboys" }
+{ "_id" : "Wavves" }
+{ "_id" : "Wayne Hancock" }
+{ "_id" : "Wayne Krantz" }
+{ "_id" : "Wayne Newton" }
+{ "_id" : "We Are Scientists" }
+{ "_id" : "We Are The City" }
+{ "_id" : "We Are The Kings" }
+{ "_id" : "We Are Trees" }
+{ "_id" : "We Are Wolves" }
+{ "_id" : "We Smoke Fags" }
+{ "_id" : "We Were Promised Jetpacks" }
+{ "_id" : "Weather Report" }
+{ "_id" : "Webb Wilder" }
+{ "_id" : "Wedding Present" }
+{ "_id" : "Wednesday 13" }
+{ "_id" : "Weekend World" }
+{ "_id" : "Ween" }
+{ "_id" : "Weerd Science" }
+{ "_id" : "Weezer" }
+{ "_id" : "Weezy" }
+{ "_id" : "Weird Al Yankovic" }
+{ "_id" : "Weirdos" }
+{ "_id" : "Welle:erdball" }
+{ "_id" : "Wes Montgomery" }
+{ "_id" : "West Side Connection" }
+{ "_id" : "Westlife" }
+{ "_id" : "Westside Connection" }
+{ "_id" : "Wham" }
+{ "_id" : "Wham!" }
+{ "_id" : "Wheat" }
+{ "_id" : "When In Rome" }
+{ "_id" : "Whirlpool" }
+{ "_id" : "Whiskeytown" }
+{ "_id" : "White Denim" }
+{ "_id" : "White Lion" }
+{ "_id" : "White Noise" }
+{ "_id" : "White Stipes" }
+{ "_id" : "White Zombie" }
+{ "_id" : "Whitesnake" }
+{ "_id" : "Whitey" }
+{ "_id" : "Whitey Ford" }
+{ "_id" : "Whitney Houston" }
+{ "_id" : "Why" }
+{ "_id" : "Wi" }
+{ "_id" : "Wicked" }
+{ "_id" : "Widespread Panic" }
+{ "_id" : "Widowspeak" }
+{ "_id" : "Wilco" }
+{ "_id" : "Wild Beasts" }
+{ "_id" : "Wild Nothing" }
+{ "_id" : "Wildhearts" }
+{ "_id" : "Wildstylez" }
+{ "_id" : "Wilko Johnson" }
+{ "_id" : "Will Bailey" }
+{ "_id" : "Will Johnson" }
+{ "_id" : "Will Smith" }
+{ "_id" : "Will Young" }
+{ "_id" : "Will.I.Am" }
+{ "_id" : "Willi Herren" }
+{ "_id" : "William D Drake" }
+{ "_id" : "William Elliott Whitmore" }
+{ "_id" : "William Orbit" }
+{ "_id" : "William Shatner" }
+{ "_id" : "Willie Nelson" }
+{ "_id" : "Willy Deville" }
+{ "_id" : "Winger" }
+{ "_id" : "Wino" }
+{ "_id" : "Wipers" }
+{ "_id" : "Wire" }
+{ "_id" : "Within The Ruins" }
+{ "_id" : "Wiz Khalifa" }
+{ "_id" : "Wizards Of Ooze" }
+{ "_id" : "Wolf Parade" }
+{ "_id" : "Wolf People" }
+{ "_id" : "Wolfgang Amadeus Mozart" }
+{ "_id" : "Wolfgang Gartner" }
+{ "_id" : "Wolfgang Petry" }
+{ "_id" : "Wolfmother" }
+{ "_id" : "Wolfsbane" }
+{ "_id" : "Women" }
+{ "_id" : "Wonderwall" }
+{ "_id" : "Wooden Wand" }
+{ "_id" : "Woodkid" }
+{ "_id" : "Woods" }
+{ "_id" : "Woody Guthrie" }
+{ "_id" : "Work Drugs" }
+{ "_id" : "Workin Stiffs" }
+{ "_id" : "Working For A Nuclear Free City" }
+{ "_id" : "World Inferno" }
+{ "_id" : "Wrinkle Neck Mules" }
+{ "_id" : "Wu Lyf" }
+{ "_id" : "Wu Tang" }
+{ "_id" : "Wu-Tang Clan" }
+{ "_id" : "Wyclef Jean" }
+{ "_id" : "Wye Oak" }
+{ "_id" : "Wynn Stewart" }
+{ "_id" : "X Japan" }
+{ "_id" : "X Marks The Pedwalk" }
+{ "_id" : "Xafbx" }
+{ "_id" : "Xandria" }
+{ "_id" : "Xavier Cugat" }
+{ "_id" : "Xavier Rudd" }
+{ "_id" : "Xscape" }
+{ "_id" : "Xtc" }
+{ "_id" : "Xv" }
+{ "_id" : "Xzibit" }
+{ "_id" : "Yacht" }
+{ "_id" : "Yann Tiersen" }
+{ "_id" : "Yanni" }
+{ "_id" : "Yannick" }
+{ "_id" : "Yasunori Mitsuda" }
+{ "_id" : "Yazoo" }
+{ "_id" : "Yeah Yeah Yeahs" }
+{ "_id" : "Yeasayer" }
+{ "_id" : "Yelle" }
+{ "_id" : "Yello" }
+{ "_id" : "Yellow Machinegun" }
+{ "_id" : "Yellow Ostrich" }
+{ "_id" : "Yellowcard" }
+{ "_id" : "Yelworc" }
+{ "_id" : "Yes" }
+{ "_id" : "Yngwie Malmsteen" }
+{ "_id" : "Yo" }
+{ "_id" : "Yo La Tengo" }
+{ "_id" : "Yoko Ono" }
+{ "_id" : "Yolanda Be Cool" }
+{ "_id" : "Yonder Mountain String Band" }
+{ "_id" : "You Am I" }
+{ "_id" : "Youinseries" }
+{ "_id" : "Young Blood" }
+{ "_id" : "Young Buck" }
+{ "_id" : "Young Gods" }
+{ "_id" : "Young Jeezy" }
+{ "_id" : "Young Marble Giants" }
+{ "_id" : "Young Money" }
+{ "_id" : "Young Rascals" }
+{ "_id" : "Young The Giant" }
+{ "_id" : "Younha" }
+{ "_id" : "Your Favorite Enemies" }
+{ "_id" : "Your Vegas" }
+{ "_id" : "Youth Lagoon" }
+{ "_id" : "Yoyo Ma" }
+{ "_id" : "Ytcracker" }
+{ "_id" : "Yui" }
+{ "_id" : "Yukari Fresh" }
+{ "_id" : "Yukon Blonde" }
+{ "_id" : "Yuna" }
+{ "_id" : "Yura Yura Teikoku" }
+{ "_id" : "Yves La Rock" }
+{ "_id" : "Yves Larock" }
+{ "_id" : "Yvonne" }
+{ "_id" : "Zac Brown" }
+{ "_id" : "Zany" }
+{ "_id" : "Zao" }
+{ "_id" : "Zap" }
+{ "_id" : "Zap Mama" }
+{ "_id" : "Zard" }
+{ "_id" : "Zatox" }
+{ "_id" : "Zaz" }
+{ "_id" : "Zdob Si Zdub" }
+{ "_id" : "Zebda" }
+{ "_id" : "Zedd" }
+{ "_id" : "Zeds Dead" }
+{ "_id" : "Zen Lemonade" }
+{ "_id" : "Zero 7" }
+{ "_id" : "Zero Boys" }
+{ "_id" : "Zeus" }
+{ "_id" : "Zion I" }
+{ "_id" : "Zita Swoon" }
+{ "_id" : "Zoegirl" }
+{ "_id" : "Zombies" }
+{ "_id" : "Zomboy" }
+{ "_id" : "Zornik" }
+{ "_id" : "Zox" }
+{ "_id" : "Zz Top" }
