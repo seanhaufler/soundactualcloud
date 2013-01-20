@@ -226,6 +226,7 @@ input:focus {
 }
 
 #back {
+	z-index: 999;
     display: inline-block;
 }
 #back:hover {
@@ -237,6 +238,8 @@ input:focus {
     margin-bottom: -90px;
     margin-left: 14px;
     fill: #666;
+    z-index:9999;
+    position:absolute;
 
 }
 
