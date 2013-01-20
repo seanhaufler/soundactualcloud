@@ -133,12 +133,17 @@ def process_singer(name, level):
             peer_data['peers'] = {}
             item['peers'][peer] = peer_data
 
-    try:
-        doc = singer_coll.find({'_id':_id})
-        if not doc or len(doc['peers']) < len (item['peers']):
-            singer_coll.update({'_id': _id}, item, upsert=True)
-    except:
+    cursor = singer_coll.find({'_id':_id})
+    if cursor.count()==0:
+        singer_coll.update({'_id': _id}, item, upsert=True)
+        return item
+
+    doc = cursor.next()
+    if len(doc['peers']) <= len (item['peers']):
+        singer_coll.update({'_id': _id}, item, upsert=True)
+    else:
         pass
+
     return item 
 
 def add_singers(singers):

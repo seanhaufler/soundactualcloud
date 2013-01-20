@@ -72,7 +72,6 @@ class SearchHandler(BaseHandler):
 
 class ApiHandler(BaseHandler):
     def get(self):
-        """
         artist = self.get_argument('artist')
         search_hash = md5.md5(artist).hexdigest()
         search_results = singer_coll.find({'_id':search_hash})
@@ -83,10 +82,6 @@ class ApiHandler(BaseHandler):
             self.write(json.dumps(result))
         else:
             self.write("{}")
-
-        """
-
-        self.render('sample.json')
 
 def main(port='3000', address='127.0.0.1'):
     http_server = tornado.httpserver.HTTPServer(Application())
