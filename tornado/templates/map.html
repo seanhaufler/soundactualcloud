@@ -202,7 +202,9 @@ function init(artist) {
             return;
         }
 
-        console.log(res.peers);
+        // populate data
+        loadSidebar2(res);
+
         var iter = 1; // iterator
         $.each(res.peers, function(key, obj) {
             console.log('ech peer');
@@ -302,6 +304,19 @@ function loadSidebar(obj) {
     $info.find('.pop').empty().append($pop);
     $info.find('.fb').empty().append($fb);
     $info.find('img').attr('src', $img).show();
+}
+
+function loadSidebar2(obj) {
+
+    buildGS(obj.song_id);
+
+    // hacky way to populate view.. too lazy to use template
+    $info.find('.name').empty().append(obj.name);
+    $info.find('.desc').empty().append(obj.desc);
+    $info.find('.song').empty().append(obj.song);
+    $info.find('.pop').empty().append(obj.pop);
+    $info.find('.fb').empty().append(obj.fb_page);
+    $info.find('img').attr('src', obj.song_cover).show();
 }
 
 $('.node').live('mouseover mouseout click', function(event) {
