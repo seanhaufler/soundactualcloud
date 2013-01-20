@@ -20,7 +20,8 @@ p {
 
 h1 {
 	font-size: 50px;
-	color: #fff;
+	color: #7BD6FF;
+	text-shadow: 2px 2px 0px #EDEDED, 4px 4px 0px #7BD6FF;
 }
 
 h2 {
@@ -175,7 +176,7 @@ h6 {
 #hero {
     position: absolute;
     background: none;
-	z-index: 0;
+	z-index: -90;
     padding:0;
     margin-top: -250px;
     display: inline-block;
@@ -234,10 +235,10 @@ input:focus {
 
 #back svg {
     width:50px;
-    margin-bottom: -90px;
-    margin-left: 14px;
+    margin-bottom: 40px;
+    margin-left: -60px;
     fill: #666;
-
+		z-index:9;
 }
 
 #back svg circle { stroke: #666; }

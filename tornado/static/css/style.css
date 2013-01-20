@@ -58,7 +58,7 @@ h2 {
 
 /* clouds based on http://cssdeck.com/labs/css3-animated-clouds-the-simple-way */
 .cloud-base {
-	background: #666;
+	background: #999;
 	height: 150px;
 	width: 510px;
 	border-radius: 100px;
