@@ -77,98 +77,127 @@
 <script>
 
 var width = 960,
-height = 600;
+height = 600,
+artist = "{{ artist }}";
+init(artist);
 
-var color = d3.scale.category20();
 
-var force = d3.layout.force()
-.charge(-400)
-.linkDistance(200)
-.size([width, height]);
+function init(artist) {
+    var color = d3.scale.category20();
 
-var svg = d3.select("#hero").append("svg")
-.attr("width", width)
-.attr("height", height);
+    var force = d3.layout.force()
+    .charge(-400)
+    .linkDistance(200)
+    .size([width, height]);
 
-// "/static/miserables.json"
-d3.json("/related?artist="+encodeURIComponent("{{ artist }}"), function(error, res) {
+    var svg = d3.select("#hero").append("svg")
+    .attr("width", width)
+    .attr("height", height);
 
-    // convert the api return to the miserables json format
-    var graph = { nodes : [], links : [] };
+    // "/static/miserables.json"
+    d3.json("/related?artist="+encodeURIComponent(artist), function(error, res) {
 
-    // Push center node
-    graph.nodes.push({
-            'name' : res.name,
-            'img' : res.song_cover,
-            'song_id' : res.song_id,
-            'song' : res.song,
-            'fb_page' : res.fb_page,
-            'pop' : res.pop,
-            'song_pop' : res.song_pop,
-            'desc' : res.desc,
-            'group' : 30
-    });
+        // convert the api return to the miserables json format
+        var graph = { nodes : [], links : [] };
 
-    console.log(res.peers);
-    $.each(res.peers, function(key, obj) {
-        console.log('ech peer');
-        console.log(key);
-        console.log(obj);
+        // Push center node
         graph.nodes.push({
-            'name' : key,
-            'img' : obj.song_cover,
-            'song_id' : obj.song_id,
-            'song' : obj.song,
-            'fb_page' : obj.fb_page,
-            'pop' : obj.pop,
-            'song_pop' : obj.song_pop,
-            'desc' : obj.desc,
-            'group' : Math.floor((Math.random()*15)+5)
+                'name' : res.name,
+                'img' : res.song_cover,
+                'song_id' : res.song_id,
+                'song' : res.song,
+                'fb_page' : res.fb_page,
+                'pop' : res.pop,
+                'song_pop' : res.song_pop,
+                'desc' : res.desc,
+                'group' : 30
+        });
+
+        if (res.peers == undefined) {
+            console.log('error: no peers');
+            console.log(res);
+            return;
+        }
+
+        console.log(res.peers);
+        var iter = 1; // iterator
+        $.each(res.peers, function(key, obj) {
+            console.log('ech peer');
+            console.log(key);
+            console.log(obj);
+            graph.nodes.push({
+                'name' : key,
+                'img' : obj.song_cover,
+                'song_id' : obj.song_id,
+                'song' : obj.song,
+                'fb_page' : obj.fb_page,
+                'pop' : obj.pop,
+                'song_pop' : obj.song_pop,
+                'desc' : obj.desc,
+                'group' : Math.floor((Math.random()*15)+5)
+            });
+            if (Math.random() > .4) {
+                graph.links.push({
+                    'target' : 0,
+                    'source' : iter,
+                    'value' : Math.floor((Math.random()*10)+1)
+                });
+            }
+            iter += 1;
+        });
+
+        for (var i = 0; i < Math.floor(iter / 2); i++) {
+            // create a bunch of random links
+            graph.links.push({
+                'target' : Math.floor((Math.random()*(iter-1))+1),
+                'source' : Math.floor((Math.random()*(iter-1))+1),
+                'value' : Math.floor((Math.random()*10)+1)
+            });
+        }
+
+        console.log('Checking Graph');
+        console.log(graph);
+
+        force.nodes(graph.nodes)
+        .links(graph.links)
+        .start();
+
+        var link = svg.selectAll("line.link")
+        .data(graph.links)
+        .enter().append("line")
+        .attr("class", "link")
+        .style("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+        var node = svg.selectAll("circle.node")
+        .data(graph.nodes)
+        .enter().append("circle")
+        .attr("class", "node")
+        .attr("r", function(d) { return (d.group+2) * 2; })
+        .attr("img", function(d) { return d.img; })
+        .attr("desc", function(d) { return d.desc; })
+        .attr("song_id", function(d) { return d.song_id; })
+        .attr("song", function(d) { return d.song; })
+        .attr("fb_page", function(d) { return d.fb_page; })
+        .attr("pop", function(d) { return d.pop; })
+        .attr("song_pop", function(d) { return d.song_pop; })
+        .attr("img", function(d) { return d.img; })
+        .style("fill", function(d) { return color(d.group); })
+        .call(force.drag);
+
+        node.append("title")
+        .text(function(d) { return d.name; });
+
+        force.on("tick", function() {
+            link.attr("x1", function(d) { return d.source.x; })
+            .attr("y1", function(d) { return d.source.y; })
+            .attr("x2", function(d) { return d.target.x; })
+            .attr("y2", function(d) { return d.target.y; });
+
+            node.attr("cx", function(d) { return d.x; })
+            .attr("cy", function(d) { return d.y; });
         });
     });
-
-    console.log('Checking Graph');
-    console.log(graph);
-
-    force.nodes(graph.nodes)
-    .links(graph.links)
-    .start();
-
-    var link = svg.selectAll("line.link")
-    .data(graph.links)
-    .enter().append("line")
-    .attr("class", "link")
-    .style("stroke-width", function(d) { return Math.sqrt(d.value); });
-
-    var node = svg.selectAll("circle.node")
-    .data(graph.nodes)
-    .enter().append("circle")
-    .attr("class", "node")
-    .attr("r", function(d) { return (d.group+2) * 2; })
-    .attr("img", function(d) { return d.img; })
-    .attr("desc", function(d) { return d.desc; })
-    .attr("song_id", function(d) { return d.song_id; })
-    .attr("song", function(d) { return d.song; })
-    .attr("fb_page", function(d) { return d.fb_page; })
-    .attr("pop", function(d) { return d.pop; })
-    .attr("song_pop", function(d) { return d.song_pop; })
-    .attr("img", function(d) { return d.img; })
-    .style("fill", function(d) { return color(d.group); })
-    .call(force.drag);
-
-    node.append("title")
-    .text(function(d) { return d.name; });
-
-    force.on("tick", function() {
-        link.attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
-
-        node.attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
-    });
-});
+}
 
 
 var $info = $('#artist-info');
@@ -209,6 +238,15 @@ $('.node').live('mouseover mouseout click', function(event) {
   } else {
        console.log('click');
        console.log(this);
+       var $title = $(this).find('title').text();
+       console.log($title);
+       if ($title === artist) {
+           return;
+       } else {
+            $('#hero').empty();
+           init($title);
+           return;
+       }
        $('.node').attr('class', 'node');
        $(this).attr('class', 'node selected');   
   }
