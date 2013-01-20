@@ -112,7 +112,10 @@ def process_singer(name, level):
 
     print 'Added singer %s to database' % item['name']
     print 'Image URL is %s' % item['song_cover']
-    singer_coll.update({'_id': _id}, item, upsert=True)
+    try:
+        singer_coll.update({'_id': _id}, item, upsert=True)
+    except:
+        pass
 
     #Go a level down 
     for peer in peers:
@@ -138,7 +141,10 @@ def process_singer(name, level):
     doc = cursor.next()
 
     if len(doc['peers']) <= len (item['peers']):
-        singer_coll.update({'_id': _id}, item, upsert=True)
+        try:
+            singer_coll.update({'_id': _id}, item, upsert=True)
+        except:
+            pass
 
     return item 
 
