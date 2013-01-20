@@ -1,6 +1,111 @@
-#main {
-    padding-top: 50px;
+@font-face {
+	font-family: LeagueGothicRegular;
+	src: url('../fonts/leaguegothic-regular-webfont.ttf');
 }
+
+@font-face {	
+	font-family: MuseoSlab;
+	src: url('../fonts/MuseoSlab-300.ttf');
+}
+
+body {
+	background: #7BD6FF;
+	color: #a69881;
+	font-family: 'MuseoSlab', serif;
+}
+
+p {
+	font-family: Arial;
+}
+
+h1 {
+	font-size: 50px;
+	color: #fff;
+	text-shadow: 2px 2px 0px #7BD6FF, 4px 4px 0px #fff;
+}
+
+h2 {
+	font-size: 14px;
+	color: #fff;
+	line-height: 20px;
+}
+
+h4 {
+	font-size: 36px;
+	line-height: 36px;
+	font-style: bold;
+	color: #000;
+}
+
+h6 {
+	font-size: 18px;
+	color: #000;
+}
+
+#head {
+	width: 350px;
+}
+
+#tape {
+	background: #ff9130;
+	width: 30px;
+	height: 20px;
+	box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, .2);
+	border-radius: 2px;
+	opacity: .95;
+	text-align: center;
+	text-shadow: 0px 1px 1px #666;
+	position: relative;
+	-webkit-transform: rotate(10deg);
+	left: 97px;
+	top: -13px;
+}
+
+#title {
+	width: 275px;
+	position: relative;
+	-webkit-transform: rotate(-17deg);
+}
+
+.sidebar-cont {
+	width: 400px;
+	float: left;
+}
+
+
+#search-group {
+	background: white;
+	border-radius: 15px;
+	margin-top: 25px;
+	padding: 10px 5px;
+	height: 45px;
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);	
+}
+
+#artist-info {
+	background: white;
+	border-radius: 15px;
+	padding: 7px 7px;
+	margin-top: 20px;
+	overflow: auto;
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
+	
+}
+
+#artist-l {
+	width: 48%;
+	float: left;
+	padding: 5px;
+}
+
+#artist-r {
+	width: 48%;
+	float: left;
+	padding-left: 5px;
+}
+
+
+
 .node {
       stroke: #fff;
       stroke-width: 1.5px;
@@ -15,21 +120,35 @@
         stroke-opacity: .6;
 }
 
+#hero {
+	background: none;
+
+}
+
+
+
 #search-input {
     z-index: 1;
     position: relative;
-    height: 53px;
-    width: 810px;
     font-family: "HelveticaNeueW01-75Bold", "Helvetica", Arial, sans-serif;
-    border-radius: 0px;
     outline: none;
     border: none;
-    padding-left: 70px;
+		padding: 5px 5px 5px 50px;
     margin-left: -4px;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 20px;
     background: none;
-    top: -2px;
+    top: -4px;
+		height: 45px;
+		width: 387px;
+		
+		border: 3.5px solid #ff9130;
+		border-radius: 15px;
+		outline: none;
+}
+
+/* why isn't this working? */
+input:focus {
+	outline: none;
 }
 
 .icon {
