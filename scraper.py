@@ -5,8 +5,9 @@ import grooveshark
 import facepy
 import wikipedia
 import google
+import soundcloud
 
-from spotify_api.api import SpotifyApi
+#from spotify_api.api import SpotifyApi
 from bs4 import BeautifulSoup
 
 mongo_conn = pymongo.Connection('localhost:27017')
@@ -14,9 +15,9 @@ singer_coll = mongo_conn['artists']['singer']
 
 fb_graph = facepy.GraphAPI()
 
-#sc_client = soundcloud.Client(client_id='15796297f59f225886f6247ba56a1a43')
+sc_client = soundcloud.Client(client_id='15796297f59f225886f6247ba56a1a43')
 
-spotify = SpotifyApi()
+#spotify = SpotifyApi()
 gc = grooveshark.Client()
 gc.init()
 
@@ -49,43 +50,24 @@ def process_singer(name, level):
             if entry.string != name:
                 peers.append(entry.string)
 
-    artist_search = spotify.artists.search(name)
+    song_search = gc.search(name)
+
     try:
-        curr_artist = artist_search.next()
+        song_result = song_search.next()
     except:
         return None
 
-    popularity = 0
-    if curr_artist:
-        popularity = float(curr_artist.popularity)
-
-    song_search = spotify.tracks.search(name)
-
-    try:
-        curr_song = song_search.next()
-    except:
-        return None
-
-    song = ""
-    stream_id = 0
-    song_pop = 0
-    
+    #Get an image for the name 
     google_search = google.Google.search_images(name)
     result = google_search[0]
     song_cover_url = result.link
 
-    if curr_song:
-        song = curr_song.name
-        song_pop = float(curr_song.popularity)
-        gs_search = gc.search(str(song) + " " + str(name))
-        
-        try:
-            gs_song = gs_search.next() 
-            stream_id = int(gs_song.id)
-#            song_cover_url = gs_song.export()['cover']
-        except:
-            pass
+    #get song name, id, and popularity
+    song = song_result.name
+    stream_id = int(song_result.id)
+    song_pop = song_result.popularity
 
+    #get facebook page for the group 
     fb_search = fb_graph.search(name, 'page')
     fb_page = "http://www.facebook.com"
 
@@ -94,15 +76,25 @@ def process_singer(name, level):
             fb_page = "http://www.facebook.com/" + str(fb_search['data'][0]['id'])
 
     desc = wikipedia.getArticle(name)
+    wiki_url = "http://en.wikipedia.org/w/index.php?title=%s" % name.replace(' ', '_')
 
+    sc_url = "http://soundcloud.com"
+
+    try:
+        sc_result = sc_client.get('/tracks', key=(song.encode('ascii', 'ignore') + " " + name.encode('ascii', 'ignore'))) 
+        sc_url = sc_result[0].permalink_url 
+    except:
+        sc_url = "http://soundcloud.com"
+        
     item = {}
     _id = md5.md5(name).hexdigest() 
     item['_id'] = _id 
     item['name'] = name
-    item['pop'] = popularity 
     item['desc'] = desc
-    item['song'] = song
+    item['wiki_url'] = wiki_url
+    item['sc_url'] = sc_url
     item['fb_page'] = fb_page
+    item['song'] = song
     item['song_pop'] = song_pop
     item['song_id'] = stream_id
     item['song_cover'] = song_cover_url
