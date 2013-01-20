@@ -32,6 +32,7 @@ class Application(tornado.web.Application):
             (r"/map", MapHandler),
             (r"/render", SearchHandler),
             (r"/related", ApiHandler),
+            (r"/autocomplete", AutocompleteHandler)
             ]
 
         settings = dict(
@@ -43,6 +44,25 @@ class Application(tornado.web.Application):
 
 class BaseHandler(tornado.web.RequestHandler):
     pass
+
+class AutocompleteHandler(BaseHandler):
+    def get(self):
+        global names_coll 
+        names = names_coll.find()
+        names_lst = []
+        for entry in names:
+            names_lst.append(str(entry['_id']))
+        lower_case_names = map(str.lower, names_lst)
+        term = self.get_argument('term', "")
+
+        result = []
+        for index, name in enumerate(lower_case_names):
+            if term.lower() in name:
+                result.append(names_lst[index])
+
+        print result
+
+        self.write(json.dumps(result))
 
 class HomeHandler(BaseHandler):
     def get(self):

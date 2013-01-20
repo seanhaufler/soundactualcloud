@@ -100,7 +100,11 @@ function getParameterByName(name)
   else
     return decodeURIComponent(results[1].replace(/\+/g, " "));
 }
-
+$(document).ready(function() {
+    $('#search-input').autocomplete({
+        source: "/autocomplete",
+    });
+});
 var submitSearch = function() {
     $query = $('#search-input').val();
     history.pushState(null, '', '?artist='+escape($query));

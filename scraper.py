@@ -154,6 +154,6 @@ def add_singers(singers):
         process_singer(singer, 5)
 
 if __name__ == '__main__':
-    singers = ['The Rolling Stones']
+    singers = ['Skrillex']
     add_singers(singers)
 
