@@ -1,0 +1,9 @@
+To export, you do:
+
+mongoexport --db artists --collection singer --out mongo.json 
+
+To import a json file, you do:
+
+mongoimport --db artists --collection singer  --file mongo.json
+
+
