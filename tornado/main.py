@@ -22,6 +22,7 @@ from bson import json_util
 
 mongo_conn = pymongo.Connection('localhost:27017')
 singer_coll = mongo_conn['artists']['singer']
+names_coll = mongo_conn['artists']['names']
 
 class Application(tornado.web.Application):
 
@@ -30,7 +31,7 @@ class Application(tornado.web.Application):
             (r"/", HomeHandler),
             (r"/map", MapHandler),
             (r"/render", SearchHandler),
-            (r"/related", ApiHandler)
+            (r"/related", ApiHandler),
             ]
 
         settings = dict(

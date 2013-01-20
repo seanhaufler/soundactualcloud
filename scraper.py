@@ -28,6 +28,8 @@ def urlify (name):
 
 def process_singer(name, level): 
 
+    name = name.encode('ascii', 'ignore')
+
     if name in singer_song_map:
         return singer_sing_map[name]
 
@@ -50,17 +52,20 @@ def process_singer(name, level):
             if entry.string != name:
                 peers.append(entry.string)
 
-    song_search = gc.search(name)
 
     try:
+        song_search = gc.search(name)
         song_result = song_search.next()
     except:
         return None
 
     #Get an image for the name 
-    google_search = google.Google.search_images(name)
-    result = google_search[0]
-    song_cover_url = result.link
+    try:
+        google_search = google.Google.search_images(name)
+        result = google_search[0]
+        song_cover_url = result.link
+    except:
+        song_cover_url = "http://www.google.com/"
 
     #get song name, id, and popularity
     song = song_result.name
@@ -75,7 +80,10 @@ def process_singer(name, level):
         if fb_search['data'] and 'id' in fb_search['data'][0]:
             fb_page = "http://www.facebook.com/" + str(fb_search['data'][0]['id'])
 
-    desc = wikipedia.getArticle(name)
+    try:
+        desc = wikipedia.getArticle(name)
+    except:
+        desc = name
     wiki_url = "http://en.wikipedia.org/w/index.php?title=%s" % name.replace(' ', '_')
 
     sc_url = "http://soundcloud.com"
@@ -143,7 +151,7 @@ def process_singer(name, level):
 def add_singers(singers):
 
     for singer in singers:
-        process_singer(singer, 4)
+        process_singer(singer, 5)
 
 if __name__ == '__main__':
     singers = ['The Rolling Stones']
