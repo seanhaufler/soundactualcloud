@@ -120,7 +120,7 @@ h6 {
 
 .sidebar-cont {
 	width: 400px;
-	float: left;
+    display:inline-block;
 }
 
 
@@ -161,6 +161,14 @@ h6 {
       stroke-width: 1.5px;
 }
 
+.node circle:hover {
+    cursor:pointer;
+}
+
+.node text:hover {
+    cursor:pointer;
+}
+
 .selected {
       stroke: red !important;
 }
@@ -171,9 +179,12 @@ h6 {
 }
 
 #hero {
-	background: none;
-	position: relative;
+    background: none;
 	z-index: 2;
+    padding:0;
+    margin-top: 60px;
+    float: right;
+    display: inline-block;
 }
 
 
@@ -218,6 +229,9 @@ input:focus {
     height: 32px;
 }
 
+#back {
+    display: inline-block;
+}
 #back:hover {
     cursor: pointer;
 }
@@ -230,4 +244,14 @@ input:focus {
 
 g.node text {
     color: #333;
+}
+
+#queue {
+    position: fixed !important;
+    background-color: #3b5998;
+    border-bottom: 1px solid #133783;
+    min-width: 981px;
+    position: relative;
+    z-index: 300;
+}
 }
