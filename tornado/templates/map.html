@@ -134,7 +134,7 @@
       </div><!--/row-->
       <hr>
       <footer>
-        <p>Build with love by three cool kids</p>
+        <p>Built with love by <a href="http://twitter.com/seanhaufler">three</a> <a href="http://twitter.com/keilafong">cool</a> <a href="http://twitter.com/aayush_u">kids</a></p>
       </footer>
 
     </div><!--/.fluid-container-->
@@ -144,9 +144,21 @@
 
 var width = 700,
 height = 600,
-artist = "{{ artist }}";
+artist = "{{ artist }}",
+last = undefined;
 init(artist);
 
+function getParameterByName(name)
+{
+  name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+  var regexS = "[\\?&]" + name + "=([^&#]*)";
+  var regex = new RegExp(regexS);
+  var results = regex.exec(window.location.search);
+  if(results == null)
+    return "";
+  else
+    return decodeURIComponent(results[1].replace(/\+/g, " "));
+}
 
 var submitSearch = function() {
     $query = $('#search-input').val();
@@ -155,7 +167,12 @@ var submitSearch = function() {
 }
 
 $('#back').click(function() {
-    history.back();
+    if (last !== undefined) {
+        init(last);
+        history.pushState(null, '', '?artist='+escape(last));
+    } else {
+        window.location = '/';
+    }
 });
 
 $('#search-input').keypress(function(e) {
@@ -343,7 +360,8 @@ $('.node').live('mouseover mouseout click', function(event) {
        if ($title === artist) {
            return;
        } else {
-            history.pushState(null, '', '?artist='+escape($title));
+           history.pushState(null, '', '?artist='+escape($title));
+           last = artist;
            init($title);
            return;
        }
