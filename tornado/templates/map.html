@@ -29,7 +29,7 @@
                             <param name="movie" value="http://grooveshark.com/songWidget.swf">
                             <param name="wmode" value="window"> 
                             <param name="allowScriptAccess" value="always"> 
-                            <param class="gs" name="flashvars" value="hostname=grooveshark.com&amp;songID=25240976&amp;style=metal&amp;p=1"> 
+                            <param class="gs" name="flashvars" value="hostname=grooveshark.com&amp;songID=25240976&amp;style=metal&amp;p=0"> 
                             <embed src="http://grooveshark.com/songWidget.swf" type="application/x-shockwave-flash" width="150" height="40"  allowscriptaccess="always" wmode="window">
                         </object>
                     </p>
@@ -105,6 +105,7 @@ $(document).ready(function() {
         source: "/autocomplete",
     });
 });
+
 var submitSearch = function() {
     $query = $('#search-input').val();
     history.pushState(null, '', '?artist='+escape($query));
@@ -336,7 +337,7 @@ $('.node').live('mouseover mouseout click', function(event) {
 
 function buildGS(songId) {
     console.log('changing gs to ' + songId);
-    var obj = '<p><object width="150" height="40"><param name="movie" value="http://grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param class="gs" name="flashvars" value="hostname=grooveshark.com&amp;songID='+songId+'&amp;style=metal&amp;p=1"><embed src="http://grooveshark.com/songWidget.swf" type="application/x-shockwave-flash" width="150" height="40"  allowscriptaccess="always" wmode="window"></object></p>'
+    var obj = '<p><object width="150" height="40"><param name="movie" value="http://grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param class="gs" name="flashvars" value="hostname=grooveshark.com&amp;songID='+songId+'&amp;style=metal&amp;p=0"><embed src="http://grooveshark.com/songWidget.swf" type="application/x-shockwave-flash" width="150" height="40"  allowscriptaccess="always" wmode="window"></object></p>'
      $('#gsWidget').empty().append(obj);
 
 }

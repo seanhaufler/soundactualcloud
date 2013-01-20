@@ -26,6 +26,13 @@
 </body>
 				
 <script>
+
+$(document).ready(function() {
+    $('#search input').autocomplete({
+        source: "/autocomplete",
+    });
+});
+
 	$('#search input').keypress(function (e) {
     var code = (e.keyCode ? e.keyCode : e.which);
     if (code == 13) { //Enter keycode

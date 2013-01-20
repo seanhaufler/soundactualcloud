@@ -32,7 +32,7 @@ class Application(tornado.web.Application):
             (r"/map", MapHandler),
             (r"/render", SearchHandler),
             (r"/related", ApiHandler),
-            (r"/autocomplete", AutocompleteHandler)
+            (r"/autocomplete", AutocompleteHandler),
             ]
 
         settings = dict(
@@ -63,6 +63,7 @@ class AutocompleteHandler(BaseHandler):
         print result
 
         self.write(json.dumps(result))
+
 
 class HomeHandler(BaseHandler):
     def get(self):
