@@ -76,17 +76,22 @@ class TestHandler(BaseHandler):
 class MapHandler(BaseHandler):
     def get(self):
         artist = self.get_argument('artist')
-        hipster = {}
         try:
             q = singer_coll.find({'name':artist})
             me = q.next()
             peers = me['peers']
+        except:
+            peers = []
 
-            for peer in peers:
-                if not hipster or peer['song_pop'] < hipster['song_pop']:
-                    hipster = peer
+        hipster_name = artist
+        hipster_score = 100000000000
 
-        self.render("map.html", artist=artist, hipster=peer['name'])
+        for peer,val in peers.items():
+            if hipster_name == artist or val['song_pop'] < hipster_score:
+                hipster_name = peer
+                hipster_score = val['song_pop']
+
+        self.render("map.html", artist=artist, hipster=hipster_name)
 
 
 class SearchHandler(BaseHandler):

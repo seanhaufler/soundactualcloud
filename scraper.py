@@ -21,7 +21,7 @@ gc = grooveshark.Client()
 gc.init()
 
 singer_song_map = {}
-eval_lst = ['Tupac']
+eval_lst = ['Mgmt']
 
 def urlify (name):
     return name.replace(' ', '+')
