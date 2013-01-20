@@ -292,18 +292,19 @@ function loadSidebar2(obj) {
 }
 
 $('.node').live('mouseover mouseout click', function(event) {
+  var circle = $(this).find('circle')
   if (event.type == 'mouseover') {
 
     loadSidebar(this);
     // make color lighter
-    var color = $(this).attr('style').match(/[0-9a-f]{6}/)[0];
+    var color = circle.attr('style').match(/[0-9a-f]{6}/)[0];
     var lighter = LightenDarkenColor(color, 30);
-    $(this).attr('style', 'fill: '+lighter)
+    circle.attr('style', 'fill: '+lighter)
            .attr('color', 'fill: #'+color);
   } else if (event.type == 'mouseout') {
-    // make color lighter;
-    var color = $(this).attr('color');
-    $(this).attr('style', color);
+
+    var color = circle.attr('color');
+    circle.attr('style', color);
 
     console.log($(this));
     console.log(color);

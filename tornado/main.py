@@ -68,6 +68,10 @@ class HomeHandler(BaseHandler):
     def get(self):
         self.render("index.html")
 
+class TestHandler(BaseHandler):
+    def get(self):
+        self.render("test.html")
+
 class MapHandler(BaseHandler):
     def get(self):
         artist = self.get_argument('artist')
