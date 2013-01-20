@@ -227,20 +227,24 @@ input:focus {
 }
 
 #back {
-	z-index: 999;
+		z-index: 999;
     display: inline-block;
     background-image:url('/static/img/arrow.png');
     height: 40px;
     width:40px;
+		margin-bottom: 55px;
+
 }
 #back:hover {
     cursor: pointer;
 }
 
 #hipster {
-	z-index: 999;
+		z-index: 999;
 		margin: 5px;
     display: inline-block;
+		margin-left: -100px;
+		margin-bottom: 55px;
     background-image:url('/static/img/hipster.png');
     height: 40px;
     width:40px;
