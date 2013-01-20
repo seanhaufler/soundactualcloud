@@ -198,8 +198,6 @@ function init(artist) {
             });
         }
 
-        console.log('Checking Graph');
-        console.log(graph);
 
         force.nodes(graph.nodes)
         .links(graph.links)
@@ -211,10 +209,13 @@ function init(artist) {
         .attr("class", "link")
         .style("stroke-width", function(d) { return Math.sqrt(d.value); });
 
-        var node = svg.selectAll("circle.node")
+        var node = svg.selectAll(".node")
         .data(graph.nodes)
-        .enter().append("circle")
+        .enter().append("g")
         .attr("class", "node")
+        .call(force.drag);
+
+         node.append("circle")
         .attr("r", function(d) { return (d.group+2) * 2; })
         .attr("img", function(d) { return d.img; })
         .attr("desc", function(d) { return d.desc; })
@@ -225,10 +226,16 @@ function init(artist) {
         .attr("song_pop", function(d) { return d.song_pop; })
         .attr("img", function(d) { return d.img; })
         .style("fill", function(d) { return color(d.group); })
-        .call(force.drag);
 
         node.append("title")
         .text(function(d) { return d.name; });
+
+         node.append("text")
+              .attr("dx", function(d) { return - (4 * d.name.length); })
+              .attr("dy", ".35em")
+              .style("stroke", "#222")
+              .text(function(d) { return d.name });
+
 
         force.on("tick", function() {
             link.attr("x1", function(d) { return d.source.x; })
@@ -236,16 +243,19 @@ function init(artist) {
             .attr("x2", function(d) { return d.target.x; })
             .attr("y2", function(d) { return d.target.y; });
 
-            node.attr("cx", function(d) { return d.x; })
-            .attr("cy", function(d) { return d.y; });
+             node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
         });
     });
 }
 
+/* debugger  TESTING */
+
+
 var $info = $('#artist-info');
 
-function loadSidebar(obj) {
-    var $title = $(obj).find('title').text();
+function loadSidebar(node) {
+    var obj = $(node).find('circle');
+    var $title = $(node).find('title').text();
     var $desc = $(obj).attr('desc');
     var $song = $(obj).attr('song');
     var $id = $(obj).attr('song_id');

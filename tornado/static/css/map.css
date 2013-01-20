@@ -57,3 +57,7 @@
     margin-bottom: -90px;
     margin-left: 14px;
 }
+
+g.node text {
+    color: #333;
+}

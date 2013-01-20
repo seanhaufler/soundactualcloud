@@ -24,11 +24,18 @@
 	</div>
 	
 </body>
-					
-
-
-
-
+				
+<script>
+	$('#search input').keypress(function (e) {
+    var code = (e.keyCode ? e.keyCode : e.which);
+    if (code == 13) { //Enter keycode
+       var query = $('#search input').val();
+       if (query.length > 1) {
+			window.location = 'map?artist='+escape(query);
+       }
+    }
+})
+</script>
 
 <!--  <body>
     <div align="center"><img src="static/css/soundcloudorange.png" width="500" height="300" alt="SoundCloud logo"/></div>
