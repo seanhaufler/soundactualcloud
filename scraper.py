@@ -26,20 +26,11 @@ eval_lst = ['Adele']
 def urlify (name):
     return name.replace(' ', '+')
 
-
 def get_stats(name):
     name = name.encode('ascii', 'ignore')
 
     if name in singer_song_map:
         return (singer_song_map[name], [])
-
-    cursor = singer_coll.find({'name':name})
-
-    #value's in database, don't recompute
-    if cursor.count() > 0:
-        item = cursor.next()
-        peers = item['peers'].keys()
-        return (item, peers)
 
     soup = ""
     try: 
