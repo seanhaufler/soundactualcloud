@@ -21,16 +21,13 @@ gc = grooveshark.Client()
 gc.init()
 
 singer_song_map = {}
-eval_lst = ['Adele']
+eval_lst = ['The Beach Boys']
 
 def urlify (name):
     return name.replace(' ', '+')
 
 def get_stats(name):
     name = name.encode('ascii', 'ignore')
-
-    if name in singer_song_map:
-        return (singer_song_map[name], [])
 
     soup = ""
     try: 
@@ -107,9 +104,16 @@ def get_stats(name):
 
 def process_singer(name): 
 
+    cursor = singer_coll.find({'name':name})
+
+    #already in there, fuck it
+    if cursor.count() > 0:
+        print 'Skipping %s, already in there' % name
+        return
+
     try:
         item,peers = get_stats(name)
-    except ValueError:
+    except TypeError,ValueError:
         return
 
     for peer in peers:
@@ -118,26 +122,18 @@ def process_singer(name):
             try:
                 it, pr = get_stats(peer)
                 item['peers'][peer] = it 
-            except ValueError:
+            except TypeError,ValueError:
                 pass
 
         else:
             peer_data = singer_song_map[peer]
             item['peers'][peer] = peer_data
 
-    _id = item['_id']
-    cursor = singer_coll.find({'_id':_id})
-
-    if cursor.count() == 0:
-        print 'Inserting %s' % item['name']
+    print 'Inserting %s' % item['name']
+    try:
         singer_coll.update({'_id': _id}, item, upsert=True)
-        return 
-
-    doc = cursor.next()
-    if len(doc['peers']) <= len (item['peers']):
-        print 'Inserting %s' % item['name']
-        singer_coll.update({'_id': _id}, item, upsert=True)
-
+    except:
+        return
 
 def add_singers():
 
