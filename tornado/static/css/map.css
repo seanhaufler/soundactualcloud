@@ -179,12 +179,14 @@ h6 {
 }
 
 #hero {
+    position: absolute;
     background: none;
-	z-index: 2;
+	z-index: 0;
     padding:0;
-    margin-top: 60px;
-    float: right;
+    margin-top: -250px;
     display: inline-block;
+    margin-left: -300px;
+    min-height:500px;
 }
 
 
@@ -227,6 +229,7 @@ input:focus {
 .icon svg {
     width: 32px;
     height: 32px;
+    fill: #666;
 }
 
 #back {
@@ -240,7 +243,11 @@ input:focus {
     width:50px;
     margin-bottom: -90px;
     margin-left: 14px;
+    fill: #666;
+
 }
+
+#back svg circle { stroke: #666; }
 
 g.node text {
     color: #333;

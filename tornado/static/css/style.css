@@ -174,11 +174,14 @@ h2 {
 }
 
 input.rounded {
-	font-size: 40px;
+	height: 85px;
+	font-size: 31px;
 	border: 5px solid #ff9130;
 	border-radius: 20px;
 	padding: 5px 10px;
 	outline: none;
+	width: 440px;
+	padding-left: 75px;
 }
 
 /*

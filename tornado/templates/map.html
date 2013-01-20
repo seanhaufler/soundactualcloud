@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>SoundActualCloud</title>
+<title>dscvr.im - Discover New Music</title>
 
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" media="all" />
 <link rel="stylesheet" href="/static/css/bootstrap.css" type="text/css" media="all" />
@@ -16,7 +16,7 @@
 <body>
     <div id="main" class="container-fluid">
 	
-      <div class="row-fluid">
+      <div class="row-fluid" style="min-height:800px;">
 				
 				<div class = "sidebar-cont">
 				
@@ -33,7 +33,7 @@
           <label for="search-input" class="icon"><!--?xml version="1.0" encoding="utf-8"?-->
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="99.988px" viewBox="0 0 100 99.988" enable-background="new 0 0 100 99.988" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#666" width="100px" height="99.988px" viewBox="0 0 100 99.988" enable-background="new 0 0 100 99.988" xml:space="preserve">
 <path d="M38.087,76.213c-10.179,0-19.748-3.963-26.945-11.162C-3.714,50.193-3.714,26.017,11.144,11.162
   C18.34,3.963,27.909,0,38.088,0c10.181,0,19.749,3.963,26.944,11.161c7.196,7.197,11.161,16.767,11.161,26.945
   c0,10.178-3.965,19.748-11.161,26.944C57.836,72.249,48.267,76.213,38.087,76.213L38.087,76.213z M38.087,9.927
@@ -90,9 +90,9 @@
 				</div>
 
           <div id="back">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100px" height="100px" fill="#666" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
             <g id="Left">
-            <circle fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="50" cy="50" r="47"/>
+            <circle fill="none" stroke="#666" stroke-width="6" stroke-miterlimit="10" cx="50" cy="50" r="47"/>
             <polygon points="79,53 32,53 46,67 38,67 21,50 38,33 46,33 32,47 79,47  "/>
             </g>
             </svg>
@@ -111,8 +111,8 @@
 </body>
 <script>
 
-var width = 800,
-height = 650,
+var width = 1400,
+height = 1250,
 artist = "{{ artist }}";
 init(artist);
 
@@ -134,9 +134,11 @@ $(document).ready(function() {
 });
 
 var submitSearch = function() {
+    last = artist;
     $query = $('#search-input').val();
     history.pushState(null, '', '?artist='+escape($query));
     init($query);
+    $('#search-input').val('')
 }
 
 $('#back').click(function() {
@@ -161,20 +163,34 @@ $('#head').click(function() {
 });
 
 function init(artist) {
-    var color = d3.scale.category20();
-
-    var force = d3.layout.force()
-    .charge(-600)
-    .linkDistance(200)
-    .size([width, height]);
-
-    $('#hero').empty();
-    var svg = d3.select("#hero").append("svg")
-    .attr("width", width)
-    .attr("height", height);
 
     // "/static/miserables.json"
     d3.json("/related?artist="+encodeURIComponent(artist), function(error, res) {
+
+
+
+        if (res.peers == undefined) {
+            console.log('error: no peers');
+            console.log(res);
+            return;
+        }
+
+        var color = d3.scale.category20();
+        var npeers = Object.keys(res.peers).length
+
+        console.log(npeers);
+        console.log(-500);
+        console.log(3000 / npeers);
+
+        var force = d3.layout.force()
+        .charge(-500)
+        .linkDistance(200)
+        .size([width, height]);
+
+        $('#hero').empty();
+        var svg = d3.select("#hero").append("svg")
+        .attr("width", width)
+        .attr("height", height);
 
         // convert the api return to the miserables json format
         var graph = { nodes : [], links : [] };
