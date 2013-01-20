@@ -230,10 +230,22 @@ input:focus {
 	z-index: 999;
     display: inline-block;
     background-image:url('/static/img/arrow.png');
-    height: 25px;
-    width:25px;
+    height: 40px;
+    width:40px;
 }
 #back:hover {
+    cursor: pointer;
+}
+
+#hipster {
+	z-index: 999;
+		margin: 5px;
+    display: inline-block;
+    background-image:url('/static/img/hipster.png');
+    height: 40px;
+    width:40px;
+}
+#hipster:hover {
     cursor: pointer;
 }
 
