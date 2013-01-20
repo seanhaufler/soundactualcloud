@@ -267,6 +267,7 @@ function loadSidebar(node) {
     var $fb = $(obj).attr('fb');
     var $img = $(obj).attr('img');
 
+    $desc = trimDesc($desc);
     buildGS($id);
 
     // hacky way to populate view.. too lazy to use template
@@ -278,13 +279,20 @@ function loadSidebar(node) {
     $info.find('img').attr('src', $img).show();
 }
 
+function trimDesc(desc) {
+    if (desc.length > 500) {
+        return desc.substring(0,500) + '... Read More';
+    }
+    return desc;
+}
+
 function loadSidebar2(obj) {
 
     buildGS(obj.song_id);
 
     // hacky way to populate view.. too lazy to use template
     $info.find('.name').empty().append(obj.name);
-    $info.find('.desc').empty().append(obj.desc);
+    $info.find('.desc').empty().append(trimDesc(obj.desc));
     $info.find('.song').empty().append(obj.song);
     $info.find('.pop').empty().append(obj.pop);
     $info.find('.fb').empty().append(obj.fb_page);
