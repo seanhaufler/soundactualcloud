@@ -6,4 +6,9 @@ To import a json file, you do:
 
 mongoimport --db artists --collection singer  --file mongo.json
 
+if importing a names file instead of data, use:
+
+mongoimport --db artists --collection names  --file names.json
+
+
 
