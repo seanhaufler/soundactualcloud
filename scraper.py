@@ -21,7 +21,7 @@ gc = grooveshark.Client()
 gc.init()
 
 singer_song_map = {}
-eval_lst = ['Pink']
+eval_lst = ['Tupac']
 
 def urlify (name):
     return name.replace(' ', '+')
@@ -129,11 +129,13 @@ def process_singer(name):
             peer_data = singer_song_map[peer]
             item['peers'][peer] = peer_data
 
-    try:
-        singer_coll.update({'_id': _id}, item, upsert=True)
-        print 'Inserting %s' % item['name']
-    except:
-        return
+    _id = item['_id']
+
+#    try:
+    singer_coll.update({'_id': _id}, item, upsert=True)
+    print 'Inserting %s' % item['name']
+#    except:
+    return
 
 def add_singers():
 
