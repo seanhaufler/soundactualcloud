@@ -31,7 +31,7 @@ def process_singer(name, level):
     name = name.encode('ascii', 'ignore')
 
     if name in singer_song_map:
-        return singer_sing_map[name]
+        return singer_song_map[name]
 
     #We've gone 5 levels done, just keep going 
     if level < 0:
@@ -154,6 +154,6 @@ def add_singers(singers):
         process_singer(singer, 5)
 
 if __name__ == '__main__':
-    singers = ['Skrillex']
+    singers = ['Eminem']
     add_singers(singers)
 
