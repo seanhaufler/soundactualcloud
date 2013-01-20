@@ -4,26 +4,23 @@
 }
 
 @font-face {	
-	font-family: MuseoSlab;
-	src: url('../fonts/MuseoSlab-300.ttf');
+	font-family: Helvetica;
 }
 
 body {
-	background: #7BD6FF;
+	background: #EDEDED;
 	opacity: .9;
 	color: #696969; /*#a69881;*/
-	font-family: 'MuseoSlab', serif;
 }
 
 p {
-	font-family: Arial;
+	font-family: Helvetica;
 	
 }
 
 h1 {
 	font-size: 50px;
 	color: #fff;
-	text-shadow: 2px 2px 0px #7BD6FF, 4px 4px 0px #fff;
 }
 
 h2 {
@@ -101,11 +98,9 @@ h6 {
 	background: #ff9130;
 	width: 30px;
 	height: 20px;
-	box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, .2);
 	border-radius: 2px;
 	opacity: .95;
 	text-align: center;
-	text-shadow: 0px 1px 1px #666;
 	position: relative;
 	-webkit-transform: rotate(10deg);
 	left: 97px;
@@ -126,7 +121,6 @@ h6 {
 
 #search-group {
 	background: white;
-	border-radius: 15px;
 	margin-top: 25px;
 	padding: 10px 5px;
 	height: 45px;
@@ -135,7 +129,6 @@ h6 {
 
 #artist-info {
 	background: white;
-	border-radius: 15px;
 	padding: 7px 7px;
 	margin-top: 20px;
 	overflow: auto;
@@ -207,7 +200,6 @@ h6 {
 		width: 387px;
 		
 		border: 3.5px solid #ff9130;
-		border-radius: 15px;
 		outline: none;
 }
 
